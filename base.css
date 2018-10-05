@@ -1,0 +1,51 @@
+﻿body {
+    margin: 0;
+}
+
+nav {
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-family: sans-serif;
+    color: white;
+    line-height: 30px;
+}
+
+#emuframe {
+    border: 0;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    display: block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.machine-fig{
+    text-decoration: none !important;
+    color:black;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}

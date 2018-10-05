@@ -1,0 +1,260 @@
+{
+    "machines": [
+        {
+            "id":"ti99-4a",
+            "name": "德州仪器TI-99/4A",
+            "appname": "",
+            "year": 1981,
+            "url": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/js99er/index.html",
+            "image": "images/ti99-4a.jpg"
+        },
+        {
+            "id":"amiga500",
+            "name": "Commodore Amiga 500",
+            "appname": "",
+            "year": 1987,
+            "url": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/amiga/amiga.html",
+            "image": "images/amiga500.jpg"
+        },
+        {
+            "id":"subor486",
+            "name": "小霸王SB486",
+            "appname": "",
+            "year": 1993,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/subor/suborv3_1.html",
+            "image": "images/subor486.jpg"
+        },
+        {
+            "id":"touhou-fumaroku",
+            "name": "NEC PC-9821游戏：东方封魔录",
+            "appname": "",
+            "year": 1997,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pc98dosbox/th2.html",
+            "image": "images/touhou-fumaroku.jpg"
+        },
+        {
+            "id":"ggvnc1020",
+            "name": "文曲星NC1020",
+            "appname": "",
+            "year": 2002,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/jswqx/index.html",
+            "image": "images/ggvnc1020.jpg"
+        },
+        {
+            "id":"atari800xl",
+            "name": "Atari 800XL",
+            "appname": "",
+            "year": 1982,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/jsa8e/index.html",
+            "image": "images/atari800xl.jpg"
+        },
+	    {
+            "id":"commodore64",
+            "name": "Commodore 64",
+            "appname": "",
+            "year": 1982,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/vicejs/index.html",
+            "image": "images/commodore64.jpg"
+        },
+	    {
+            "id":"trs80model3",
+            "name": "TRS-80 Model III",
+            "appname": "",
+            "year": 1980,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/trs80/index.html",
+            "image": "images/trs80model3.jpg"
+        },
+        {
+            "id":"apple2",
+            "name": "Apple II",
+            "appname": "",
+            "year": 1977,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/apple2js/apple2js.html",
+            "image": "images/apple2.jpg"
+        },
+        {
+            "id":"apple2e",
+            "name": "Apple IIe",
+            "appname": "",
+            "year": 1983,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/apple2js/apple2jse.html",
+            "image": "images/apple2e.jpg"
+        },
+        {
+            "id":"bbcmicro",
+            "name": "BBC Micro",
+            "appname": "",
+            "year": 1981,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/jsbeeb/index.html",
+            "image": "images/bbcmicro.jpg"
+        },
+        {
+            "id":"acornelectron",
+            "name": "Acorn Electron",
+            "appname": "",
+            "year": 1983,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/elkjs/index.html",
+            "image": "images/acornelectron.jpg"
+        },
+        {
+            "id":"zxspectrum",
+            "name": "ZX Spectrum",
+            "appname": "",
+            "year": 1982,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/jsspeccy/index.html",
+            "image": "images/zxspectrum.jpg"
+        },
+        {
+            "id":"pc5150mda",
+            "name": "IBM PC 5150 (MDA单显)",
+            "appname": "",
+            "year": 1981,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pcjs/example3a.html",
+            "image": "images/pc5150mda.jpg"
+        },
+        {
+            "id":"pc5150cga",
+            "name": "IBM PC 5150 (CGA彩显)",
+            "appname": "",
+            "year": 1981,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pcjs/example4.html",
+            "image": "images/pc5150cga.png"
+        },
+        {
+            "id":"ceci",
+            "name": "中华学习机CEC-I",
+            "appname": "",
+            "year": 1987,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/mame/ceci.html",
+            "image": "images/ceci.jpg"
+        },
+        {
+            "id":"cecidisk",
+            "name": "中华学习机CEC-I（游戏软盘）",
+            "appname": "",
+            "year": 1987,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/mame/cecidisk.html",
+            "image": "images/cecidisk.jpg"
+        },
+        {
+            "id":"atarist",
+            "name": "Atari ST（彩显）",
+            "appname": "",
+            "year": 1985,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-pcejs/index.html",
+            "image": "images/atarist.jpg"
+        },
+        {
+            "id":"ataristmono",
+            "name": "Atari ST（单显）",
+            "appname": "",
+            "year": 1985,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-pce-mono/index.html",
+            "image": "images/ataristmono.png"
+        },
+        {
+            "id":"macplus",
+            "name": "Macintosh Plus",
+            "appname": "",
+            "year": 1986,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pce-mac/index.html",
+            "image": "images/macplus.jpg"
+        },
+        {
+            "id":"macpluschs",
+            "name": "Macintosh Plus（中文系统）",
+            "appname": "",
+            "year": 1986,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pce-mac-chs/index.html",
+            "image": "images/macpluschs.png"
+        },
+        {
+            "id":"maciici",
+            "name": "Macintosh IIci",
+            "appname": "",
+            "year": 1989,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/mame/maciici.html",
+            "image": "images/maciici.jpg"
+        },
+        {
+            "id":"em-fceux",
+            "name": "红白机和独立游戏",
+            "appname": "",
+            "year": 1983,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/em-fceux/index.html",
+            "image": "images/nesjs.jpg"
+        },
+        {
+            "id":"ucdos",
+            "name": "DOS软件：UCDOS 7.0",
+            "appname": "",
+            "year": 1997,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/dosbox.html",
+            "image": "images/ucdos.jpg"
+        },
+        {
+            "id":"netscape",
+            "name": "网景浏览器 4.08 (Win95)",
+            "appname": "",
+            "year": 1998,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/v86/win95.html",
+            "image": "images/netscape.jpg"
+        },
+        {
+            "id":"xianjianpal",
+            "name": "DOS游戏：仙剑奇侠传",
+            "appname": "",
+            "year": 1995,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/pal.html",
+            "image": "images/xianjianpal.jpg"
+        },
+        {
+            "id":"jinyong",
+            "name": "DOS游戏：金庸群侠传",
+            "appname": "",
+            "year": 1996,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/jinyong.html",
+            "image": "images/jinyong.jpg"
+        },
+        {
+            "id":"doom",
+            "name": "DOS游戏：DOOM",
+            "appname": "",
+            "year": 1993,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/doom.html",
+            "image": "images/doom.jpg"
+        },
+        {
+            "id":"dukenukem",
+            "name": "DOS游戏：毁灭公爵",
+            "appname": "",
+            "year": 1991,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/dukenukem.html",
+            "image": "images/dukenukem.jpg"
+        },
+        {
+            "id":"crazysue",
+            "name": "Amiga游戏：Crazy Sue",
+            "appname": "",
+            "year": 1990,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/amiga/amiga.html",
+            "image": "images/crazysue.jpg"
+        },
+        {
+            "id":"emutos",
+            "name": "Atari ST非官方系统EmuTOS",
+            "appname": "",
+            "year": 2001,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-emutos/index.html",
+            "image": "images/emutos.jpg"
+        },
+        {
+            "id":"crazysue",
+            "name": "DOS版Mac模拟器Executor",
+            "appname": "",
+            "year": 1990,
+            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/executor.html",
+            "image": "images/executor.jpg"
+        }
+    ]
+}

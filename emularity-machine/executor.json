@@ -1,0 +1,11 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Disk Image",
+            "source": "https://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/executor.zip"
+        }
+    ],
+    "startExe": "executor.exe"
+}

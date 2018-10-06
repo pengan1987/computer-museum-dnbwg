@@ -1,0 +1,11 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Game",
+            "source": "https://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/pal.zip"
+        }
+    ],
+    "startExe": "play.bat"
+}

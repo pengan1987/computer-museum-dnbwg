@@ -1,0 +1,11 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Game",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/DoomV19-1995.zip"
+        }
+    ],
+    "startExe": "doom.exe"
+}

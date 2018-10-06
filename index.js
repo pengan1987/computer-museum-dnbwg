@@ -8,6 +8,9 @@ function processJson(data) {
         var clone = base.clone();
         var title = machine.name + " - " + machine.year;
         var playerlink = "player.html?machine=" + machine.id;
+		if (machine.emularity){
+			playerlink = "emularity.html?machine=" + machine.id;
+		}
         clone.show();
         clone.attr("id", machine.id);
         clone.find("a").attr("href", playerlink);

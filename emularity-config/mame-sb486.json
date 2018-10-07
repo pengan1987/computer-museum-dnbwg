@@ -1,0 +1,9 @@
+{
+    "emulatorWASM": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/jsmess/mamenes_wasm.wasm",
+    "emulatorJS": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/jsmess/mamenes_wasm.js",
+    "nativeResolution": {
+        "height": 480,
+        "width": 512
+    },
+    "driverName": "sb486"
+}

@@ -1,0 +1,17 @@
+{
+    "files": [
+        {
+            "targetPath": "Subor_V3_1.NES",
+            "title": "Expansion Card",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/subor/examples/Subor_V3_1.NES"
+        }
+    ],
+    "zips": [],
+    "startExe": null,
+    "peripherals": [
+        {
+            "name": "cart",
+            "value": "Subor_V3_1.NES"
+        }
+    ]
+}

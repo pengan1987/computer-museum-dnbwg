@@ -7,5 +7,5 @@
             "source": "https://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/pal.zip"
         }
     ],
-    "startExe": "play.bat"
+    "startExe": "pal.exe"
 }

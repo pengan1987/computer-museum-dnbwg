@@ -1,0 +1,17 @@
+{
+    "files": [
+        {
+            "targetPath": "mac711.chd",
+            "title": "HardDisk",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/mame/examples/mac711.chd"
+        }
+    ],
+    "zips": [],
+    "startExe": null,
+    "peripherals": [
+        {
+            "name": "hard1",
+            "value": "mac711.chd"
+        }
+    ]
+}

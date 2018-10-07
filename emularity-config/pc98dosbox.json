@@ -2,17 +2,21 @@
     "emulatorWASM": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/dosbox-x/dosbox-x.wasm",
     "emulatorJS": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/dosbox-x/dosbox-x.js",
     "nativeResolution": {
-        "height": 640,
-        "width": 480
+        "width": 640,
+        "height": 480
     },
-    "mountFile": {
-        "targetPath": "dosbox.conf",
-        "title": "Configuration File",
-        "source": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/dosbox-x/dosbox.conf"
-    },
-    "mountZip": {
-        "targetPath": "y",
-        "title": "Font and Sound File",
-        "source": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/dosbox-x/font.zip"
-    }
+    "mountFile": [
+        {
+            "targetPath": "dosbox.conf",
+            "title": "Configuration File",
+            "source": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/dosbox-x/dosbox.conf"
+        }
+    ],
+    "mountZip": [
+        {
+            "targetPath": "y",
+            "title": "Font and Sound File",
+            "source": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/dosbox-x/font.zip"
+        }
+    ]
 }

@@ -39,17 +39,8 @@ function runDoxbox() {
         DosBoxLoader.fileSystemKey(machineId)
     ]
 
-    for (var i = 0; i < machineConfig.zips.length; i++) {
-        var zip = machineConfig.zips[i];
-        emuArguments.push(
-            DosBoxLoader.mountZip(
-                zip.targetPath,
-                DosBoxLoader.fetchFile(
-                    zip.title,
-                    zip.source
-                ))
-        );
-    }
+    var fileParams = buildFileLoadParameters(DosBoxLoader);
+    emuArguments = emuArguments.concat(fileParams);
 
     var emulator = new Emulator(document.querySelector("#emularity-canvas"), null, DosBoxLoader.apply(this, emuArguments));
     emulator.start({ waitAfterDownloading: true });
@@ -66,51 +57,8 @@ function runPC98Dosbox() {
         PC98DosBoxLoader.fileSystemKey(machineId)
     ];
 
-    if (emuConfig.mountFile) {
-        emuArguments.push(
-            PC98DosBoxLoader.mountFile(
-                emuConfig.mountFile.targetPath,
-                PC98DosBoxLoader.fetchFile(
-                    emuConfig.mountFile.title,
-                    emuConfig.mountFile.source
-                ))
-        );
-    }
-
-    if (emuConfig.mountZip) {
-        emuArguments.push(
-            PC98DosBoxLoader.mountZip(
-                emuConfig.mountZip.targetPath,
-                PC98DosBoxLoader.fetchFile(
-                    emuConfig.mountZip.title,
-                    emuConfig.mountZip.source
-                ))
-        );
-    }
-
-    for (var i = 0; i < machineConfig.files.length; i++) {
-        var file = machineConfig.files[i];
-        emuArguments.push(
-            PC98DosBoxLoader.mountFile(
-                file.targetPath,
-                PC98DosBoxLoader.fetchFile(
-                    file.title,
-                    file.source
-                ))
-        );
-    }
-
-    for (var i = 0; i < machineConfig.zips.length; i++) {
-        var zip = machineConfig.zips[i];
-        emuArguments.push(
-            PC98DosBoxLoader.mountZip(
-                zip.targetPath,
-                PC98DosBoxLoader.fetchFile(
-                    zip.title,
-                    zip.source
-                ))
-        );
-    }
+    var fileParams = buildFileLoadParameters(PC98DosBoxLoader);
+    emuArguments = emuArguments.concat(fileParams);
 
     var emulator = new Emulator(document.querySelector("#emularity-canvas"), null, PC98DosBoxLoader.apply(this, emuArguments));
     emulator.start({ waitAfterDownloading: true });
@@ -127,45 +75,11 @@ function runMAME() {
         JSMAMELoader.nativeResolution(emuConfig.nativeResolution.width, emuConfig.nativeResolution.height),
         JSMAMELoader.emulatorJS(emuConfig.emulatorJS),
         JSMAMELoader.emulatorWASM(emuConfig.emulatorWASM),
+        JSMAMELoader.fileSystemKey(machineId)
     ];
-    if (emuConfig.mountFile) {
-        for (var i = 0; i < emuConfig.mountFile.length; i++) {
-            var file = emuConfig.mountFile[i];
-            emuArguments.push(
-                JSMAMELoader.mountFile(
-                    file.targetPath,
-                    JSMAMELoader.fetchFile(
-                        file.title,
-                        file.source
-                    ))
-            );
-        }
-    }
-    if (emuConfig.mountZip) {
-        for (var i = 0; i < emuConfig.mountZip.length; i++) {
-            var file = emuConfig.mountZip[i];
-            emuArguments.push(
-                JSMAMELoader.mountZip(
-                    file.targetPath,
-                    JSMAMELoader.fetchFile(
-                        file.title,
-                        file.source
-                    ))
-            );
-        }
-    }
 
-    for (var i = 0; i < machineConfig.files.length; i++) {
-        var file = machineConfig.files[i];
-        emuArguments.push(
-            JSMAMELoader.mountFile(
-                file.targetPath,
-                JSMAMELoader.fetchFile(
-                    file.title,
-                    file.source
-                ))
-        );
-    }
+    var fileParams = buildFileLoadParameters(JSMAMELoader);
+    emuArguments = emuArguments.concat(fileParams);
 
     for (var i = 0; i < machineConfig.peripherals.length; i++) {
         var peripheral = machineConfig.peripherals[i];
@@ -197,6 +111,84 @@ function runMAME() {
     emulator.setScale(3).start({ waitAfterDownloading: true });
 }
 
+function runPCE() {
+    var emuArguments = [
+        PCELoader.emulatorJS(emuConfig.emulatorJS),
+        PCELoader.nativeResolution(emuConfig.nativeResolution.width, emuConfig.nativeResolution.height),
+        PCELoader.fileSystemKey(machineId),
+        PCELoader.locateAdditionalEmulatorJS(function (filename) {
+            if (emuConfig.fileLocations[filename]) {
+                return emuConfig.fileLocations[filename]
+            } else {
+                return filename;
+            }
+        }),
+        PCELoader.model(emuConfig.driverName)
+    ];
+
+    var fileParams = buildFileLoadParameters(PCELoader);
+    emuArguments = emuArguments.concat(fileParams);
+
+    var emulator = new Emulator(document.querySelector("#emularity-canvas"), null, PCELoader.apply(this, emuArguments));
+    emulator.start({ waitAfterDownloading: true });
+}
+
+function buildFileLoadParameters(someLoader) {
+    var fileParams = [];
+    if (emuConfig.mountFile) {
+        for (var i = 0; i < emuConfig.mountFile.length; i++) {
+            var file = emuConfig.mountFile[i];
+            fileParams.push(
+                someLoader.mountFile(
+                    file.targetPath,
+                    someLoader.fetchFile(file.title, file.source)
+                )
+            );
+        }
+    }
+
+    if (emuConfig.mountZip) {
+        for (var i = 0; i < emuConfig.mountZip.length; i++) {
+            var file = emuConfig.mountZip[i];
+            fileParams.push(
+                someLoader.mountZip(
+                    file.targetPath,
+                    someLoader.fetchFile(
+                        file.title,
+                        file.source
+                    ))
+            );
+        }
+    }
+
+    if (machineConfig.files) {
+        for (var i = 0; i < machineConfig.files.length; i++) {
+            var file = machineConfig.files[i];
+            fileParams.push(
+                someLoader.mountFile(
+                    file.targetPath,
+                    someLoader.fetchFile(file.title, file.source)
+                )
+            );
+        }
+    }
+
+    if (machineConfig.zips) {
+        for (var i = 0; i < machineConfig.zips.length; i++) {
+            var zip = machineConfig.zips[i];
+            fileParams.push(
+                someLoader.mountZip(
+                    zip.targetPath,
+                    someLoader.fetchFile(
+                        zip.title,
+                        zip.source
+                    ))
+            );
+        }
+    }
+    return fileParams;
+}
+
 function processMachineConfig(machine) {
     var emularityConfigURL = "emularity-config/" + machine.emularity + ".json";
     if (machine.emularity.indexOf("dosbox") === 0) {
@@ -211,8 +203,12 @@ function processMachineConfig(machine) {
         emuRunner = runPC98Dosbox;
     }
 
-    if (machine.emularity.indexOf("mame") === 0) {
+    if (machine.emularity.indexOf("mame-") === 0) {
         emuRunner = runMAME;
+    }
+
+    if (machine.emularity.indexOf("pce-") === 0) {
+        emuRunner = runPCE;
     }
 
     $.getJSON(emularityConfigURL, function (data) {

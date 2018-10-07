@@ -1,0 +1,20 @@
+{
+    "driverName": "atarist",
+    "nativeResolution": {
+        "width": 640,
+        "height": 400
+    },
+    "mountFile": [
+        {
+            "targetPath": "tos-1.04-us.rom",
+            "title": "BIOS",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-pcejs/tos-1.04-us.rom"
+        },
+        {
+            "targetPath": "pce-atarist.cfg",
+            "title": "Configuration",
+            "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/pce/pce-atarist.cfg"
+        }
+    ],
+    "emulatorJS": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/pce/pcejs-atarist.js"
+}

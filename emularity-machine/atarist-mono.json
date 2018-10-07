@@ -1,0 +1,17 @@
+{
+    "files": [
+        {
+            "targetPath": "fd0.st",
+            "title": "Floppy Disk 1",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-pce-mono/fd0.st"
+        },
+        {
+            "targetPath": "fd1.st",
+            "title": "Floppy Disk 2",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-pce-mono/cubase.st"
+        }
+    ],
+    "zips": [],
+    "startExe": null,
+    "peripherals": []
+}

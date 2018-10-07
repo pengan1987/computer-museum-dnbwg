@@ -1,6 +1,24 @@
 {
     "machines": [
         {
+            "id": "atarist-em",
+            "name": "Atari ST（彩显）",
+            "appname": "",
+            "year": 1985,
+            "url": "emularity-machine/atarist.json",
+            "image": "images/atarist.jpg",
+            "emularity":"pce-atarist"
+        },
+        {
+            "id": "maciicichs",
+            "name": "Macintosh IIci （中文7.11系统）",
+            "appname": "",
+            "year": 1989,
+            "url": "emularity-machine/maciicichs.json",
+            "image": "images/maciicichs.jpg",
+            "emularity": "mame-maciici"
+        },
+        {
             "id": "ti99-4a",
             "name": "德州仪器TI-99/4A",
             "appname": "",
@@ -141,20 +159,13 @@
             "emularity": "mame-ceci"
         },
         {
-            "id": "atarist",
-            "name": "Atari ST（彩显）",
-            "appname": "",
-            "year": 1985,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-pcejs/index.html",
-            "image": "images/atarist.jpg"
-        },
-        {
             "id": "ataristmono",
             "name": "Atari ST（单显）",
             "appname": "",
             "year": 1985,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-pce-mono/index.html",
-            "image": "images/ataristmono.png"
+            "url": "emularity-machine/atarist-mono.json",
+            "image": "images/ataristmono.png",
+            "emularity": "pce-atarist-mono"
         },
         {
             "id": "macplus",

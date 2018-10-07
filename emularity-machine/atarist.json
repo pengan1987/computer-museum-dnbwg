@@ -1,0 +1,22 @@
+{
+    "files": [
+        {
+            "targetPath": "fd0.st",
+            "title": "Floppy Disk 1",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-pcejs/simcity.st"
+        },
+        {
+            "targetPath": "fd1.st",
+            "title": "Floppy Disk 2",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-pcejs/populous.st"
+        },
+        {
+            "targetPath": "hd0.qed",
+            "title": "Hard Disk ",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-pcejs/hd0.qed"
+        }
+    ],
+    "zips": [],
+    "startExe": null,
+    "peripherals": []
+}

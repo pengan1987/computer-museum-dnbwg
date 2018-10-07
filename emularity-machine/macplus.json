@@ -1,0 +1,17 @@
+{
+    "files": [
+        {
+            "targetPath": "hd1",
+            "title": "Hard Disk 1",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pce-mac/hd1.qed"
+        },
+        {
+            "targetPath": "hd2",
+            "title": "Hard Disk 2",
+            "source": "  http://jsemu.oss-cn-shanghai.aliyuncs.com/pce-mac/apps.qed"
+        }
+    ],
+    "zips": [],
+    "startExe": null,
+    "peripherals": []
+}

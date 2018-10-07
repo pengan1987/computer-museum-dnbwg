@@ -1,0 +1,30 @@
+{
+    "driverName": "macplus",
+    "nativeResolution": {
+        "width": 512,
+        "height": 342
+    },
+    "mountFile": [
+        {
+            "targetPath": "pce-macplus.rom",
+            "title": "BIOS",
+            "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/pce/pce-macplus.rom"
+        },
+        {
+            "targetPath": "pce-macplus-pcex.rom",
+            "title": "BIOS Extension",
+            "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/pce/pce-macplus-pcex.rom"
+        },
+        {
+            "targetPath": "pce-macplus-pram.dat",
+            "title": "PRAM",
+            "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/pce/pce-macplus-pram.dat"
+        },
+        {
+            "targetPath": "pce-macplus.cfg",
+            "title": "Configuration",
+            "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/pce/pce-macplus.cfg"
+        }
+    ],
+    "emulatorJS": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/pce/pce-macplus.js"
+}

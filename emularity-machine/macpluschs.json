@@ -1,0 +1,12 @@
+{
+    "files": [
+        {
+            "targetPath": "hd1",
+            "title": "Hard Disk 1",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pce-mac-chs/hd1.qed"
+        }
+    ],
+    "zips": [],
+    "startExe": null,
+    "peripherals": []
+}

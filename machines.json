@@ -50,7 +50,7 @@
             "year": 1993,
             "url": "emularity-machine/sb486.json",
             "image": "images/subor486.jpg",
-            "emularity":"mame-sb486"
+            "emularity": "mame-sb486"
         },
         {
             "id": "touhou-fumaroku",
@@ -174,7 +174,7 @@
             "year": 1985,
             "url": "emularity-machine/atarist.json",
             "image": "images/atarist.jpg",
-            "emularity":"pce-atarist"
+            "emularity": "pce-atarist"
         },
         {
             "id": "ataristmono",
@@ -190,16 +190,18 @@
             "name": "Macintosh Plus",
             "appname": "",
             "year": 1986,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pce-mac/index.html",
-            "image": "images/macplus.jpg"
+            "url": "emularity-machine/macplus.json",
+            "image": "images/macplus.jpg",
+            "emularity": "pce-macplus"
         },
         {
             "id": "macpluschs",
             "name": "Macintosh Plus（中文系统）",
             "appname": "",
             "year": 1986,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pce-mac-chs/index.html",
-            "image": "images/macpluschs.png"
+            "url": "emularity-machine/macpluschs.json",
+            "image": "images/macpluschs.png",
+            "emularity": "pce-macplus"
         },
         {
             "id": "maciici",

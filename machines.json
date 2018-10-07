@@ -127,16 +127,18 @@
             "name": "中华学习机CEC-I",
             "appname": "",
             "year": 1987,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/mame/ceci.html",
-            "image": "images/ceci.jpg"
+            "url": "emularity-machine/ceci.json",
+            "image": "images/ceci.jpg",
+            "emularity": "mame-ceci"
         },
         {
             "id": "cecidisk",
             "name": "中华学习机CEC-I（游戏软盘）",
             "appname": "",
             "year": 1987,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/mame/cecidisk.html",
-            "image": "images/cecidisk.jpg"
+            "url": "emularity-machine/cecidisk.json",
+            "image": "images/cecidisk.jpg",
+            "emularity": "mame-ceci"
         },
         {
             "id": "atarist",

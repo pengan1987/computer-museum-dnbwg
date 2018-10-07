@@ -1,0 +1,17 @@
+{
+    "files": [
+        {
+            "targetPath": "chinesegame.dsk",
+            "title": "Floppy Disk",
+            "source": "https://jsemu.oss-cn-shanghai.aliyuncs.com/mame/examples/chinesegame.dsk"
+        }
+    ],
+    "zips": [],
+    "startExe": null,
+    "peripherals": [
+        {
+            "name": "flop1",
+            "value": "chinesegame.dsk"
+        }
+    ]
+}

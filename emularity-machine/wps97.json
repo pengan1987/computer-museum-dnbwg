@@ -1,0 +1,11 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Disk Image",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/wps97.zip"
+        }
+    ],
+    "startExe": "win.bat"
+}

@@ -129,6 +129,11 @@ function runPCE() {
     var fileParams = buildFileLoadParameters(PCELoader);
     emuArguments = emuArguments.concat(fileParams);
 
+    var canvas = document.querySelector("#emularity-canvas");
+    canvas.onclick = function () {
+        canvas.requestPointerLock();
+    }
+
     var emulator = new Emulator(document.querySelector("#emularity-canvas"), null, PCELoader.apply(this, emuArguments));
     emulator.start({ waitAfterDownloading: true });
 }

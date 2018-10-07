@@ -1,13 +1,13 @@
 {
     "machines": [
         {
-            "id": "atarist-em",
-            "name": "Atari ST（彩显）",
+            "id": "wps97",
+            "name": "中文Windows 3.2和WPS97",
             "appname": "",
-            "year": 1985,
-            "url": "emularity-machine/atarist.json",
-            "image": "images/atarist.jpg",
-            "emularity":"pce-atarist"
+            "year": 1997,
+            "url": "emularity-machine/wps97.json",
+            "image": "images/wps97.jpg",
+            "emularity": "dosbox"
         },
         {
             "id": "maciicichs",
@@ -157,6 +157,15 @@
             "url": "emularity-machine/cecidisk.json",
             "image": "images/cecidisk.jpg",
             "emularity": "mame-ceci"
+        },
+        {
+            "id": "atarist",
+            "name": "Atari ST（彩显）",
+            "appname": "",
+            "year": 1985,
+            "url": "emularity-machine/atarist.json",
+            "image": "images/atarist.jpg",
+            "emularity":"pce-atarist"
         },
         {
             "id": "ataristmono",

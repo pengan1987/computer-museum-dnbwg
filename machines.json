@@ -1,6 +1,15 @@
 {
     "machines": [
         {
+            "id": "emutos",
+            "name": "Atari ST非官方系统EmuTOS",
+            "appname": "",
+            "year": 2001,
+            "url": "emularity-machine/emutos.json",
+            "image": "images/emutos.jpg",
+            "emularity": "pce-atarist-emutos"
+        },
+        {
             "id": "wps97",
             "name": "中文Windows 3.2和WPS97",
             "appname": "",
@@ -269,14 +278,6 @@
             "year": 1990,
             "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/amiga/amiga.html",
             "image": "images/crazysue.jpg"
-        },
-        {
-            "id": "emutos",
-            "name": "Atari ST非官方系统EmuTOS",
-            "appname": "",
-            "year": 2001,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-emutos/index.html",
-            "image": "images/emutos.jpg"
         },
         {
             "id": "executor",

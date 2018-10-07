@@ -1,0 +1,17 @@
+{
+    "files": [
+        {
+            "targetPath": "fd1.st",
+            "title": "Floppy Disk 1",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-emutos/Arkanoid%20II%20-%20Revenge%20of%20Doh%20(1988)(Imagine)%20&%20Wizball%20(1987)(Ocean).st"
+        },
+        {
+            "targetPath": "fd0.st",
+            "title": "Floppy Disk 2",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-emutos/Delight%20Adventures%20Disk%204%20(1990)(Delight)%5Ba%5D.st"
+        }
+    ],
+    "zips": [],
+    "startExe": null,
+    "peripherals": []
+}

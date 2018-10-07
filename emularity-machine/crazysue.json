@@ -1,0 +1,15 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "game",
+            "title": "Floppy Disk 1",
+            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/amiga/CrazySue.zip"
+        }
+    ],
+    "startExe": null,
+    "peripherals": [],
+    "floppy": [
+        "game/Crazy Sue.adf"
+    ]
+}

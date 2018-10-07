@@ -1,0 +1,16 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "game",
+            "title": "Floppy Disk",
+            "source": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/amiga/apidya.zip"
+        }
+    ],
+    "startExe": null,
+    "peripherals": [],
+    "floppy": [
+        "game/disk1.adf",
+        "game/disk2.adf"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "driverName": "A500",
+    "nativeResolution": {
+        "width": 720,
+        "height": 568
+    },
+    "mountZip": [
+        {
+            "targetPath": "bios",
+            "title": "BIOS",
+            "source": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/amiga/kickstart13.zip"
+        }
+    ],
+    "emulatorJS": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/sae/sae-merge.js",
+    "rom": [
+        "bios/Kickstart v1.3.rom"
+    ]
+}

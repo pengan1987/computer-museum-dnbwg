@@ -66,6 +66,26 @@ function runPC98Dosbox() {
 
 function runSAE() {
     console.log("running sae");
+    var emuArguments = [
+        SAELoader.model(emuConfig.driverName),
+        SAELoader.nativeResolution(emuConfig.nativeResolution.width, emuConfig.nativeResolution.height),
+        SAELoader.emulatorJS(emuConfig.emulatorJS),
+        SAELoader.fileSystemKey(machineId)
+    ];
+    var fileParams = buildFileLoadParameters(SAELoader);
+    emuArguments = emuArguments.concat(fileParams);
+    emuArguments.push(
+        SAELoader.rom(emuConfig.rom)
+    );
+    for (var i = 0; i < machineConfig.floppy.length; i++) {
+        emuArguments.push(
+            SAELoader.floppy(i, machineConfig.floppy[i])
+        );
+    }
+
+    var emulator = new Emulator(document.querySelector("#emularity-canvas"), null, SAELoader.apply(this, emuArguments));
+
+    emulator.start({ waitAfterDownloading: true });
 }
 
 function runMAME() {

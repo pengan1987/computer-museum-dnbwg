@@ -1,6 +1,15 @@
 {
     "machines": [
         {
+            "id": "apidya",
+            "name": "Amiga游戏：Apidya",
+            "appname": "",
+            "year": 1992,
+            "url": "emularity-machine/apidya.json",
+            "image": "images/apydia.jpg",
+            "emularity":"sae-a500-aros"
+        },
+        {
             "id": "emutos",
             "name": "Atari ST非官方系统EmuTOS",
             "appname": "",
@@ -40,8 +49,9 @@
             "name": "Commodore Amiga 500",
             "appname": "",
             "year": 1987,
-            "url": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/amiga/amiga.html",
-            "image": "images/amiga500.jpg"
+            "url": "emularity-machine/amiga500.json",
+            "image": "images/amiga500.jpg",
+            "emularity":"sae-a500-kickstartv13"
         },
         {
             "id": "subor486",
@@ -278,8 +288,9 @@
             "name": "Amiga游戏：Crazy Sue",
             "appname": "",
             "year": 1990,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/amiga/amiga.html",
-            "image": "images/crazysue.jpg"
+            "url": "emularity-machine/crazysue.json",
+            "image": "images/crazysue.jpg",
+            "emularity":"sae-a500-aros"
         },
         {
             "id": "executor",

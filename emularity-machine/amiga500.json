@@ -1,0 +1,16 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "game",
+            "title": "Floppy Disk",
+            "source": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/amiga/workbench13.zip"
+        }
+    ],
+    "startExe": null,
+    "peripherals": [],
+    "floppy": [
+        "game/workbench1.3.adf",
+        "game/extras1.3.adf"
+    ]
+}

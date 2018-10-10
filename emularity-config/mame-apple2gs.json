@@ -1,0 +1,16 @@
+{
+    "emulatorWASM": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/jsmess/mameapple2gs_wasm.wasm",
+    "emulatorJS": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/jsmess/mameapple2gs_wasm.js",
+    "nativeResolution": {
+        "width": 704,
+        "height": 462
+    },
+    "driverName": "apple2gs",
+    "mountFile": [
+        {
+            "targetPath": "apple2gs.zip",
+            "title": "BIOS",
+            "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/bios/apple2gs.zip"
+        }
+    ]
+}

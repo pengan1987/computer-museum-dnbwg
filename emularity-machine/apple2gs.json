@@ -1,0 +1,18 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "disks",
+            "title": "Floppy Disk",
+            "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/apple2gs/GS_System_5_0_4.zip"
+        }
+    ],
+    "startExe": null,
+    "peripherals": [],
+    "extraArgs": [
+        "-flop3",
+        "/emulator/disks/systemdisk.2mg",
+        "-flop4",
+        "/emulator/disks/systemtools.2mg"
+    ]
+}

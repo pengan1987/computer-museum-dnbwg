@@ -1,6 +1,23 @@
 {
     "machines": [
         {
+            "id": "apple2gs",
+            "name": "Apple IIGS",
+            "appname": "",
+            "year": 1987,
+            "url": "emularity-machine/apple2gs.json",
+            "image": "images/apple2gs.jpg",
+            "emularity": "mame-apple2gs"
+        },
+        {
+            "id": "msx2",
+            "name": "MSX2",
+            "appname": "",
+            "year": 1985,
+            "url": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/webmsx/index.html?MACHINE=MSX2J",
+            "image": "images/msx2.jpg"
+        },
+        {
             "id": "apidya",
             "name": "Amiga游戏：Apidya",
             "appname": "",

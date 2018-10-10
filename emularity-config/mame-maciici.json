@@ -11,14 +11,19 @@
             "targetPath": "maciici.zip",
             "title": "BIOS",
             "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/bios/maciici.zip"
-        }   
+        }
     ],
-    "mountZip":[
+    "mountZip": [
         {
             "targetPath": "nvram",
             "title": "NVRAM",
             "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/nvram/maciici_rtc.zip"
         }
     ],
-    "extraArgs":["-ramsize", "8M","-nvram_directory","/emulator/nvram"]
+    "extraArgs": [
+        "-ramsize",
+        "8M",
+        "-nvram_directory",
+        "/emulator/nvram"
+    ]
 }

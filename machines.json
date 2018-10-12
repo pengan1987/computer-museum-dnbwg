@@ -14,7 +14,7 @@
             "name": "MSX2",
             "appname": "",
             "year": 1985,
-            "url": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/webmsx/index.html?MACHINE=MSX2J",
+            "url": "http://resetmag.oss-cn-hangzhou.aliyuncs.com/dnbwg/webmsx/webmsx.html",
             "image": "images/msx2.jpg"
         },
         {
@@ -24,7 +24,7 @@
             "year": 1992,
             "url": "emularity-machine/apidya.json",
             "image": "images/apydia.jpg",
-            "emularity":"sae-a500-aros"
+            "emularity": "sae-a500-aros"
         },
         {
             "id": "emutos",
@@ -58,7 +58,7 @@
             "name": "德州仪器TI-99/4A",
             "appname": "",
             "year": 1981,
-            "url": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/js99er/index.html",
+            "url": "http://resetmag.oss-cn-hangzhou.aliyuncs.com/dnbwg/js99er/ti99.html",
             "image": "images/ti99-4a.jpg"
         },
         {
@@ -68,7 +68,7 @@
             "year": 1987,
             "url": "emularity-machine/amiga500.json",
             "image": "images/amiga500.jpg",
-            "emularity":"sae-a500-kickstartv13"
+            "emularity": "sae-a500-kickstartv13"
         },
         {
             "id": "subor486",
@@ -307,7 +307,7 @@
             "year": 1990,
             "url": "emularity-machine/crazysue.json",
             "image": "images/crazysue.jpg",
-            "emularity":"sae-a500-aros"
+            "emularity": "sae-a500-aros"
         },
         {
             "id": "executor",

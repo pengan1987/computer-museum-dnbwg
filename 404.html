@@ -1,0 +1,73 @@
+<html>
+
+<head>
+	<title>
+		404 - 找不到文件或目录
+	</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css">
+	<link rel="stylesheet" href="https://dnbwg.oss-cn-hongkong.aliyuncs.com/base.css">
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+	<script type="application/javascript">
+		var recover = [
+			{ "from": "subor/suborv6.html", "to": "http://www.dnbwg.com/emularity.html?machine=subor486" },
+			{ "from": "mame/ceci.html", "to": "http://www.dnbwg.com/emularity.html?machine=ceci" },
+			{ "from": "mame/cecidisk.html", "to": "http://www.dnbwg.com/emularity.html?machine=cecidisk" },
+			{ "from": "mame/maciici.html", "to": "http://www.dnbwg.com/emularity.html?machine=maciici" },
+			{ "from": "mame/maciicichs.html", "to": "http://www.dnbwg.com/emularity.html?machine=maciicichs" },
+			{ "from": "pce-mac/index.html", "to": "http://www.dnbwg.com/emularity.html?machine=macplus" },
+			{ "from": "pce-mac-chs/index.html", "to": "http://www.dnbwg.com/emularity.html?machine=macpluschs" },
+			{ "from": "emdosbox/pal.html", "to": "http://www.dnbwg.com/emularity.html?machine=xianjianpal" },
+			{ "from": "emdosbox/jinyong.html", "to": "http://www.dnbwg.com/emularity.html?machine=jinyong" },
+			{ "from": "emdosbox/doom.html", "to": "http://www.dnbwg.com/emularity.html?machine=doom" },
+			{ "from": "emdosbox/dosbox.html", "to": "http://www.dnbwg.com/emularity.html?machine=ucdos" },
+			{ "from": "emdosbox/executor.html", "to": "http://www.dnbwg.com/emularity.html?machine=executor" },
+			{ "from": "atarist-emutos/index.html", "to": "http://www.dnbwg.com/emularity.html?machine=emutos" },
+			{ "from": "atarist-pce-mono/index.html", "to": "http://www.dnbwg.com/emularity.html?machine=ataristmono" },
+			{ "from": "atarist-pcejs/index.html", "to": "http://www.dnbwg.com/emularity.html?machine=atarist" },
+		];
+		var newUrl = null;
+		for (var i = 0; i < recover.length; i++) {
+			if (window.location.href.indexOf(recover[i].from) != -1) {
+				newUrl = recover[i].to;
+			}
+		}
+		if (newUrl && newUrl.length > 0) {
+			window.location.href = newUrl;
+		}
+	</script>
+	<style type="text/css">
+		body {
+			background-color: #f5f5dc;
+		}
+
+		.text-center {
+			text-align: center;
+		}
+
+		#mainContent p {
+			margin-top: 8px;
+			margin-bottom: 8px;
+		}
+	</style>
+</head>
+
+<body>
+	<nav style="position: relative; z-index: 2; width:100%">
+		<ul>
+			<li>
+				<a href="http://www.dnbwg.com">目录</a>
+			</li>
+			<li>
+				<a href="https://zhuanlan.zhihu.com/retrocomputing">知乎专栏</a>
+			</li>
+		</ul>
+	</nav>
+	<div id="mainContent">
+		<p class="text-center"><img src="https://dnbwg.oss-cn-hongkong.aliyuncs.com/404.jpg"></p>
+		<p class="text-center">错误404 - 找不到文件或目录，一定是神偷卡门偷走了它！</p>
+		<p class="text-center">去 <a id="recover-link" href="http://www.dnbwg.com">网页里的古董电脑博物馆</a> 找找看</p>
+	</div>
+</body>
+
+</html>

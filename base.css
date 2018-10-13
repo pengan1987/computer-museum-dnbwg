@@ -40,12 +40,25 @@ li a {
     text-decoration: none;
 }
 
-.machine-fig{
-    text-decoration: none !important;
-    color:black;
+@media (max-width: 600px) {
+    li a {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 }
 
-a:hover, a:visited, a:link, a:active
-{
+.machine-fig {
+    text-decoration: none !important;
+    color: black;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
     text-decoration: none;
+}
+
+figure a{
+    display: block;
 }

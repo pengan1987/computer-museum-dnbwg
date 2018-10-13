@@ -2,20 +2,26 @@
     position: relative;
 }
 
-body{
+body {
     background-color: #f5f5dc;
 }
 
 #main-wrapper {
-   
-
     padding-top: 10px;
 }
+
+
 
 .emularity-splash-screen {
     margin-left: auto;
     margin-right: auto;
     width: 600px;
+}
+
+@media  (max-width: 600px) {
+    .emularity-splash-screen {
+        width: 100%;
+    }
 }
 
 #emularity-canvas {

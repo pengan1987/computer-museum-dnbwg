@@ -262,7 +262,7 @@ $(document).ready(function () {
 
     if (machineParam && machineParam.length > 0) {
         $.getJSON("machines.json", processMachineJson);
-    } else {
+    } else if (machineParam && machineUrlParam.length > 0) {
         machineId = emularityParam + "-" + machineUrlParam.replace(/[.:#\/\\]/g, '-');
         var dummyMachineConfig = {
             "machineId": machineId,

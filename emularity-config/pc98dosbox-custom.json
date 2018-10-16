@@ -1,6 +1,6 @@
 {
-    "emulatorWASM": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/dosbox-x/dosbox-x.wasm",
-    "emulatorJS": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/dosbox-x/dosbox-x.js",
+    "emulatorWASM": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/dosbox-x/dosbox-x.wasm",
+    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/dosbox-x/dosbox-x.js",
     "nativeResolution": {
         "width": 640,
         "height": 480
@@ -9,7 +9,7 @@
         {
             "targetDrive": "y",
             "title": "Font and Sound File",
-            "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/dosbox-x/font.zip"
+            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/dosbox-x/font.zip"
         }
     ]
 }

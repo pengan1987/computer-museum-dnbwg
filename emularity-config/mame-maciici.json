@@ -1,6 +1,6 @@
 {
-    "emulatorWASM": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/jsmess/mamemac_wasm.wasm",
-    "emulatorJS": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/jsmess/mamemac_wasm.js",
+    "emulatorWASM": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamemac_wasm.wasm",
+    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamemac_wasm.js",
     "nativeResolution": {
         "width": 640,
         "height": 480
@@ -10,14 +10,14 @@
         {
             "targetPath": "maciici.zip",
             "title": "BIOS",
-            "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/bios/maciici.zip"
+            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/bios/maciici.zip"
         }
     ],
     "mountZip": [
         {
             "targetPath": "nvram",
             "title": "NVRAM",
-            "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/nvram/maciici_rtc.zip"
+            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/nvram/maciici_rtc.zip"
         }
     ],
     "extraArgs": [

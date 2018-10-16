@@ -13,8 +13,8 @@
         {
             "targetPath": "pce-atarist.cfg",
             "title": "Configuration",
-            "source": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/pce/pce-atarist-mono.cfg"
+            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-atarist-mono.cfg"
         }
     ],
-    "emulatorJS": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/pce/pcejs-atarist.js"
+    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pcejs-atarist.js"
 }

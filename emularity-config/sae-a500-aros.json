@@ -11,7 +11,7 @@
             "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/amiga/aros-amiga-m68k.zip"
         }
     ],
-    "emulatorJS": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/sae/sae-merge.js",
+    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/sae/sae-merge.js",
     "rom": [
         "bios/aros-amiga-m68k-rom.bin",
         "bios/aros-amiga-m68k-ext.bin"

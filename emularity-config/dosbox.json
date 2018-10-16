@@ -1,10 +1,10 @@
 {
-    "emulatorJS": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/dosbox/dosbox-sync.js",
+    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/dosbox/dosbox-sync.js",
     "nativeResolution": {
         "height": 640,
         "width": 480
     },
     "fileLocations": {
-        "dosbox.html.mem": "https://dnbwg1.oss-cn-huhehaote.aliyuncs.com/emularity-common/emulators/dosbox/dosbox-sync.mem"
+        "dosbox.html.mem": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/dosbox/dosbox-sync.mem"
     }
 }

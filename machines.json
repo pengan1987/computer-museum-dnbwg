@@ -93,7 +93,7 @@
             "name": "文曲星NC1020",
             "appname": "",
             "year": 2002,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/jswqx/index.html",
+            "url": "http://dnbwg.cdn.bcebos.com/jswqx/index.html",
             "image": "images/ggvnc1020.jpg"
         },
         {
@@ -101,7 +101,7 @@
             "name": "Atari 800XL",
             "appname": "",
             "year": 1982,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/jsa8e/index.html",
+            "url": "http://dnbwg.cdn.bcebos.com/jsa8e/index.html",
             "image": "images/atari800xl.jpg"
         },
         {
@@ -109,7 +109,7 @@
             "name": "Commodore 64",
             "appname": "",
             "year": 1982,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/vicejs/index.html",
+            "url": "http://dnbwg.cdn.bcebos.com/vicejs/index.html",
             "image": "images/commodore64.jpg"
         },
         {
@@ -117,7 +117,7 @@
             "name": "TRS-80 Model III",
             "appname": "",
             "year": 1980,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/trs80/index.html",
+            "url": "http://dnbwg.cdn.bcebos.com/trs80/index.html",
             "image": "images/trs80model3.jpg"
         },
         {
@@ -125,7 +125,7 @@
             "name": "Apple II",
             "appname": "",
             "year": 1977,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/apple2js/apple2js.html",
+            "url": "http://dnbwg.cdn.bcebos.com/apple2js/apple2js.html",
             "image": "images/apple2.jpg"
         },
         {
@@ -133,7 +133,7 @@
             "name": "Apple IIe",
             "appname": "",
             "year": 1983,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/apple2js/apple2jse.html",
+            "url": "http://dnbwg.cdn.bcebos.com/apple2js/apple2jse.html",
             "image": "images/apple2e.jpg"
         },
         {
@@ -141,7 +141,7 @@
             "name": "BBC Micro",
             "appname": "",
             "year": 1981,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/jsbeeb/index.html",
+            "url": "http://dnbwg.cdn.bcebos.com/jsbeeb/index.html",
             "image": "images/bbcmicro.jpg"
         },
         {
@@ -149,7 +149,7 @@
             "name": "Acorn Electron",
             "appname": "",
             "year": 1983,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/elkjs/index.html",
+            "url": "http://dnbwg.cdn.bcebos.com/elkjs/index.html",
             "image": "images/acornelectron.jpg"
         },
         {
@@ -157,7 +157,7 @@
             "name": "ZX Spectrum",
             "appname": "",
             "year": 1982,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/jsspeccy/index.html",
+            "url": "http://dnbwg.cdn.bcebos.com/jsspeccy/index.html",
             "image": "images/zxspectrum.jpg"
         },
         {
@@ -165,7 +165,7 @@
             "name": "IBM PC 5150 (MDA单显)",
             "appname": "",
             "year": 1981,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pcjs/example3a.html",
+            "url": "http://dnbwg.cdn.bcebos.com/pcjs/example3a.html",
             "image": "images/pc5150mda.jpg"
         },
         {
@@ -173,7 +173,7 @@
             "name": "IBM PC 5150 (CGA彩显)",
             "appname": "",
             "year": 1981,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pcjs/example4.html",
+            "url": "http://dnbwg.cdn.bcebos.com/pcjs/example4.html",
             "image": "images/pc5150cga.png"
         },
         {
@@ -244,7 +244,7 @@
             "name": "红白机和独立游戏",
             "appname": "",
             "year": 1983,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/em-fceux/index.html",
+            "url": "http://dnbwg.cdn.bcebos.com/em-fceux/index.html",
             "image": "images/nesjs.jpg"
         },
         {
@@ -261,7 +261,7 @@
             "name": "网景浏览器 4.08 (Win95)",
             "appname": "",
             "year": 1998,
-            "url": "http://jsemu.oss-cn-shanghai.aliyuncs.com/v86/netscape.html",
+            "url": "http://dnbwg.cdn.bcebos.com/v86/win95.html",
             "image": "images/netscape.jpg"
         },
         {

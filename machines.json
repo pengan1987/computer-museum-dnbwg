@@ -1,6 +1,14 @@
 {
     "machines": [
         {
+            "id": "salto",
+            "name": "Xerox Alto",
+            "appname": "",
+            "year": 1973,
+            "url": "http://dnbwg.cdn.bcebos.com/salto/index.html",
+            "image": "images/salto.jpg"
+        },
+        {
             "id": "apple2gs",
             "name": "Apple IIGS",
             "appname": "",

@@ -1,0 +1,20 @@
+{
+    "driverName": "atarist",
+    "nativeResolution": {
+        "width": 640,
+        "height": 400
+    },
+    "mountZip": [
+        {
+            "targetPath": "roms",
+            "title": "BIOS",
+            "source": "rom-ibm5160.zip"
+        },
+        {
+            "targetPath": "pce-ibmpc.cfg",
+            "title": "Configuration",
+            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-atarist.cfg"
+        }
+    ],
+    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pcejs-atarist.js"
+}

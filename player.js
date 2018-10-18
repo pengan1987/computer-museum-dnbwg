@@ -9,30 +9,32 @@ function getUrlVars() {
 function processJson(data) {
     var machineList = data.machines;
     var machineid = getUrlVars()["machine"];
-    var playerFrame = $("#emuframe");
+    var playerFrame = document.getElementById("emuframe");
+    playerFrame.onload = function () {
+        playerFrame.contentWindow.focus();
+    }
     var standaloneLink = $("#standalone-tab");
     for (i = 0; i < machineList.length; i++) {
         var machine = machineList[i];
         if (machine.id == machineid) {
-            playerFrame.attr("src", machine.url);
+            playerFrame.src = machine.url;
             standaloneLink.attr("href", machine.url);
         }
     }
-    playerFrame[0].contentWindow.focus();
 }
 
 function matchFrameHeight(){
-	  var frameheight = document.body.clientHeight - 30;
-      var iFrame = document.getElementById('emuframe');
-      iFrame.height = frameheight;
+    var frameheight = document.body.clientHeight - 30;
+    var iFrame = document.getElementById('emuframe');
+    iFrame.height = frameheight;
 }
 
 $(document).ready(function () {
     console.log("ready!");
     $.getJSON("machines.json", processJson);
-	matchFrameHeight();
+    matchFrameHeight();
 });
 
 $(window).resize(function() {
-	matchFrameHeight();
+    matchFrameHeight();
 });

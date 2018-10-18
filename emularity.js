@@ -124,6 +124,7 @@ function runMAME() {
 
     var canvas = document.querySelector("#emularity-canvas");
     canvas.onclick = function () {
+        canvas.focus();
         canvas.requestPointerLock();
     }
 

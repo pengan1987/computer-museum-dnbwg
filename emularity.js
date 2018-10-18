@@ -150,6 +150,19 @@ function runPCE() {
     var fileParams = buildFileLoadParameters(PCELoader);
     emuArguments = emuArguments.concat(fileParams);
 
+    var extraArgs = [];
+    if (emuConfig.extraArgs) {
+        extraArgs = extraArgs.concat(emuConfig.extraArgs);
+    }
+    if (machineConfig.extraArgs) {
+        extraArgs = extraArgs.concat(machineConfig.extraArgs);
+    }
+    if (extraArgs.length > 0) {
+        emuArguments.push(
+            PCELoader.extraArgs(extraArgs)
+        );
+    }
+
     var canvas = document.querySelector("#emularity-canvas");
     canvas.onclick = function () {
         canvas.requestPointerLock();

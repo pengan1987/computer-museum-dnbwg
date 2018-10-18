@@ -1,0 +1,15 @@
+{
+    "driverName": "ibmpc",
+    "nativeResolution": {
+        "width": 640,
+        "height": 400
+    },
+    "mountZip": [
+        {
+            "targetPath": "roms",
+            "title": "BIOS",
+            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/bios/pce-ibmpc-roms.zip"
+        }
+    ],
+    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pcejs-ibmpc.js"
+}

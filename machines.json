@@ -1,6 +1,15 @@
 {
     "machines": [
         {
+            "id": "ibm5160",
+            "name": "IBM PC XT (Xenix 2.1.3)",
+            "appname": "",
+            "year": 1983,
+            "url": "emularity-machine/ibm5160.json",
+            "image": "images/ibm5160.jpg",
+            "emularity": "pce-ibmpc"
+        },
+        {
             "id": "salto",
             "name": "Xerox Alto",
             "appname": "",

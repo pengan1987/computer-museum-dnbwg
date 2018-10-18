@@ -1,0 +1,19 @@
+{
+    "files": [
+        {
+            "targetPath": "pce-ibmpc.cfg",
+            "title": "Configuration",
+            "source": "http://dnbwg2.cdn.bcebos.com/ibm-xt-5160/pce-ibm5160.cfg"
+        }
+    ],
+    "zips": [
+        {
+            "targetPath": "disks",
+            "title": "Hard Disk ",
+            "source": "http://dnbwg2.cdn.bcebos.com/ibm-xt-5160/xenix-hd0.zip"
+        }
+    ],
+    "startExe": null,
+    "peripherals": [],
+    "extraArgs": ["-g", "mda", "-s", "10"]
+}

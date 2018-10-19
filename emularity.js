@@ -291,6 +291,14 @@ $(document).ready(function () {
 function postRun() {
     console.log("Emulator started");
     var bodyWidth = $("body").width();
+    if (bodyWidth < 600) {
+        $("#mobile-tools").show();
+        resizeCanvas();
+    }
+}
+
+function resizeCanvas() {
+    var bodyWidth = $("body").width();
     var canvasWidth = $("#emularity-canvas").width();
     var canvasHeight = $("#emularity-canvas").height();
     if (bodyWidth < canvasWidth) {
@@ -299,4 +307,10 @@ function postRun() {
         $("#emularity-canvas").width(bodyWidth);
         $("#emularity-canvas").height(newHeight);
     }
+}
+
+function toggleMobileKeyboard() {
+    var inputElement = document.getElementById("mobile-keyboard-helper");
+    inputElement.style.visibility = 'visible'; // unhide the input
+    inputElement.focus(); // focus on it so keyboard pops
 }

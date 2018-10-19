@@ -7,10 +7,8 @@ body {
 }
 
 #main-wrapper {
-    padding-top: 10px;
+    margin-top: 10px;
 }
-
-
 
 .emularity-splash-screen {
     margin-left: auto;
@@ -18,7 +16,10 @@ body {
     width: 600px;
 }
 
-@media  (max-width: 600px) {
+@media (max-width: 600px) {
+    #main-wrapper {
+        margin-top: 3px;
+    }
     .emularity-splash-screen {
         width: 100%;
     }
@@ -28,4 +29,20 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+#mobile-tools {
+    display: none;
+    margin-top: 4px;
+}
+
+#mobile-tools button {
+    margin: 4px;
+}
+
+#mobile-keyboard-helper {
+    height: 0px;
+    width: 0px;
+    border: none;
+    visibility: hidden;
 }

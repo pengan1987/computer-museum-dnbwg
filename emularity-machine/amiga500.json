@@ -4,7 +4,7 @@
         {
             "targetPath": "game",
             "title": "Floppy Disk",
-            "source": "http://dnbwg1.oss-cn-huhehaote.aliyuncs.com/amiga/workbench13.zip"
+            "source": "http://dnbwg2.cdn.bcebos.com/amiga/workbench13.zip"
         }
     ],
     "startExe": null,

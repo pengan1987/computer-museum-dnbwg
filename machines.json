@@ -31,7 +31,7 @@
             "name": "MSX2",
             "appname": "",
             "year": 1985,
-            "url": "http://resetmag.oss-cn-hangzhou.aliyuncs.com/dnbwg/webmsx/webmsx.html",
+            "url": "http://dnbwg2.cdn.bcebos.com/webmsx/webmsx.html",
             "image": "images/msx2.jpg"
         },
         {
@@ -75,7 +75,7 @@
             "name": "德州仪器TI-99/4A",
             "appname": "",
             "year": 1981,
-            "url": "http://resetmag.oss-cn-hangzhou.aliyuncs.com/dnbwg/js99er/index.html",
+            "url": "http://dnbwg2.cdn.bcebos.com/js99er/index.html",
             "image": "images/ti99-4a.jpg"
         },
         {

@@ -4,7 +4,7 @@
         {
             "targetPath": "game",
             "title": "Floppy Disk 1",
-            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/amiga/CrazySue.zip"
+            "source": "http://dnbwg2.cdn.bcebos.com/amiga/CrazySue.zip"
         }
     ],
     "startExe": null,

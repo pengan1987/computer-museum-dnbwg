@@ -8,7 +8,7 @@
         {
             "targetPath": "bios",
             "title": "BIOS",
-            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/amiga/aros-amiga-m68k.zip"
+            "source": "http://dnbwg2.cdn.bcebos.com/amiga/aros-amiga-m68k.zip"
         }
     ],
     "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/sae/sae-merge.js",

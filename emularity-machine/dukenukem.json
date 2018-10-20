@@ -4,7 +4,7 @@
         {
             "targetPath": "c",
             "title": "Game",
-            "source": "https://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/dukenukem.zip"
+            "source": "http://dnbwg.cdn.bcebos.com/emdosbox/dukenukem.zip"
         }
     ],
     "startExe": "dn1.exe"

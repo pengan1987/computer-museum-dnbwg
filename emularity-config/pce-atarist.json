@@ -8,7 +8,7 @@
         {
             "targetPath": "tos-1.04-us.rom",
             "title": "BIOS",
-            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/atarist-pcejs/tos-1.04-us.rom"
+            "source": "http://dnbwg.cdn.bcebos.com/atarist/tos-1.04-us.rom"
         },
         {
             "targetPath": "pce-atarist.cfg",

@@ -4,7 +4,7 @@
         {
             "targetPath": "c",
             "title": "Game",
-            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/emdosbox/DoomV19-1995.zip"
+            "source": "http://dnbwg.cdn.bcebos.com/emdosbox/DoomV19-1995.zip"
         }
     ],
     "startExe": "doom.exe"

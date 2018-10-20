@@ -227,7 +227,7 @@
             "year": 1985,
             "url": "emularity-machine/atarist-mono.json",
             "image": "images/ataristmono.png",
-            "emularity": "pce-atarist-mono"
+            "emularity": "pce-atarist"
         },
         {
             "id": "macplus",
@@ -333,6 +333,15 @@
             "year": 1990,
             "url": "emularity-machine/executor.json",
             "image": "images/executor.jpg",
+            "emularity": "dosbox"
+        },
+        {
+            "id": "ppersia",
+            "name": "DOS游戏：波斯王子",
+            "appname": "",
+            "year": 1990,
+            "url": "emularity-machine/ppersia.json",
+            "image": "images/ppersia.jpg",
             "emularity": "dosbox"
         }
     ]

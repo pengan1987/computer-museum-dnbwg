@@ -1,0 +1,18 @@
+{
+    "files": [
+        {
+            "targetPath": "np2.cfg",
+            "title": "Configuration",
+            "source": "http://dnbwg2.cdn.bcebos.com/pc9821vx/np2.cfg"
+        }
+    ],
+    "zips": [
+        {
+            "targetPath": "disks",
+            "title": "Hard Disk",
+            "source": "http://dnbwg2.cdn.bcebos.com/pc9821vx/inchitaro5.zip"
+        }
+    ],
+    "startExe": null,
+    "peripherals": []
+}

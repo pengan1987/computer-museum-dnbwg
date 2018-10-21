@@ -172,6 +172,40 @@ function runPCE() {
     emulator.start({ waitAfterDownloading: true });
 }
 
+function runNP2() {
+    var emuArguments = [
+       
+        NP2Loader.nativeResolution(emuConfig.nativeResolution.width, emuConfig.nativeResolution.height),
+        NP2Loader.emulatorJS(emuConfig.emulatorJS),
+        NP2Loader.emulatorWASM(emuConfig.emulatorWASM),
+        NP2Loader.fileSystemKey(machineId)
+    ];
+
+    var fileParams = buildFileLoadParameters(NP2Loader);
+    emuArguments = emuArguments.concat(fileParams);
+
+    var extraArgs = [];
+    if (emuConfig.extraArgs) {
+        extraArgs = extraArgs.concat(emuConfig.extraArgs);
+    }
+    if (machineConfig.extraArgs) {
+        extraArgs = extraArgs.concat(machineConfig.extraArgs);
+    }
+    if (extraArgs.length > 0) {
+        emuArguments.push(
+            NP2Loader.extraArgs(extraArgs)
+        );
+    }
+
+    var canvas = document.querySelector("#emularity-canvas");
+    canvas.onclick = function () {
+        canvas.requestPointerLock();
+    }
+
+    var emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, NP2Loader.apply(this, emuArguments));
+    emulator.start({ waitAfterDownloading: true });
+}
+
 function buildFileLoadParameters(someLoader) {
     var fileParams = [];
     if (emuConfig.mountFile) {
@@ -236,6 +270,10 @@ function processMachineConfig(machine) {
 
     if (machine.emularity.indexOf("sae") === 0) {
         emuRunner = runSAE;
+    }
+
+    if (machine.emularity.indexOf("np2") === 0) {
+        emuRunner = runNP2;
     }
 
     if (machine.emularity.indexOf("pc98dosbox") === 0) {

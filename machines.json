@@ -1,6 +1,15 @@
 {
     "machines": [
         {
+            "id": "pc9801vx",
+            "name": "NEC PC-9801VX （一太郎）",
+            "appname": "",
+            "year": 1986,
+            "url": "emularity-machine/pc9801vx.json",
+            "image": "images/pc9801vx.jpg",
+            "emularity": "np2-pc9801vx"
+        },
+        {
             "id": "ibm5160",
             "name": "IBM PC XT (Xenix 2.1.3)",
             "appname": "",

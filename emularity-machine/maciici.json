@@ -3,7 +3,7 @@
         {
             "targetPath": "mac711.chd",
             "title": "HardDisk",
-            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/mame/examples/mac711.chd"
+            "source": "http://dnbwg2.cdn.bcebos.com/mame-maciici/mac711.chd"
         }
     ],
     "zips": [],

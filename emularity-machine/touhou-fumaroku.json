@@ -4,7 +4,7 @@
         {
             "targetPath": "c",
             "title": "Game",
-            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pc98dosbox/th2.zip"
+            "source": "http://dnbwg2.cdn.bcebos.com/pc98dosbox/th2.zip"
         }
     ],
     "startExe": "play.bat"

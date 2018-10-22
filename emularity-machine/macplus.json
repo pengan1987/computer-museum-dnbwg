@@ -1,17 +1,12 @@
 {
-    "files": [
+    "files": [],
+    "zips": [
         {
-            "targetPath": "hd1",
-            "title": "Hard Disk 1",
-            "source": "http://jsemu.oss-cn-shanghai.aliyuncs.com/pce-mac/hd1.qed"
-        },
-        {
-            "targetPath": "hd2",
-            "title": "Hard Disk 2",
-            "source": "  http://jsemu.oss-cn-shanghai.aliyuncs.com/pce-mac/apps.qed"
+            "targetPath": "disks",
+            "title": "Hard Disks",
+            "source": "http://dnbwg2.cdn.bcebos.com/pce-macplus/macplus.zip"
         }
     ],
-    "zips": [],
     "startExe": null,
     "peripherals": []
 }

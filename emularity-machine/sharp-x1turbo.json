@@ -1,0 +1,15 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "disks",
+            "title": "Hard Disk",
+            "source": "http://dnbwg2.cdn.bcebos.com/sharp-x1/sharp-x1games.zip"
+        }
+    ],
+    "startExe": null,
+    "peripherals": [],
+    "extraArgs": [
+        "/emulator/disks/Game09.2d"
+    ]
+}

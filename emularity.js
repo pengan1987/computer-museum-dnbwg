@@ -174,7 +174,7 @@ function runPCE() {
 
 function runNP2() {
     var emuArguments = [
-       
+
         NP2Loader.nativeResolution(emuConfig.nativeResolution.width, emuConfig.nativeResolution.height),
         NP2Loader.emulatorJS(emuConfig.emulatorJS),
         NP2Loader.emulatorWASM(emuConfig.emulatorWASM),
@@ -195,11 +195,6 @@ function runNP2() {
         emuArguments.push(
             NP2Loader.extraArgs(extraArgs)
         );
-    }
-
-    var canvas = document.querySelector("#emularity-canvas");
-    canvas.onclick = function () {
-        canvas.requestPointerLock();
     }
 
     var emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, NP2Loader.apply(this, emuArguments));

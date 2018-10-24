@@ -1,0 +1,15 @@
+{
+    "emulatorWASM": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/np2/xmil.wasm",
+    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/np2/xmil.js",
+    "nativeResolution": {
+        "width": 640,
+        "height": 400
+    },
+    "mountZip": [
+        {
+            "targetPath": "xmil-em",
+            "title": "BIOS",
+            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/np2/sharp-x1turbo-rom.zip"
+        }
+    ]
+}

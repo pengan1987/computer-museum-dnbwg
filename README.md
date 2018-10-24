@@ -44,3 +44,7 @@ Commodore Amiga: [naTmeg/ScriptedAmigaEmulator]( https://github.com/naTmeg/Scrip
 MSX: http://jsmsx.sourceforge.net/
 
 Xerox Alto: [marciot/retroweb-salto-simulator-js](https://github.com/marciot/retroweb-salto-simulator-js)
+
+NEC PC-9801: [yksoft1/np2-em](https://github.com/yksoft1/np2-em)
+
+SHARP X1 Turbo: [yksoft1/xmil](https://github.com/yksoft1/xmil/tree/emscripten)

@@ -1,6 +1,15 @@
 {
     "machines": [
         {
+            "id": "sharp-x1turbo",
+            "name": "SHARP X1 Turbo",
+            "appname": "",
+            "year": 1984,
+            "url": "emularity-machine/sharp-x1turbo.json",
+            "image": "images/sharp-x1turbo.jpg",
+            "emularity": "np2-sharp-x1turbo"
+        },
+        {
             "id": "pc9801vx",
             "name": "NEC PC-9801VX （一太郎）",
             "appname": "",

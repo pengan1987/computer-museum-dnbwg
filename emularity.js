@@ -296,6 +296,7 @@ function processMachineConfig(machine) {
 
 function newDataLoaded() {
     if (emuConfig && machineConfig) {
+        showIntroduction();
         emuRunner();
     }
 }
@@ -346,4 +347,18 @@ function toggleMobileKeyboard() {
     var inputElement = document.getElementById("mobile-keyboard-helper");
     inputElement.style.visibility = 'visible'; // unhide the input
     inputElement.focus(); // focus on it so keyboard pops
+}
+
+function showIntroduction() {
+    var introUrl = "document/pending.md";
+    if (machineConfig.introduction) {
+        introUrl = machineConfig.introduction;
+    }
+    var showdownConv = new showdown.Converter();
+    $.get(introUrl,
+        function (data) {
+            var htmlContent = showdownConv.makeHtml(data);
+            $("#introduction").html(htmlContent);
+        }
+    );
 }

@@ -13,5 +13,6 @@
             "name": "flop1",
             "value": "chinesegame.dsk"
         }
-    ]
+    ],
+    "introduction": "document/ceci.md"
 }

@@ -1,0 +1,18 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "disks",
+            "title": "Floppy Disk",
+            "source": "http://dnbwg2.cdn.bcebos.com/aa310/Speedball2.zip"
+        }
+    ],
+    "startExe": null,
+    "peripherals": [],
+    "extraArgs": [
+        "-bios",
+        "300",
+        "-flop1",
+        "/emulator/disks/Speedball2.adf"
+    ]
+}

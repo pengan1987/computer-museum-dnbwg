@@ -1,6 +1,15 @@
 {
     "machines": [
         {
+            "id": "aa310",
+            "name": "Acorn Archimedes 310",
+            "appname": "",
+            "year": 1987,
+            "url": "emularity-machine/aa310.json",
+            "image": "images/aa310.jpg",
+            "emularity": "mame-aa310"
+        },
+        {
             "id": "sharp-x1turbo",
             "name": "SHARP X1 Turbo",
             "appname": "",

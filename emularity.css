@@ -16,6 +16,7 @@ body {
     width: 600px;
     background-color: #000000;
     margin-bottom: -150px;
+    color: #ffffff;
 }
 
 @media (max-width: 600px) {

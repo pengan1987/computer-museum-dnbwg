@@ -1,0 +1,51 @@
+﻿<html>
+
+<head>
+  <title>网页里的电脑博物馆</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@2.10.0/github-markdown.css">
+  <link rel="stylesheet" href="../base.css" />
+  <link rel="stylesheet" href="../emularity.css" />
+  <script src="https://cdn.jsdelivr.net/npm/showdown@1.8.7/dist/showdown.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+  <script src="baidu-stat.js"></script>
+
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+</head>
+
+<body>
+  <nav id="mainnav" style="position: relative; z-index: 2;">
+    <ul>
+      <li>
+        <a href="../index.html">目录</a>
+      </li>
+      <li>
+        <a href="https://zhuanlan.zhihu.com/retrocomputing">知乎专栏</a>
+      </li>
+      <li>
+        <a href="https://github.com/pengan1987/computer-museum-dnbwg">Github</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="javatari" style="text-align: center; margin: 20px auto 0; padding: 0 10px;">
+    <div id="javatari-screen" style="box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);"></div>
+  </div>
+  <div id="introduction" class="markdown-body"></div>
+  <script src="http://dnbwg2.cdn.bcebos.com/javatari/javatari.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var showdownConv = new showdown.Converter();
+      var introUrl = "javatari.md";
+      $.get(introUrl,
+        function (data) {
+          var htmlContent = showdownConv.makeHtml(data);
+          $("#introduction").html(htmlContent);
+          Javatari.ROM = "http://dnbwg2.cdn.bcebos.com/javatari/SceneDemos6in1.bin";
+        });
+      
+    });
+  </script>
+</body>
+
+</html>

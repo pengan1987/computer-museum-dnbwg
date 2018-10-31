@@ -1,6 +1,14 @@
 {
     "machines": [
         {
+            "id": "atari2600",
+            "name": "Atari 2600",
+            "appname": "",
+            "year": 1977,
+            "directurl": "standalone/javatari.html",
+            "image": "images/atari2600.jpg"
+        },
+        {
             "id": "aa310",
             "name": "Acorn Archimedes 310",
             "appname": "",
@@ -58,7 +66,7 @@
             "name": "MSX2",
             "appname": "",
             "year": 1985,
-            "url": "http://dnbwg2.cdn.bcebos.com/webmsx/webmsx.html",
+            "directurl": "standalone/webmsx.html",
             "image": "images/msx2.jpg"
         },
         {

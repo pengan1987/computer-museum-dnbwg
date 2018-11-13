@@ -1,0 +1,9 @@
+{
+    "bios_url": "http://dnbwg.cdn.bcebos.com/v86/seabios.bin",
+    "vbios_url": "http://dnbwg.cdn.bcebos.com/v86/vgabios.bin",
+    "hdd_zip_url": "http://dnbwg.cdn.bcebos.com/v86/wince400.zip",
+    "img_filename": "wince.img",
+    "ram": 128,
+    "vram": 8,
+    "document":"document/wince400.md"
+}

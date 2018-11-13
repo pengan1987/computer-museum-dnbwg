@@ -1,0 +1,1 @@
+EmuTOS是针对Atari ST电脑设计的非官方操作系统，从名字中的Emu就可以看出，它是针对模拟器开发的。他替代的是原先Atari ST电脑上的TOS操作系统。与AROS类似，它也可以做到对原系统的二进制兼容，所以我们在像Hatari这样的Atari ST电脑的硬件模拟器上运行EmuTOS和Atari ST游戏也不会有版权上的问题。

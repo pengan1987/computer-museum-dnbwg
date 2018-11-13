@@ -1,383 +1,390 @@
-{
-    "machines": [
-        {
-            "id": "atari2600",
-            "name": "Atari 2600",
-            "appname": "",
-            "year": 1977,
-            "directurl": "standalone/javatari.html",
-            "image": "images/atari2600.jpg"
-        },
-        {
-            "id": "aa310",
-            "name": "Acorn Archimedes 310",
-            "appname": "",
-            "year": 1987,
-            "url": "emularity-machine/aa310.json",
-            "image": "images/aa310.jpg",
-            "emularity": "mame-aa310"
-        },
-        {
-            "id": "sharp-x1turbo",
-            "name": "SHARP X1 Turbo",
-            "appname": "",
-            "year": 1984,
-            "url": "emularity-machine/sharp-x1turbo.json",
-            "image": "images/sharp-x1turbo.jpg",
-            "emularity": "np2-sharp-x1turbo"
-        },
-        {
-            "id": "pc9801vx",
-            "name": "NEC PC-9801VX （一太郎）",
-            "appname": "",
-            "year": 1986,
-            "url": "emularity-machine/pc9801vx.json",
-            "image": "images/pc9801vx.jpg",
-            "emularity": "np2-pc9801vx"
-        },
-        {
-            "id": "ibm5160",
-            "name": "IBM PC XT (Xenix 2.1.3)",
-            "appname": "",
-            "year": 1983,
-            "url": "emularity-machine/ibm5160.json",
-            "image": "images/ibm5160.jpg",
-            "emularity": "pce-ibmpc"
-        },
-        {
-            "id": "salto",
-            "name": "Xerox Alto",
-            "appname": "",
-            "year": 1973,
-            "url": "http://dnbwg.cdn.bcebos.com/salto/index.html",
-            "image": "images/salto.jpg"
-        },
-        {
-            "id": "apple2gs",
-            "name": "Apple IIGS",
-            "appname": "",
-            "year": 1987,
-            "url": "emularity-machine/apple2gs.json",
-            "image": "images/apple2gs.jpg",
-            "emularity": "mame-apple2gs"
-        },
-        {
-            "id": "msx2",
-            "name": "MSX2",
-            "appname": "",
-            "year": 1985,
-            "directurl": "standalone/webmsx.html",
-            "image": "images/msx2.jpg"
-        },
-        {
-            "id": "apidya",
-            "name": "Amiga游戏：Apidya",
-            "appname": "",
-            "year": 1992,
-            "url": "emularity-machine/apidya.json",
-            "image": "images/apydia.jpg",
-            "emularity": "sae-a500-aros"
-        },
-        {
-            "id": "emutos",
-            "name": "Atari ST非官方系统EmuTOS",
-            "appname": "",
-            "year": 2001,
-            "url": "emularity-machine/emutos.json",
-            "image": "images/emutos.jpg",
-            "emularity": "pce-atarist-emutos"
-        },
-        {
-            "id": "wps97",
-            "name": "中文Windows 3.2和WPS97",
-            "appname": "",
-            "year": 1997,
-            "url": "emularity-machine/wps97.json",
-            "image": "images/wps97.jpg",
-            "emularity": "dosbox"
-        },
-        {
-            "id": "maciicichs",
-            "name": "Macintosh IIci （中文7.11系统）",
-            "appname": "",
-            "year": 1989,
-            "url": "emularity-machine/maciicichs.json",
-            "image": "images/maciicichs.jpg",
-            "emularity": "mame-maciici"
-        },
-        {
-            "id": "ti99-4a",
-            "name": "德州仪器TI-99/4A",
-            "appname": "",
-            "year": 1981,
-            "url": "http://dnbwg2.cdn.bcebos.com/js99er/index.html",
-            "image": "images/ti99-4a.jpg"
-        },
-        {
-            "id": "amiga500",
-            "name": "Commodore Amiga 500",
-            "appname": "",
-            "year": 1987,
-            "url": "emularity-machine/amiga500.json",
-            "image": "images/amiga500.jpg",
-            "emularity": "sae-a500-kickstartv13"
-        },
-        {
-            "id": "subor486",
-            "name": "小霸王SB486",
-            "appname": "",
-            "year": 1993,
-            "url": "emularity-machine/sb486.json",
-            "image": "images/subor486.jpg",
-            "emularity": "mame-sb486"
-        },
-        {
-            "id": "touhou-fumaroku",
-            "name": "NEC PC-9821游戏：东方封魔录",
-            "appname": "",
-            "year": 1997,
-            "url": "emularity-machine/touhou-fumaroku.json",
-            "image": "images/touhou-fumaroku.jpg",
-            "emularity": "pc98dosbox"
-        },
-        {
-            "id": "ggvnc1020",
-            "name": "文曲星NC1020",
-            "appname": "",
-            "year": 2002,
-            "url": "http://dnbwg.cdn.bcebos.com/jswqx/index.html",
-            "image": "images/ggvnc1020.jpg"
-        },
-        {
-            "id": "atari800xl",
-            "name": "Atari 800XL",
-            "appname": "",
-            "year": 1982,
-            "url": "http://dnbwg.cdn.bcebos.com/jsa8e/index.html",
-            "image": "images/atari800xl.jpg"
-        },
-        {
-            "id": "commodore64",
-            "name": "Commodore 64",
-            "appname": "",
-            "year": 1982,
-            "url": "http://dnbwg.cdn.bcebos.com/vicejs/index.html",
-            "image": "images/commodore64.jpg"
-        },
-        {
-            "id": "trs80model3",
-            "name": "TRS-80 Model III",
-            "appname": "",
-            "year": 1980,
-            "url": "http://dnbwg.cdn.bcebos.com/trs80/index.html",
-            "image": "images/trs80model3.jpg"
-        },
-        {
-            "id": "apple2",
-            "name": "Apple II",
-            "appname": "",
-            "year": 1977,
-            "url": "http://dnbwg.cdn.bcebos.com/apple2js/apple2js.html",
-            "image": "images/apple2.jpg"
-        },
-        {
-            "id": "apple2e",
-            "name": "Apple IIe",
-            "appname": "",
-            "year": 1983,
-            "url": "http://dnbwg.cdn.bcebos.com/apple2js/apple2jse.html",
-            "image": "images/apple2e.jpg"
-        },
-        {
-            "id": "bbcmicro",
-            "name": "BBC Micro",
-            "appname": "",
-            "year": 1981,
-            "url": "http://dnbwg.cdn.bcebos.com/jsbeeb/index.html",
-            "image": "images/bbcmicro.jpg"
-        },
-        {
-            "id": "acornelectron",
-            "name": "Acorn Electron",
-            "appname": "",
-            "year": 1983,
-            "url": "http://dnbwg.cdn.bcebos.com/elkjs/index.html",
-            "image": "images/acornelectron.jpg"
-        },
-        {
-            "id": "zxspectrum",
-            "name": "ZX Spectrum",
-            "appname": "",
-            "year": 1982,
-            "url": "http://dnbwg.cdn.bcebos.com/jsspeccy/index.html",
-            "image": "images/zxspectrum.jpg"
-        },
-        {
-            "id": "pc5150mda",
-            "name": "IBM PC 5150 (MDA单显)",
-            "appname": "",
-            "year": 1981,
-            "url": "http://dnbwg.cdn.bcebos.com/pcjs/example3a.html",
-            "image": "images/pc5150mda.jpg"
-        },
-        {
-            "id": "pc5150cga",
-            "name": "IBM PC 5150 (CGA彩显)",
-            "appname": "",
-            "year": 1981,
-            "url": "http://dnbwg.cdn.bcebos.com/pcjs/example4.html",
-            "image": "images/pc5150cga.png"
-        },
-        {
-            "id": "ceci",
-            "name": "中华学习机CEC-I",
-            "appname": "",
-            "year": 1987,
-            "url": "emularity-machine/ceci.json",
-            "image": "images/ceci.jpg",
-            "emularity": "mame-ceci"
-        },
-        {
-            "id": "cecidisk",
-            "name": "中华学习机CEC-I（游戏软盘）",
-            "appname": "",
-            "year": 1987,
-            "url": "emularity-machine/cecidisk.json",
-            "image": "images/cecidisk.jpg",
-            "emularity": "mame-ceci"
-        },
-        {
-            "id": "atarist",
-            "name": "Atari ST（彩显）",
-            "appname": "",
-            "year": 1985,
-            "url": "emularity-machine/atarist.json",
-            "image": "images/atarist.jpg",
-            "emularity": "pce-atarist"
-        },
-        {
-            "id": "ataristmono",
-            "name": "Atari ST（单显）",
-            "appname": "",
-            "year": 1985,
-            "url": "emularity-machine/atarist-mono.json",
-            "image": "images/ataristmono.png",
-            "emularity": "pce-atarist"
-        },
-        {
-            "id": "macplus",
-            "name": "Macintosh Plus",
-            "appname": "",
-            "year": 1986,
-            "url": "emularity-machine/macplus.json",
-            "image": "images/macplus.jpg",
-            "emularity": "pce-macplus"
-        },
-        {
-            "id": "macpluschs",
-            "name": "Macintosh Plus（中文系统）",
-            "appname": "",
-            "year": 1986,
-            "url": "emularity-machine/macpluschs.json",
-            "image": "images/macpluschs.png",
-            "emularity": "pce-macplus"
-        },
-        {
-            "id": "maciici",
-            "name": "Macintosh IIci",
-            "appname": "",
-            "year": 1989,
-            "url": "emularity-machine/maciici.json",
-            "image": "images/maciici.jpg",
-            "emularity": "mame-maciici"
-        },
-        {
-            "id": "em-fceux",
-            "name": "红白机和独立游戏",
-            "appname": "",
-            "year": 1983,
-            "url": "http://dnbwg.cdn.bcebos.com/em-fceux/index.html",
-            "image": "images/nesjs.jpg"
-        },
-        {
-            "id": "ucdos",
-            "name": "DOS软件：UCDOS 7.0",
-            "appname": "",
-            "year": 1997,
-            "url": "emularity-machine/ucdos.json",
-            "image": "images/ucdos.jpg",
-            "emularity": "dosbox"
-        },
-        {
-            "id": "netscape",
-            "name": "网景浏览器 4.08 (Win95)",
-            "appname": "",
-            "year": 1998,
-            "directurl": "standalone/win95.html",
-            "image": "images/netscape.jpg"
-        },
-        {
-            "id": "xianjianpal",
-            "name": "DOS游戏：仙剑奇侠传",
-            "appname": "",
-            "year": 1995,
-            "url": "emularity-machine/xianjianpal.json",
-            "image": "images/xianjianpal.jpg",
-            "emularity": "dosbox"
-        },
-        {
-            "id": "jinyong",
-            "name": "DOS游戏：金庸群侠传",
-            "appname": "",
-            "year": 1996,
-            "url": "emularity-machine/jinyong.json",
-            "image": "images/jinyong.jpg",
-            "emularity": "dosbox"
-        },
-        {
-            "id": "doom",
-            "name": "DOS游戏：DOOM",
-            "appname": "",
-            "year": 1993,
-            "url": "emularity-machine/doom.json",
-            "image": "images/doom.jpg",
-            "emularity": "dosbox"
-        },
-        {
-            "id": "dukenukem",
-            "name": "DOS游戏：毁灭公爵",
-            "appname": "",
-            "year": 1991,
-            "url": "emularity-machine/dukenukem.json",
-            "image": "images/dukenukem.jpg",
-            "emularity": "dosbox"
-        },
-        {
-            "id": "crazysue",
-            "name": "Amiga游戏：Crazy Sue",
-            "appname": "",
-            "year": 1990,
-            "url": "emularity-machine/crazysue.json",
-            "image": "images/crazysue.jpg",
-            "emularity": "sae-a500-aros"
-        },
-        {
-            "id": "executor",
-            "name": "DOS版Mac模拟器Executor",
-            "appname": "",
-            "year": 1990,
-            "url": "emularity-machine/executor.json",
-            "image": "images/executor.jpg",
-            "emularity": "dosbox"
-        },
-        {
-            "id": "ppersia",
-            "name": "DOS游戏：波斯王子",
-            "appname": "",
-            "year": 1990,
-            "url": "emularity-machine/ppersia.json",
-            "image": "images/ppersia.jpg",
-            "emularity": "dosbox"
-        }
-    ]
+﻿{
+	"machines": [{
+			"id": "netscape",
+			"name": "Windows CE.net 4.0",
+			"appname": "",
+			"year": 2002,
+			"directurl": "v86.html?machine=wince400",
+			"image": "images/wince400.jpg"
+		},
+		{
+			"id": "atari2600",
+			"name": "Atari 2600",
+			"appname": "",
+			"year": 1977,
+			"directurl": "standalone/javatari.html",
+			"image": "images/atari2600.jpg"
+		},
+		{
+			"id": "aa310",
+			"name": "Acorn Archimedes 310",
+			"appname": "",
+			"year": 1987,
+			"url": "emularity-machine/aa310.json",
+			"image": "images/aa310.jpg",
+			"emularity": "mame-aa310"
+		},
+		{
+			"id": "sharp-x1turbo",
+			"name": "SHARP X1 Turbo",
+			"appname": "",
+			"year": 1984,
+			"url": "emularity-machine/sharp-x1turbo.json",
+			"image": "images/sharp-x1turbo.jpg",
+			"emularity": "np2-sharp-x1turbo"
+		},
+		{
+			"id": "pc9801vx",
+			"name": "NEC PC-9801VX （一太郎）",
+			"appname": "",
+			"year": 1986,
+			"url": "emularity-machine/pc9801vx.json",
+			"image": "images/pc9801vx.jpg",
+			"emularity": "np2-pc9801vx"
+		},
+		{
+			"id": "ibm5160",
+			"name": "IBM PC XT (Xenix 2.1.3)",
+			"appname": "",
+			"year": 1983,
+			"url": "emularity-machine/ibm5160.json",
+			"image": "images/ibm5160.jpg",
+			"emularity": "pce-ibmpc"
+		},
+		{
+			"id": "salto",
+			"name": "Xerox Alto",
+			"appname": "",
+			"year": 1973,
+			"url": "http://dnbwg.cdn.bcebos.com/salto/index.html",
+			"image": "images/salto.jpg"
+		},
+		{
+			"id": "apple2gs",
+			"name": "Apple IIGS",
+			"appname": "",
+			"year": 1987,
+			"url": "emularity-machine/apple2gs.json",
+			"image": "images/apple2gs.jpg",
+			"emularity": "mame-apple2gs"
+		},
+		{
+			"id": "msx2",
+			"name": "MSX2",
+			"appname": "",
+			"year": 1985,
+			"directurl": "standalone/webmsx.html",
+			"image": "images/msx2.jpg"
+		},
+		{
+			"id": "apidya",
+			"name": "Amiga游戏：Apidya",
+			"appname": "",
+			"year": 1992,
+			"url": "emularity-machine/apidya.json",
+			"image": "images/apydia.jpg",
+			"emularity": "sae-a500-aros"
+		},
+		{
+			"id": "emutos",
+			"name": "Atari ST非官方系统EmuTOS",
+			"appname": "",
+			"year": 2001,
+			"url": "emularity-machine/emutos.json",
+			"image": "images/emutos.jpg",
+			"emularity": "pce-atarist-emutos"
+		},
+		{
+			"id": "wps97",
+			"name": "中文Windows 3.2和WPS97",
+			"appname": "",
+			"year": 1997,
+			"url": "emularity-machine/wps97.json",
+			"image": "images/wps97.jpg",
+			"emularity": "dosbox"
+		},
+		{
+			"id": "maciicichs",
+			"name": "Macintosh IIci （中文7.11系统）",
+			"appname": "",
+			"year": 1989,
+			"url": "emularity-machine/maciicichs.json",
+			"image": "images/maciicichs.jpg",
+			"emularity": "mame-maciici"
+		},
+		{
+			"id": "ti99-4a",
+			"name": "德州仪器TI-99/4A",
+			"appname": "",
+			"year": 1981,
+			"url": "http://dnbwg2.cdn.bcebos.com/js99er/index.html",
+			"image": "images/ti99-4a.jpg"
+		},
+		{
+			"id": "amiga500",
+			"name": "Commodore Amiga 500",
+			"appname": "",
+			"year": 1987,
+			"url": "emularity-machine/amiga500.json",
+			"image": "images/amiga500.jpg",
+			"emularity": "sae-a500-kickstartv13"
+		},
+		{
+			"id": "subor486",
+			"name": "小霸王SB486",
+			"appname": "",
+			"year": 1993,
+			"url": "emularity-machine/sb486.json",
+			"image": "images/subor486.jpg",
+			"emularity": "mame-sb486"
+		},
+		{
+			"id": "touhou-fumaroku",
+			"name": "NEC PC-9821游戏：东方封魔录",
+			"appname": "",
+			"year": 1997,
+			"url": "emularity-machine/touhou-fumaroku.json",
+			"image": "images/touhou-fumaroku.jpg",
+			"emularity": "pc98dosbox"
+		},
+		{
+			"id": "ggvnc1020",
+			"name": "文曲星NC1020",
+			"appname": "",
+			"year": 2002,
+			"url": "http://dnbwg.cdn.bcebos.com/jswqx/index.html",
+			"image": "images/ggvnc1020.jpg"
+		},
+		{
+			"id": "atari800xl",
+			"name": "Atari 800XL",
+			"appname": "",
+			"year": 1982,
+			"url": "http://dnbwg.cdn.bcebos.com/jsa8e/index.html",
+			"image": "images/atari800xl.jpg"
+		},
+		{
+			"id": "commodore64",
+			"name": "Commodore 64",
+			"appname": "",
+			"year": 1982,
+			"url": "http://dnbwg.cdn.bcebos.com/vicejs/index.html",
+			"image": "images/commodore64.jpg"
+		},
+		{
+			"id": "trs80model3",
+			"name": "TRS-80 Model III",
+			"appname": "",
+			"year": 1980,
+			"url": "http://dnbwg.cdn.bcebos.com/trs80/index.html",
+			"image": "images/trs80model3.jpg"
+		},
+		{
+			"id": "apple2",
+			"name": "Apple II",
+			"appname": "",
+			"year": 1977,
+			"url": "http://dnbwg.cdn.bcebos.com/apple2js/apple2js.html",
+			"image": "images/apple2.jpg"
+		},
+		{
+			"id": "apple2e",
+			"name": "Apple IIe",
+			"appname": "",
+			"year": 1983,
+			"url": "http://dnbwg.cdn.bcebos.com/apple2js/apple2jse.html",
+			"image": "images/apple2e.jpg"
+		},
+		{
+			"id": "bbcmicro",
+			"name": "BBC Micro",
+			"appname": "",
+			"year": 1981,
+			"url": "http://dnbwg.cdn.bcebos.com/jsbeeb/index.html",
+			"image": "images/bbcmicro.jpg"
+		},
+		{
+			"id": "acornelectron",
+			"name": "Acorn Electron",
+			"appname": "",
+			"year": 1983,
+			"url": "http://dnbwg.cdn.bcebos.com/elkjs/index.html",
+			"image": "images/acornelectron.jpg"
+		},
+		{
+			"id": "zxspectrum",
+			"name": "ZX Spectrum",
+			"appname": "",
+			"year": 1982,
+			"url": "http://dnbwg.cdn.bcebos.com/jsspeccy/index.html",
+			"image": "images/zxspectrum.jpg"
+		},
+		{
+			"id": "pc5150mda",
+			"name": "IBM PC 5150 (MDA单显)",
+			"appname": "",
+			"year": 1981,
+			"url": "http://dnbwg.cdn.bcebos.com/pcjs/example3a.html",
+			"image": "images/pc5150mda.jpg"
+		},
+		{
+			"id": "pc5150cga",
+			"name": "IBM PC 5150 (CGA彩显)",
+			"appname": "",
+			"year": 1981,
+			"url": "http://dnbwg.cdn.bcebos.com/pcjs/example4.html",
+			"image": "images/pc5150cga.png"
+		},
+		{
+			"id": "ceci",
+			"name": "中华学习机CEC-I",
+			"appname": "",
+			"year": 1987,
+			"url": "emularity-machine/ceci.json",
+			"image": "images/ceci.jpg",
+			"emularity": "mame-ceci"
+		},
+		{
+			"id": "cecidisk",
+			"name": "中华学习机CEC-I（游戏软盘）",
+			"appname": "",
+			"year": 1987,
+			"url": "emularity-machine/cecidisk.json",
+			"image": "images/cecidisk.jpg",
+			"emularity": "mame-ceci"
+		},
+		{
+			"id": "atarist",
+			"name": "Atari ST（彩显）",
+			"appname": "",
+			"year": 1985,
+			"url": "emularity-machine/atarist.json",
+			"image": "images/atarist.jpg",
+			"emularity": "pce-atarist"
+		},
+		{
+			"id": "ataristmono",
+			"name": "Atari ST（单显）",
+			"appname": "",
+			"year": 1985,
+			"url": "emularity-machine/atarist-mono.json",
+			"image": "images/ataristmono.png",
+			"emularity": "pce-atarist"
+		},
+		{
+			"id": "macplus",
+			"name": "Macintosh Plus",
+			"appname": "",
+			"year": 1986,
+			"url": "emularity-machine/macplus.json",
+			"image": "images/macplus.jpg",
+			"emularity": "pce-macplus"
+		},
+		{
+			"id": "macpluschs",
+			"name": "Macintosh Plus（中文系统）",
+			"appname": "",
+			"year": 1986,
+			"url": "emularity-machine/macpluschs.json",
+			"image": "images/macpluschs.png",
+			"emularity": "pce-macplus"
+		},
+		{
+			"id": "maciici",
+			"name": "Macintosh IIci",
+			"appname": "",
+			"year": 1989,
+			"url": "emularity-machine/maciici.json",
+			"image": "images/maciici.jpg",
+			"emularity": "mame-maciici"
+		},
+		{
+			"id": "em-fceux",
+			"name": "红白机和独立游戏",
+			"appname": "",
+			"year": 1983,
+			"url": "http://dnbwg.cdn.bcebos.com/em-fceux/index.html",
+			"image": "images/nesjs.jpg"
+		},
+		{
+			"id": "ucdos",
+			"name": "DOS软件：UCDOS 7.0",
+			"appname": "",
+			"year": 1997,
+			"url": "emularity-machine/ucdos.json",
+			"image": "images/ucdos.jpg",
+			"emularity": "dosbox"
+		},
+		{
+			"id": "netscape",
+			"name": "网景浏览器 4.08 (Win95)",
+			"appname": "",
+			"year": 1998,
+			"directurl": "standalone/win95.html",
+			"image": "images/netscape.jpg"
+		},
+		{
+			"id": "xianjianpal",
+			"name": "DOS游戏：仙剑奇侠传",
+			"appname": "",
+			"year": 1995,
+			"url": "emularity-machine/xianjianpal.json",
+			"image": "images/xianjianpal.jpg",
+			"emularity": "dosbox"
+		},
+		{
+			"id": "jinyong",
+			"name": "DOS游戏：金庸群侠传",
+			"appname": "",
+			"year": 1996,
+			"url": "emularity-machine/jinyong.json",
+			"image": "images/jinyong.jpg",
+			"emularity": "dosbox"
+		},
+		{
+			"id": "doom",
+			"name": "DOS游戏：DOOM",
+			"appname": "",
+			"year": 1993,
+			"url": "emularity-machine/doom.json",
+			"image": "images/doom.jpg",
+			"emularity": "dosbox"
+		},
+		{
+			"id": "dukenukem",
+			"name": "DOS游戏：毁灭公爵",
+			"appname": "",
+			"year": 1991,
+			"url": "emularity-machine/dukenukem.json",
+			"image": "images/dukenukem.jpg",
+			"emularity": "dosbox"
+		},
+		{
+			"id": "crazysue",
+			"name": "Amiga游戏：Crazy Sue",
+			"appname": "",
+			"year": 1990,
+			"url": "emularity-machine/crazysue.json",
+			"image": "images/crazysue.jpg",
+			"emularity": "sae-a500-aros"
+		},
+		{
+			"id": "executor",
+			"name": "DOS版Mac模拟器Executor",
+			"appname": "",
+			"year": 1990,
+			"url": "emularity-machine/executor.json",
+			"image": "images/executor.jpg",
+			"emularity": "dosbox"
+		},
+		{
+			"id": "ppersia",
+			"name": "DOS游戏：波斯王子",
+			"appname": "",
+			"year": 1990,
+			"url": "emularity-machine/ppersia.json",
+			"image": "images/ppersia.jpg",
+			"emularity": "dosbox"
+		}
+	]
 }

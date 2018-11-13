@@ -7,5 +7,6 @@
             "source": "http://dnbwg.cdn.bcebos.com/emdosbox/executor.zip"
         }
     ],
-    "startExe": "executor.exe"
+    "startExe": "executor.exe",
+    "introduction": "document/executor.md"
 }

@@ -14,5 +14,6 @@
         "300",
         "-flop1",
         "/emulator/disks/Speedball2.adf"
-    ]
+    ],
+    "introduction": "document/aa310.md"
 }

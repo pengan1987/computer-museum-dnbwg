@@ -7,5 +7,6 @@
             "source": "http://dnbwg.cdn.bcebos.com/emdosbox/dukenukem.zip"
         }
     ],
-    "startExe": "dn1.exe"
+    "startExe": "dn1.exe",
+    "introduction": "document/doom.md"
 }

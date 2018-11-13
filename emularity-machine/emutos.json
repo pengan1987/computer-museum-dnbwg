@@ -8,5 +8,6 @@
         }
     ],
     "startExe": null,
-    "peripherals": []
+    "peripherals": [],
+    "introduction": "document/emutos.md"
 }

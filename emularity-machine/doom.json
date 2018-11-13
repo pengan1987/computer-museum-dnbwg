@@ -7,5 +7,6 @@
             "source": "http://dnbwg.cdn.bcebos.com/emdosbox/DoomV19-1995.zip"
         }
     ],
-    "startExe": "doom.exe"
+    "startExe": "doom.exe",
+    "introduction": "document/doom.md"
 }

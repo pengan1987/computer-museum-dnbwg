@@ -1,6 +1,25 @@
 ﻿{
-	"machines": [{
-			"id": "netscape",
+	"machines": [
+		{
+			"id": "hp200lx",
+			"name": "HP 200LX",
+			"appname": "",
+			"year": 1997,
+			"url": "emularity-machine/hp200lx.json",
+			"image": "images/hp200lx.jpg",
+			"emularity": "dosbox"
+		},
+		{
+			"id": "palmiii",
+			"name": "Palm III (Palm OS 3.0)",
+			"appname": "",
+			"year": 1998,
+			"url": "emularity-machine/palmiii.json",
+			"image": "images/palmiii.jpg",
+			"emularity": "mame-palmiii"
+		},
+		{
+			"id": "wince400",
 			"name": "Windows CE.net 4.0",
 			"appname": "",
 			"year": 2002,

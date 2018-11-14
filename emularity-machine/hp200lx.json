@@ -1,0 +1,11 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Disk Image",
+            "source": "http://dnbwg.cdn.bcebos.com/emdosbox/CPACK200.zip"
+        }
+    ],
+    "startExe": "app200.bat"
+}

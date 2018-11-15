@@ -4,7 +4,10 @@
   <title>网页里的电脑博物馆</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css">
   <link rel="stylesheet" href="base.css" />
+  <script src="https://cdn.jsdelivr.net/npm/showdown@1.8.7/dist/showdown.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.css">
   <script src="baidu-stat.js"></script>
   <script src="player.js"></script>
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
@@ -28,12 +31,18 @@
       <li>
         <a id="standalone-tab" href="#" target="_blank">新标签中运行</a>
       </li>
+      <li>
+        <a id="showIntro" href="#">显示简介</a>
+      </li>
     </ul>
   </nav>
+  <div id="player-intro" title="简介">
+  </div>
   <iframe id="emuframe"></iframe>
   <div style="display: none;">
     <img src="title.png">
   </div>
+
 </body>
 
 </html>

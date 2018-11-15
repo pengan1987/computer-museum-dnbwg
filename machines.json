@@ -1,6 +1,15 @@
 ﻿{
 	"machines": [
 		{
+			"id": "pdp11",
+			"name": "Digital PDP-11/70",
+			"appname": "",
+			"year": 1975,
+			"url": "http://dnbwg2.cdn.bcebos.com/pdp-11/index.html",
+			"image": "images/pdp11.jpg",
+			"introduction":"document/pdp11.md"
+		},
+		{
 			"id": "hp200lx",
 			"name": "HP 200LX",
 			"appname": "",

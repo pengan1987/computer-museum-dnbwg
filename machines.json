@@ -1,6 +1,15 @@
 ﻿{
 	"machines": [
 		{
+			"id": "geos",
+			"name": "PC/GEOS",
+			"appname": "",
+			"year": 1990,
+			"url": "emularity-machine/geos.json",
+			"image": "images/geos.jpg",
+			"emularity": "dosbox"
+		},
+		{
 			"id": "pdp11",
 			"name": "Digital PDP-11/70",
 			"appname": "",

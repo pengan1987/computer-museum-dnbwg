@@ -1,0 +1,11 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Disk",
+            "source": "http://dnbwg.cdn.bcebos.com/emdosbox/geos.zip"
+        }
+    ],
+    "startExe": "geos.bat"
+}

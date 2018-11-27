@@ -8,7 +8,7 @@ function getUrlVars() {
 
 function processJson(data) {
     var machineList = data.machines;
-    var machineid = getUrlVars()["machine"].replace('#','');
+    var machineid = getUrlVars()["machine"].replace('#', '');
     var playerFrame = document.getElementById("emuframe");
     playerFrame.onload = function () {
         playerFrame.contentWindow.focus();
@@ -46,7 +46,7 @@ function matchFrameHeight() {
 }
 
 $(document).ready(function () {
-    console.log("ready!");
+    $.ajaxSetup({ cache: false });
     $.getJSON("machines.json", processJson);
     matchFrameHeight();
     $("#showIntro").click(function () {

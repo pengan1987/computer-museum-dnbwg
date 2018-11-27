@@ -23,6 +23,7 @@ function processJson(data) {
 }
 
 $(document).ready(function () {
+    $.ajaxSetup({ cache: false});
     $.getJSON("machines.json", processJson);
 });
 

@@ -302,7 +302,7 @@ function newDataLoaded() {
 }
 
 $(document).ready(function () {
-    console.log("ready!");
+    $.ajaxSetup({ cache: false });
 
     var machineParam = getUrlVars()["machine"];
     var emularityParam = getUrlVars()["emularity"];

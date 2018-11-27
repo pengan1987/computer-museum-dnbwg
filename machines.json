@@ -1,6 +1,14 @@
 ﻿{
 	"machines": [
 		{
+			"id": "sharp-pc1500",
+			"name": "SHARP PC-1500",
+			"appname": "",
+			"year": 1981,
+			"directurl": "standalone/sharp-pc1500.html",
+			"image": "images/sharp-pc1500.jpg"
+		},
+		{
 			"id": "zx81",
 			"name": "Sinclair ZX81",
 			"appname": "",

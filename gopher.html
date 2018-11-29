@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <title>SAE Gopher代理服务</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css" />
+  <link rel="stylesheet" href="https://dnbwg.oss-cn-hongkong.aliyuncs.com/base.css" />
+  <meta charset="UTF-8" />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <style type="text/css">
+    body {
+      background-color: #f5f5dc;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    #mainContent p {
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav style="position: relative; z-index: 2; width:100%">
+    <ul>
+      <li>
+        <a href="index.html">目录</a>
+      </li>
+      <li>
+        <a href="http://www.famicn.com">游戏学习机</a>
+      </li>
+      <li>
+        <a href="https://zhuanlan.zhihu.com/retrocomputing">知乎专栏</a>
+      </li>
+      <li>
+        <a href="https://github.com/pengan1987/computer-museum-dnbwg">Github</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="mainContent">
+    <p>这是由电脑博物馆 DNBWG.com提供的网页版Gopher浏览服务器，架设在新浪SAE上</p>
+    <p>如果您的浏览器不能自动跳转，请点击<a href="http://gopher.applinzi.com">Gopher</a>
+    </p>
+    <p>由于微信会限制直接打开新浪SAE页面，请使用右上角菜单[...]在浏览器中打开此页面</p>
+  </div>
+</body>
+<script>
+  var isWeixin = function () {
+    var ua = navigator.userAgent.toLowerCase();
+    return ua.match(/MicroMessenger/i) == "micromessenger";
+  };
+
+  window.onload = function () {
+    if (!isWeixin()) {
+      window.location = "http://gopher.applinzi.com";
+    }
+  };
+</script>
+
+</html>

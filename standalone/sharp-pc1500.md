@@ -23,3 +23,5 @@
 \[RCL\]: Rcl键
 
 \[<=\], \[=>\], \[^\], \[v\]: 方向键
+
+更多使用指南，请查看PDF版 [使用手册](http://dnbwg2.cdn.bcebos.com/sharp-pc1500/PC-1500_CN_Insruction_manual.pdf)

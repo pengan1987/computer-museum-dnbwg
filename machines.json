@@ -1,6 +1,15 @@
 ﻿{
 	"machines": [
 		{
+			"id": "jingwei-vlist",
+			"name": "经纬病毒百科全书",
+			"appname": "",
+			"year": 1998,
+			"url": "emularity-machine/jingwei-vlist.json",
+			"image": "images/jingwei-vlist.jpg",
+			"emularity": "dosbox"
+		},
+		{
 			"id": "sharp-pc1500",
 			"name": "SHARP PC-1500",
 			"appname": "",

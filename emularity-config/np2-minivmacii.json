@@ -1,0 +1,15 @@
+{
+    "emulatorWASM": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/minivmac/minivmacII.wasm",
+    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/minivmac/minivmacII.js",
+    "nativeResolution": {
+        "width": 640,
+        "height": 480
+    },
+    "mountZip": [
+        {
+            "targetPath": "minivmac",
+            "title": "BIOS",
+            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/minivmac/macii.zip"
+        }
+    ]
+}

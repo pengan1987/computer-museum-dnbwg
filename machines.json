@@ -1,6 +1,24 @@
 ﻿{
 	"machines": [
 		{
+			"id": "maciichs",
+			"name": "Macintosh II （中文7.1系统）",
+			"appname": "",
+			"year": 1993,
+			"url": "emularity-machine/maciichs.json",
+			"image": "images/maciichs.jpg",
+			"emularity": "np2-minivmacii"
+		},
+		{
+			"id": "macii",
+			"name": "Macintosh II",
+			"appname": "",
+			"year": 1987,
+			"url": "emularity-machine/macii.json",
+			"image": "images/macii.jpg",
+			"emularity": "np2-minivmacii"
+		},
+		{
 			"id": "jingwei-vlist",
 			"name": "经纬病毒百科全书",
 			"appname": "",
@@ -164,15 +182,6 @@
 			"url": "emularity-machine/wps97.json",
 			"image": "images/wps97.jpg",
 			"emularity": "dosbox"
-		},
-		{
-			"id": "maciicichs",
-			"name": "Macintosh IIci （中文7.11系统）",
-			"appname": "",
-			"year": 1989,
-			"url": "emularity-machine/maciicichs.json",
-			"image": "images/maciicichs.jpg",
-			"emularity": "mame-maciici"
 		},
 		{
 			"id": "ti99-4a",
@@ -350,15 +359,6 @@
 			"url": "emularity-machine/macpluschs.json",
 			"image": "images/macpluschs.png",
 			"emularity": "pce-macplus"
-		},
-		{
-			"id": "maciici",
-			"name": "Macintosh IIci",
-			"appname": "",
-			"year": 1989,
-			"url": "emularity-machine/maciici.json",
-			"image": "images/maciici.jpg",
-			"emularity": "mame-maciici"
 		},
 		{
 			"id": "em-fceux",

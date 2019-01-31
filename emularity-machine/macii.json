@@ -1,0 +1,14 @@
+{
+    "zips": [
+        {
+            "targetPath": "disks",
+            "title": "HardDisk",
+            "source": "http://dnbwg2.cdn.bcebos.com/minivmacii/macii.zip"
+        }
+    ],
+    "startExe": null,
+    "peripherals": [
+     
+    ],
+    "extraArgs": ["/emulator/disks/macii.dsk"]
+}

@@ -10,12 +10,6 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
 
   <script src="../baidu-stat.js"></script>
-  <style>
-    #display_canvas{
-    margin-left: auto;
-    margin-right: auto;
-  }
-  </style>
 
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
 </head>
@@ -35,27 +29,30 @@
       <li>
         <a href="https://github.com/pengan1987/computer-museum-dnbwg">Github</a>
       </li>
-      <li>
-        <a href="labs.html">实验室</a>
-      </li>
     </ul>
   </nav>
-  <div id="main-wrapper" style="text-align: center; margin: 20px auto 0;">
-    <div id="status-display">
-      <p id="loading_status"></p>
-    </div>
-    <div id="screen_container">
-
-      <div id="console" style="white-space: pre; font: 14px monospace; line-height: 14px"></div>
-      <canvas id="display_canvas" style="display: none;"></canvas>
-    </div>
-    <button id="start_emulation" style="display: none">
+  <div id="javatari" style="text-align: center; margin: 20px auto 0; padding: 0 10px;">
+    <div id="fTelnetContainer" class="fTelnetContainer"></div>
   </div>
   <div id="introduction" class="markdown-body"></div>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/browserfs@1.4.3/dist/browserfs.min.js"></script>
-  <script src="http://dnbwg.cdn.bcebos.com/v86/v86_all.js"></script>
-  <script src="v86.js"></script>
-
+<script>document.write('<script src="//embed-v2.ftelnet.ca/js/ftelnet-loader.norip.noxfer.js?v=' + (new Date()).getTime() + '"><\/script>');</script>
+<script>
+    var Options = new fTelnetOptions();
+    Options.BareLFtoCRLF = false;
+    Options.BitsPerSecond = 57600;
+    Options.ConnectionType = 'telnet';
+    Options.Emulation = 'ansi-bbs';
+    Options.Enter = '\r';
+    Options.Font = 'CP437';
+    Options.ForceWss = false;
+    Options.Hostname = 'telehack.dnbwg.com';
+    Options.LocalEcho = false;
+    Options.Port = 2233;
+    Options.ScreenColumns = 80;
+    Options.ScreenRows = 25;
+    var fTelnet = new fTelnetClient('fTelnetContainer', Options);
+    fTelnet.Connect();
+</script>
 </body>
 
 </html>

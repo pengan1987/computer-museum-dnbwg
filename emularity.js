@@ -259,6 +259,10 @@ function buildFileLoadParameters(someLoader) {
 
 function processMachineConfig(machine) {
     var emularityConfigURL = "emularity-config/" + machine.emularity + ".json";
+    if (machine.emularity.indexOf("dosbox-websocket") === 0) {
+        setupJoystick();
+    }
+
     if (machine.emularity.indexOf("dosbox") === 0) {
         emuRunner = runDoxbox;
     }
@@ -310,7 +314,7 @@ $(document).ready(function () {
 
     if (machineParam && machineParam.length > 0) {
         $.getJSON("machines.json", processMachineJson);
-    } else if (machineParam && machineUrlParam.length > 0) {
+    } else if (emularityParam && machineUrlParam.length > 0) {
         machineId = emularityParam + "-" + machineUrlParam.replace(/[.:#\/\\]/g, '-');
         var dummyMachineConfig = {
             "machineId": machineId,
@@ -355,10 +359,23 @@ function showIntroduction() {
         introUrl = machineConfig.introduction;
     }
     var showdownConv = new showdown.Converter();
+    showdownConv.setOption('tables',true);
     $.get(introUrl,
         function (data) {
             var htmlContent = showdownConv.makeHtml(data);
             $("#introduction").html(htmlContent);
         }
     );
+}
+
+function setupJoystick() {
+    navigator.getGamepads_ = navigator.getGamepads;
+    navigator.getGamepads = function () {
+        var gamepadlist = navigator.getGamepads_();
+        var pads = [];
+        for (var i = 0; i < gamepadlist.length; i++) {
+            pads[i] = (gamepadlist[i] !== null ? gamepadlist[i] : undefined);
+        }
+        return pads;
+    }
 }

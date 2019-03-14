@@ -1,0 +1,12 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Disk Image",
+            "source": "https://dnbwg.cdn.bcebos.com/emdosbox/telix-smth.zip"
+        }
+    ],
+    "startExe": "mount10m.bat",
+    "introduction":"document/smth.md"
+}

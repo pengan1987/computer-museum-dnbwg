@@ -1,6 +1,15 @@
 ﻿{
 	"machines": [
 		{
+			"id": "zgcqsl",
+			"name": "中关村启示录",
+			"appname": "",
+			"year": 1996,
+			"url": "emularity-machine/zgcqsl.json",
+			"image": "images/zgcqsl.jpg",
+			"emularity": "dosbox"
+		},
+		{
 			"id": "maciichs",
 			"name": "Macintosh II （中文7.1系统）",
 			"appname": "",

@@ -1,0 +1,11 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Game",
+            "source": "http://dnbwg.cdn.bcebos.com/emdosbox/psion3a.zip"
+        }
+    ],
+    "startExe": "starts3a.bat"
+}

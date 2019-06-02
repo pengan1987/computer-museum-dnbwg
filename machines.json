@@ -1,6 +1,15 @@
 ﻿{
 	"machines": [
 		{
+			"id": "psion3a",
+			"name": "Psion Series 3a",
+			"appname": "",
+			"year": 1993,
+			"url": "emularity-machine/psion3a.json",
+			"image": "images/psion3a.jpg",
+			"emularity": "dosbox"
+		},
+		{
 			"id": "zgcqsl",
 			"name": "中关村启示录",
 			"appname": "",

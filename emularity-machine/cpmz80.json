@@ -1,0 +1,12 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Disk Image",
+            "source": "http://dnbwg.cdn.bcebos.com/emdosbox/myz80.zip"
+        }
+    ],
+    "startExe": "myz80.bat",
+    "introduction": "document/cpmz80.md"
+}

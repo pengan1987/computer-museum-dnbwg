@@ -1,6 +1,15 @@
 ﻿{
 	"machines": [
 		{
+			"id": "cpmz80",
+			"name": "CP/M Z80 (MYZ80)",
+			"appname": "",
+			"year": 1991,
+			"url": "emularity-machine/cpmz80.json",
+			"image": "images/cpmz80.jpg",
+			"emularity": "dosbox"
+		},
+		{
 			"id": "psion3a",
 			"name": "Psion Series 3a",
 			"appname": "",

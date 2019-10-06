@@ -1,0 +1,42 @@
+@font-face {
+	font-family: stdCeefaxFont;
+	src: url('assets/fonts/ceefax.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: stdTeletextFont;
+	src: url('assets/fonts/teletext.otf') format("opentype");
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+canvas {
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+
+#title {
+	margin-top: 50px;
+	font-size: 4em;
+	font-family: stdTeletextFont;
+	color: #FFF;
+}
+
+#subtitle {
+	margin-bottom: 50px;
+	font-size: 1.2em;
+	font-family: stdTeletextFont;
+	color: #FFF;
+}
+
+.text {
+	font-size: 1.0em;
+	font-family: stdTeletextFont;
+	color: #FFF;
+}

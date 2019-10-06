@@ -1,0 +1,69 @@
+﻿<html>
+
+<head>
+  <title>网页里的电脑博物馆</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@2.10.0/github-markdown.css">
+  <link rel="stylesheet" href="../../base.css" />
+  <link rel="stylesheet" href="../../emularity.css" />
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://cdn.jsdelivr.net/npm/showdown@1.8.7/dist/showdown.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+  <script src="../../baidu-stat.js"></script>
+  <script src="ceefax.js"></script>
+
+
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+</head>
+
+<body>
+  <nav id="mainnav" style="position: relative; z-index: 2;">
+    <ul>
+      <li>
+        <a href="../../index.html">目录</a>
+      </li>
+      <li>
+        <a href="http://www.famicn.com">游戏学习机</a>
+      </li>
+      <li>
+        <a href="https://zhuanlan.zhihu.com/retrocomputing">知乎专栏</a>
+      </li>
+      <li>
+        <a href="https://github.com/pengan1987/computer-museum-dnbwg">Github</a>
+      </li>
+      <li>
+        <a href="../../labs.html">实验室</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="javatari" style="text-align: center; margin: 20px auto 0; padding: 0 10px;">
+    <canvas id="myCanvas" width="640" height="480"> <p>Come back when you've got a HTML5 enabled browser, buddy!</p> </canvas>
+
+  </div>
+  <div id="introduction" class="markdown-body">
+    Ceefax是英国广播公司BBC开发的图文电视（Teletext）系统，这里运行的是网页版模拟器ceefax.js<br>
+    为方便中国读者，数据来自于中国日报（China Daily）的RSS新闻源<br/>
+    输入文章编号 100~109 可以快速跳转到不同新闻<br />
+    Github: <a href="https://github.com/MattRyder/ceefax.js">https://github.com/MattRyder/ceefax.js</a>
+  </div>
+<script>
+ 
+  $.getJSON('https://api.rss2json.com/v1/api.json?rss_url=http://www.chinadaily.com.cn/rss/china_rss.xml', function(data){
+    betasignal_clusters(data.items);
+  });
+
+
+  var betasignal_clusters = function( jsonData ) {
+    $.each(jsonData, function(i, article) {
+      Ceefax.Pages.push(new CeefaxPage(i+100, article.categories[0], article.title, article.content));
+    });
+  }
+
+ 
+
+  Ceefax.run("myCanvas", 1000/30, 100);
+</script>
+</body>
+
+</html>

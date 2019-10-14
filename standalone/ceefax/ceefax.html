@@ -44,19 +44,19 @@
   <div id="introduction" class="markdown-body">
     Ceefax是英国广播公司BBC开发的图文电视（Teletext）系统，这里运行的是网页版模拟器ceefax.js<br>
     为方便中国读者，数据来自于中国日报（China Daily）的RSS新闻源<br/>
-    输入文章编号 100~109 可以快速跳转到不同新闻<br />
+    输入文章编号 100~150 可以快速跳转到不同新闻<br />
     Github: <a href="https://github.com/MattRyder/ceefax.js">https://github.com/MattRyder/ceefax.js</a>
   </div>
 <script>
  
-  $.getJSON('https://api.rss2json.com/v1/api.json?rss_url=http://www.chinadaily.com.cn/rss/china_rss.xml', function(data){
+  $.getJSON('http://andyzhk.azurewebsites.net/rss/index.php', function(data){
     betasignal_clusters(data.items);
   });
 
 
   var betasignal_clusters = function( jsonData ) {
     $.each(jsonData, function(i, article) {
-      Ceefax.Pages.push(new CeefaxPage(i+100, article.categories[0], article.title, article.content));
+      Ceefax.Pages.push(new CeefaxPage(i+100, article.category, article.title, article.content_text));
     });
   }
 

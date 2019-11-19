@@ -4,7 +4,7 @@
 
 特别值得一提的是中华学习机的模拟器的开发过程，早在2011年，国内的开发者zzemu就已经在MESS的基础上开发出CEC-I的模拟器，不过由于种种原因，这段代码始终没有被合并到MESS的主代码库中，直到2017年夏天，美国历史学家Jason Scott将大量关于CEC-I的资料上传到互联网档案馆，MAME的维护者之一R. Belmont（rb6502）才开始尝试将CEC-I模拟器加入到MAME当中。
 
-互联网档案馆的CEC-I资料 https://archive.org/details/Apple_II_Chinese_Materials_Collection
+互联网档案馆的CEC-I资料 [https://archive.org/details/Apple_II_Chinese_Materials_Collection](https://archive.org/details/Apple_II_Chinese_Materials_Collection)
 
 R. Belmont的blog里记录了开始开发CEC-I的情形 Arbee's WIP Emporium " 跟猴子比丟屎
 
@@ -18,4 +18,4 @@ CEC-I模拟器的故事从某种程度上反映了国内古董电脑社区较为
 
 使用F7/F8切换中英文，F1~F3切换输入法
 
-中华学习机使用手册，网友himskleung扫描 http://jsemu.oss-cn-shanghai.aliyuncs.com/mame/CEC_I_Users_manual.pdf
+中华学习机使用手册，网友himskleung扫描 [http://jsemu.oss-cn-shanghai.aliyuncs.com/mame/CEC_I_Users_manual.pdf](http://jsemu.oss-cn-shanghai.aliyuncs.com/mame/CEC_I_Users_manual.pdf)

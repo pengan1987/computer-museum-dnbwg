@@ -1,6 +1,14 @@
 ﻿{
 	"machines": [
 		{
+			"id": "cpc464",
+			"name": "Amstrad CPC 464",
+			"appname": "",
+			"year": 1984,
+			"directurl": "tinyemu.html?type=cpc464",
+			"image": "images/cpc464.jpg"
+		},
+		{
 			"id": "cpmz80",
 			"name": "CP/M Z80 (MYZ80)",
 			"appname": "",

@@ -1,0 +1,60 @@
+﻿<html>
+
+<head>
+  <title>网页里的电脑博物馆</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@2.10.0/github-markdown.css">
+  <link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="emularity.css" />
+  <script src="https://cdn.jsdelivr.net/npm/showdown@1.8.7/dist/showdown.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/es6-promise@2.0.0/dist/es6-promise.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/browserfs@1.2.1/dist/browserfs.min.js"></script>
+  <script src="http://dnbwg.cdn.bcebos.com/emularity-common/loader.js"></script>
+  <!-- <script src="experiment/loader.js"></script> -->
+  <script src="baidu-stat.js"></script>
+  <style>
+    #canvas {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+  </style>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+</head>
+
+<body>
+  <nav id="mainnav" style="position: relative; z-index: 2;">
+    <ul>
+      <li>
+        <a href="/index.html">目录</a>
+      </li>
+      <li>
+        <a href="http://www.famicn.com">游戏学习机</a>
+      </li>
+      <li>
+        <a href="https://zhuanlan.zhihu.com/retrocomputing">知乎专栏</a>
+      </li>
+      <li>
+        <a href="https://github.com/pengan1987/computer-museum-dnbwg">Github</a>
+      </li>
+      <li>
+        <a href="labs.html">实验室</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="main-wrapper">
+    <input type="password" id="mobile-keyboard-helper">
+    <div id="emulator-container">
+      <canvas class="game" id="canvas" oncontextmenu="event.preventDefault()" width="640" height="480"></canvas>
+    </div>
+  </div>
+  <div style="display: none;">
+    <img src="title.png">
+  </div>
+
+  <div id="introduction" class="markdown-body"></div>
+  <script src="tinyemu.js"></script>
+</body>
+
+</html>

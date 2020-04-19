@@ -1,6 +1,14 @@
 ﻿{
 	"machines": [
 		{
+			"id": "wince300",
+			"name": "Windows CE 3.0",
+			"appname": "",
+			"year": 2000,
+			"directurl": "v86.html?machine=wince300",
+			"image": "images/workpadz50.jpg"
+		},
+		{
 			"id": "cpc464",
 			"name": "Amstrad CPC 464",
 			"appname": "",

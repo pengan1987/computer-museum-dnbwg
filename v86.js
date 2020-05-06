@@ -85,12 +85,13 @@ function loadv86(diskBuffer) {
 function showIntro() {
     var showdownConv = new showdown.Converter();
     var introUrl = config["document"];
-    if (introUrl)
-        $.get(introUrl,
-            function (data) {
-                var htmlContent = showdownConv.makeHtml(data);
-                $("#introduction").html(htmlContent);
-            });
+    if (!introUrl)
+        introUrl = "document/pending.md";
+    $.get(introUrl,
+        function (data) {
+            var htmlContent = showdownConv.makeHtml(data);
+            $("#introduction").html(htmlContent);
+        });
 }
 
 $(document).ready(function () {

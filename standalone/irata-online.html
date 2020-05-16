@@ -1,0 +1,106 @@
+﻿<html>
+
+<head>
+  <title>网页里的电脑博物馆</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@2.10.0/github-markdown.css">
+  <link rel="stylesheet" href="../base.css" />
+  <link rel="stylesheet" href="../emularity.css" />
+  <script src="https://cdn.jsdelivr.net/npm/showdown@1.8.7/dist/showdown.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <script src="../baidu-stat.js"></script>
+  <style>
+    .game {
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      width: 512px;
+      height: 512px;
+
+      display: block;
+
+    }
+  </style>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+</head>
+
+<body>
+  <nav id="mainnav" style="position: relative; z-index: 2;">
+    <ul>
+      <li>
+        <a href="../index.html">目录</a>
+      </li>
+      <li>
+        <a href="http://www.famicn.com">游戏学习机</a>
+      </li>
+      <li>
+        <a href="https://zhuanlan.zhihu.com/retrocomputing">知乎专栏</a>
+      </li>
+      <li>
+        <a href="https://github.com/pengan1987/computer-museum-dnbwg">Github</a>
+      </li>
+      <li>
+        <a href="../labs.html">实验室</a>
+      </li>
+      <li>
+        <a href="../linux.html">Linux</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="javatari" style="text-align: center; margin: 20px auto 0; padding: 0 10px;">
+    <canvas class="game" id="canvas"></canvas>
+  </div>
+  <div id="introduction" class="markdown-body"></div>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var showdownConv = new showdown.Converter();
+      showdownConv.setOption('tables', true);
+      var introUrl = "irata-online.md";
+      $.get(introUrl,
+        function (data) {
+          var htmlContent = showdownConv.makeHtml(data);
+          $("#introduction").html(htmlContent);
+        });
+    });
+
+    function inhibitBrowserKeys(event) {
+      if (event.ctrlKey && ((event.keyCode > 0x40) && (event.keyCode < 0x5B))) {
+        event.preventDefault();
+      }
+    }
+
+    window.addEventListener("keydown", inhibitBrowserKeys, false);
+
+    var Module = {
+      preRun: [],
+      postRun: [],
+      print: (function () {
+        return function (text) {
+          text = Array.prototype.slice.call(arguments).join(' ');
+          console.log(text);
+        };
+      })(),
+      printErr: function (text) {
+        text = Array.prototype.slice.call(arguments).join(' ');
+        console.error(text);
+      },
+      canvas: (function () {
+        var canvas = document.getElementById('canvas');
+        //canvas.addEventListener("webglcontextlost", function(e) { alert('FIXME: WebGL context lost, please reload the page'); e.preventDefault(); }, false);
+        return canvas;
+      })(),
+      setStatus: function (text) {
+        console.log("status: " + text);
+      },
+      monitorRunDependencies: function (left) {
+        console.log("monitor run deps: " + left);
+      }
+    };
+    window.onerror = function () {
+      console.log("onerror: " + event.message);
+    };
+  </script>
+  <script async="" src="http://dnbwg2.cdn.bcebos.com/platotermjs/plato-dnbwg.js"></script>
+</body>
+
+</html>

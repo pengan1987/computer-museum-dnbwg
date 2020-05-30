@@ -1,0 +1,12 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Disk Image",
+            "source": "http://dnbwg.cdn.bcebos.com/emdosbox/cfido.zip"
+        }
+    ],
+    "startExe": "gold.bat",
+    "introduction": "document/golded-cfido.md"
+}

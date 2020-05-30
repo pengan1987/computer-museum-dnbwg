@@ -1,6 +1,15 @@
 ﻿{
 	"machines": [
 		{
+			"id": "golded-cfido",
+			"name": "GoldED浏览CFido",
+			"appname": "",
+			"year": 1998,
+			"url": "emularity-machine/golded-cfido.json",
+			"image": "images/golded-cfido.png",
+			"emularity": "dosbox"
+		},
+		{
 			"id": "wince300",
 			"name": "Windows CE 3.0",
 			"appname": "",

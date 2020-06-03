@@ -1,0 +1,16 @@
+{
+    "emulatorWASM": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mameapple2p_wasm.wasm",
+    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mameapple2p_wasm.js",
+    "nativeResolution": {
+        "height": 384,
+        "width": 560
+    },
+    "driverName": "apple2p",
+    "mountFile": [
+        {
+            "targetPath": "apple2p.zip",
+            "title": "BIOS",
+            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/bios/apple2p.zip"
+        }
+    ]
+}

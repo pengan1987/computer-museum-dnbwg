@@ -1,0 +1,18 @@
+{
+    "files": [
+        {
+            "targetPath": "congwawazuoqi.dsk",
+            "title": "Floppy Disk",
+            "source": "http://dnbwg2.cdn.bcebos.com/mame-ceci/congwawazuoqi.dsk"
+        }
+    ],
+    "zips": [],
+    "startExe": null,
+    "peripherals": [
+        {
+            "name": "flop1",
+            "value": "congwawazuoqi.dsk"
+        }
+    ],
+    "introduction": "document/apple2p.md"
+}

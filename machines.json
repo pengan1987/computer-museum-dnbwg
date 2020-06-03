@@ -1,6 +1,15 @@
 ﻿{
 	"machines": [
 		{
+			"id": "apple2p",
+			"name": "Apple II Plus “从娃娃做起”",
+			"appname": "",
+			"year": 1984,
+			"url": "emularity-machine/apple2p.json",
+			"image": "images/apple2p.jpg",
+			"emularity": "mame-apple2p"
+		},
+		{
 			"id": "golded-cfido",
 			"name": "GoldED浏览CFido",
 			"appname": "",

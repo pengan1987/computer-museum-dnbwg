@@ -1,0 +1,12 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Disk Image",
+            "source": "https://dnbwg.cdn.bcebos.com/emdosbox/ihwspace.zip"
+        }
+    ],
+    "startExe": "autoexec.bat",
+    "introduction":"document/ihwspace.md"
+}

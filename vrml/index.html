@@ -1,15 +1,15 @@
 ﻿<html>
 
 <head>
-  <title>网页里的电脑博物馆</title>
+  <title>3D之舞：90年代的三维网页</title>
   <meta name="description" content="云端的计算机博物馆，在网页模拟器中重现电脑发展史">
   <meta name="keywords" content="电脑, 计算机, 博物馆, 网页, 浏览器, 模拟器, 游戏, 历史">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-css-only@4.1.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="../base.css" />
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-  <script src="baidu-stat.js"></script>
-
+  <script src="../baidu-stat.js"></script>
+  <script src="index.js"></script>
   <meta charset="UTF-8">
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
 </head>
@@ -30,48 +30,32 @@
         <a href="https://github.com/pengan1987/computer-museum-dnbwg">Github</a>
       </li>
       <li>
-        <a href="labs.html">实验室</a>
+        <a href="../labs.html">实验室</a>
       </li>
       <li>
-        <a href="special.html">专题展览</a>
+        <a href="../special.html">专题展览</a>
       </li>
     </ul>
   </nav>
   <div class="feature-wrapper  pt-5 pb-5 mt-0 mt-lg-0">
     <div class="container">
+      <h2 style="margin-bottom: 16px;">3D之舞：90年代的网页VR</h2>
       <div class="row" id="machine-list">
-        <div id="base-cell" class="col-sm-12 col-md-12">
-          <h2>千禧年的中文Linux - 重置服务</h2>
-          <p>
-            如果您发现我们展览中的虚拟机运行不正常，可以在这里尝试重置它们，所有的修改将会丢失，机器会被重置到馆长配置的初始状态。
-          </p>
-          <p>
-            红旗Linux 2.0 - 机器名“red”<br />
-            蓝点Linux 2.0 - 机器名“blue”<br />
-            幸福Linux 1.0 - 机器名“happy”<br />
-            Xteam Linux 1.0 - 机器名“xteam”<br />
-            Linux中文延伸套件（CLE） 0.9p1 - 机器名“cle”
-          </p>
-          <p>在这里输入您需要重置的机器名称，并点击重置按钮重置虚拟机</p>
-          <input type="text" id="vmname">
-          <button type="button" onclick="resetmachine()">重置</button>
+        <div id="base-cell" class="col-sm-12 col-md-3" style="display:none">
 
+          <figure>
+            <a href="#">
+              <img class="figure-img img-fluid rounded" src="" alt="">
+            </a>
+            <figcaption class="machine-fig">VRML</figcaption>
+          </figure>
         </div>
-
       </div>
     </div>
   </div>
   <div style="display: none;">
-    <img src="title.png">
+    <img src="../title.png">
   </div>
-  <script>
-    function resetmachine() {
-      var machinename = $("#vmname").val();
-      $("#vmname").val('');
-      console.log(machinename);
-      window.open('http://qemu01.dnbwg.com:45000/reset?vmname=' + machinename, '_blank');
-    }
-  </script>
 </body>
 
 </html>

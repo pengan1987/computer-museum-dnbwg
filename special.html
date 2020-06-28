@@ -12,6 +12,11 @@
 
   <meta charset="UTF-8">
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <style>
+    .row {
+      margin-bottom: 8px;
+    }
+  </style>
 </head>
 
 <body>
@@ -39,22 +44,32 @@
   </nav>
   <div class="feature-wrapper  pt-5 pb-5 mt-0 mt-lg-0">
     <div class="container">
-      <div class="row" id="machine-list">
-        <div id="base-cell" class="col-sm-12 col-md-12">
-          <h2>千禧年的中文Linux - 重置服务</h2>
+      <div class="col-12" style="margin-bottom: 16px;">
+        <h2>网页里的电脑博物馆 - 专题展览</h2>
+      </div>
+      <div class="row">
+
+        <a class="col-sm-6 col-md-2" href="vrml/index.html">
+          <img class="col-12" src="logo/vrml.jpg">
+        </a>
+        <div class="col-sm-6 col-md-10">
+
+          <h3><a href="vrml/index.html">3D之舞：90年代的网页VR</a></h3>
           <p>
-            如果您发现我们展览中的虚拟机运行不正常，可以在这里尝试重置它们，所有的修改将会丢失，机器会被重置到馆长配置的初始状态。
+            90年代，人们使用虚拟现实建模语言（Virtual Reality Modeling Language）创建了丰富的在线三维体验。我们会发现，许多看似在最近才出现的虚拟现实体验，在90年代就已经出现并广泛被使用了。
           </p>
+        </div>
+      </div>
+      <div class="row">
+        <a class="col-sm-6 col-md-2" href="vrml/index.html">
+          <img class="col-12" src="logo/chinese-linux-penguin.jpg">
+        </a>
+
+        <div class="col-sm-6 col-md-10">
+          <h3><a href="linux.html">千禧年的中文Linux</a></h3>
           <p>
-            红旗Linux 2.0 - 机器名“red”<br />
-            蓝点Linux 2.0 - 机器名“blue”<br />
-            幸福Linux 1.0 - 机器名“happy”<br />
-            Xteam Linux 1.0 - 机器名“xteam”<br />
-            Linux中文延伸套件（CLE） 0.9p1 - 机器名“cle”
+            2000年左右，中文世界掀起了第一次“国产操作系统”的热潮，许多公司都尝试推出自己本地化的Linux发行版，我收集到了较有影响力的几个发行版，您可以通过虚拟化的远程桌面体验它们。
           </p>
-          <p>在这里输入您需要重置的机器名称，并点击重置按钮重置虚拟机</p>
-          <input type="text" id="vmname">
-          <button type="button" onclick="resetmachine()">重置</button>
 
         </div>
 

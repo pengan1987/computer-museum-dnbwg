@@ -26,12 +26,12 @@ nav ul {
     padding: 0;
 }
 
-li {
+nav li {
     float: left;
     display: block;
 }
 
-li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -41,7 +41,7 @@ li a {
 }
 
 @media (max-width: 600px) {
-    li a {
+    nav li a {
         padding-left: 8px;
         padding-right: 8px;
     }

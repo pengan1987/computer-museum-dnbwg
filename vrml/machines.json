@@ -5,6 +5,7 @@
 			"name": "Grafman的画廊",
 			"year": 1995,
 			"url": "http://dnbwg.cdn.bcebos.com/vrml/gallery/gallery0_v2.wrl",
+			"introduction": "document/gallery0.md",
 			"image": "http://dnbwg.cdn.bcebos.com/vrml/gallery/thumbnail.jpg"
 		},
 		{
@@ -12,6 +13,7 @@
 			"name": "VR之诗（VR Poetry）",
 			"year": 1998,
 			"url": "http://dnbwg.cdn.bcebos.com/vrml/lepercol16/lepercol16.wrl",
+			"introduction": "document/lepervr.md",
 			"image": "http://dnbwg.cdn.bcebos.com/vrml/lepercol16/thumbnail.jpg"
 		},
 		{
@@ -19,28 +21,32 @@
 			"name": "梅尔兹建筑（Merzbau）",
 			"year": 1999,
 			"url": "http://dnbwg.cdn.bcebos.com/vrml/merbazu/merzbau.wrl",
-            "image": "http://dnbwg.cdn.bcebos.com/vrml/merbazu/thumbnail.jpg"
-        },
-        {
+			"introduction": "document/merzbau.md",
+			"image": "http://dnbwg.cdn.bcebos.com/vrml/merbazu/thumbnail.jpg"
+		},
+		{
 			"id": "ort",
 			"name": "爱丽丝漫游VRML世界",
 			"year": 1997,
 			"url": "http://dnbwg.cdn.bcebos.com/vrml/ort/ort.wrl",
-            "image": "http://dnbwg.cdn.bcebos.com/vrml/ort/thumbnail.jpg"
+			"introduction": "document/ort.md",
+			"image": "http://dnbwg.cdn.bcebos.com/vrml/ort/thumbnail.jpg"
 		},
-        {
+		{
 			"id": "pagansound",
 			"name": "异教徒：漂浮世界",
 			"year": 1997,
+			"introduction": "document/pagansound.md",
 			"url": "http://dnbwg.cdn.bcebos.com/vrml/pagansound/paganSound.wrl",
-            "image": "http://dnbwg.cdn.bcebos.com/vrml/pagansound/thumbnail.jpg"
-        },
-        {
+			"image": "http://dnbwg.cdn.bcebos.com/vrml/pagansound/thumbnail.jpg"
+		},
+		{
 			"id": "teaparty",
-			"name": "疯狂的茶会",
+			"name": "发疯的茶会",
 			"year": 2000,
-            "url": "http://dnbwg.cdn.bcebos.com/vrml/teaparty/tearoomREASSEMBLE.wrl",
-            "image": "http://dnbwg.cdn.bcebos.com/vrml/teaparty/thumbnail.jpg"
-        }
+			"introduction": "document/teaparty.md",
+			"url": "http://dnbwg.cdn.bcebos.com/vrml/teaparty/tearoomREASSEMBLE.wrl",
+			"image": "http://dnbwg.cdn.bcebos.com/vrml/teaparty/thumbnail.jpg"
+		}
 	]
 }

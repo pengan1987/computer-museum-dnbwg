@@ -47,6 +47,23 @@
 			"introduction": "document/teaparty.md",
 			"url": "http://dnbwg.cdn.bcebos.com/vrml/teaparty/tearoomREASSEMBLE.wrl",
 			"image": "http://dnbwg.cdn.bcebos.com/vrml/teaparty/thumbnail.jpg"
+		},
+		{
+			"id": "newdrass2",
+			"name": "真相：梳妆台抽屉",
+			"year": 1997,
+			"introduction": "document/newdrass2.md",
+			"url": "http://dnbwg.cdn.bcebos.com/vrml/newdrass2/newdrass2.wrl",
+			"image": "http://dnbwg.cdn.bcebos.com/vrml/newdrass2/thumbnail.jpg"
+		},
+		{
+			"id": "bayly",
+			"name": "维吉尼亚大学Bayly美术馆",
+			"year": 1997,
+			"introduction": "document/bayly.md",
+			"url": "http://dnbwg.cdn.bcebos.com/vrml/bayly/bayly.wrl",
+			"image": "http://dnbwg.cdn.bcebos.com/vrml/bayly/thumbnail.jpg",
+			"hasgravity": true
 		}
 	]
 }

@@ -23,9 +23,8 @@ function processMachineJson(data) {
 function processMachineConfig(machine) {
     console.log(machine);
     var x3dbrowser = X3D.getBrowser("#xiteview");
-    if (x3dbrowser) {
-        x3dbrowser.addBrowserCallback(X3D.X3DConstants.INITIALIZED_EVENT, function (good) {
-            console.log(good);
+    if (!machine.hasgravity && x3dbrowser) {
+        x3dbrowser.addBrowserCallback(X3D.X3DConstants.INITIALIZED_EVENT, function () {
             x3dbrowser.setBrowserOption("Gravity", 0);
         });
     }

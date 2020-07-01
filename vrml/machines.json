@@ -22,7 +22,8 @@
 			"year": 1999,
 			"url": "http://dnbwg.cdn.bcebos.com/vrml/merbazu/merzbau.wrl",
 			"introduction": "document/merzbau.md",
-			"image": "http://dnbwg.cdn.bcebos.com/vrml/merbazu/thumbnail.jpg"
+			"image": "http://dnbwg.cdn.bcebos.com/vrml/merbazu/thumbnail.jpg",
+			"hasgravity": true
 		},
 		{
 			"id": "ort",

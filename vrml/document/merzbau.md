@@ -1,5 +1,5 @@
-# 梅尔兹建筑
-Merzbau是德国艺术家Kurt Schwitters在1923年开始的对在诺威创作的一系列达达主义的房间改造。1999年，匈牙利艺术家Zvonimir Bakotin使用VRML技术重现了这一作品。
+# 梅尔兹堡（Merzbau）
+Merzbau是德国艺术家Kurt Schwitters在1923年开始在汉诺威创作的一系列达达主义的房间改造。1999年，匈牙利艺术家Zvonimir Bakotin使用VRML技术重现了这一作品。
 
 来源：[互联网档案馆merzbau.org存档](https://web.archive.org/web/20101123170635/http://www.merzbau.org/Schwitters.html)（原网站在2011年关闭）
 

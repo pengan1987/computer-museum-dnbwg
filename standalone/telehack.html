@@ -38,8 +38,8 @@
     <div id="fTelnetContainer" class="fTelnetContainer"></div>
   </div>
   <div id="introduction" class="markdown-body"></div>
-<script>document.write('<script src="//embed-v2.ftelnet.ca/js/ftelnet-loader.norip.noxfer.js?v=' + (new Date()).getTime() + '"><\/script>');</script>
-<script>
+  <script>document.write('<script src="//embed-v2.ftelnet.ca/js/ftelnet-loader.norip.noxfer.js?v=' + (new Date()).getTime() + '"><\/script>');</script>
+  <script>
     var Options = new fTelnetOptions();
     Options.BareLFtoCRLF = false;
     Options.BitsPerSecond = 57600;
@@ -48,14 +48,14 @@
     Options.Enter = '\r';
     Options.Font = 'CP437';
     Options.ForceWss = false;
-    Options.Hostname = 'telehack.dnbwg.com';
+    Options.Hostname = '107.175.189.226';
     Options.LocalEcho = false;
-    Options.Port = 2233;
+    Options.Port = 12323;
     Options.ScreenColumns = 80;
     Options.ScreenRows = 25;
     var fTelnet = new fTelnetClient('fTelnetContainer', Options);
     fTelnet.Connect();
-</script>
+  </script>
 </body>
 
 </html>

@@ -1,6 +1,15 @@
 ﻿{
 	"machines": [
 		{
+			"id": "thedraw-ansi",
+			"name": "ANSI Art工具TheDraw",
+			"appname": "",
+			"year": 1993,
+			"url": "emularity-machine/thedraw-ansi.json",
+			"image": "images/thedraw-ansi.png",
+			"emularity": "dosbox"
+		},
+		{
 			"id": "apple2p",
 			"name": "Apple II Plus “从娃娃做起”",
 			"appname": "",

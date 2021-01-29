@@ -14,9 +14,9 @@
         }
     ],
     "extraArgs": [
-        "-artpath",
-        "/emulator/palmiii/layout",
         "-inipath",
-        "/emulator/palmiii/ini"
+        "/emulator/palmiii",
+        "-state",
+        "1"
     ]
 }

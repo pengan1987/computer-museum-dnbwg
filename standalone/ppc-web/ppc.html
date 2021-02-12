@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <title>网页里的电脑博物馆</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@2.10.0/github-markdown.css">
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="stylesheet" href="../../emularity.css" />
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.8.7/dist/showdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <script src="../../baidu-stat.js"></script>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+</head>
+
+<body>
+    <nav id="mainnav" style="position: relative; z-index: 2;">
+        <ul>
+            <li>
+                <a href="../../index.html">目录</a>
+            </li>
+            <li>
+                <a href="http://www.famicn.com">游戏学习机</a>
+            </li>
+            <li>
+                <a href="https://zhuanlan.zhihu.com/retrocomputing">知乎专栏</a>
+            </li>
+            <li>
+                <a href="https://github.com/pengan1987/computer-museum-dnbwg">Github</a>
+            </li>
+            <li>
+                <a href="../../labs.html">实验室</a>
+            </li>
+            <li>
+                <a href="../special.html">专题展览</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="javatari" style="text-align: center; margin: 20px auto 0; padding: 0 10px;">
+
+        <table style="display:inline-block" width="347" border="0" cellspacing="0" cellpadding="0">
+
+            <tr>
+                <td colspan="3">
+                    <img src="top.png" width="347" height="103">
+                </td>
+            </tr>
+            <tr>
+                <td width="54">
+                    <img src="left.png" width="54" height="269">
+                </td>
+                <td width="100%">
+                    <table width="240" border="0" cellspacing="0" cellpadding="0" bgcolor="#006666" height="269">
+                        <tr bgcolor="ffffff">
+                            <td>
+                                <iframe id="wince_frame" name="wince_view" height="269" width="240" marginheight="0"
+                                    marginwidth="0" border="0" frameborder="0"
+                                    src="http://littleclie.dnbwg.com"></iframe>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+                <td width="53">
+                    <img src="right.png" width="53" height="269">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <img src="btm.png" width="347" height="197" usemap="#btnbar">
+                </td>
+                <map name="btnbar">
+                    <area shape="rect" coords="122,2,140,22" alt="Back" onclick="javascript:history.go(-1)"
+                        target="wince_view">
+                    <area shape="rect" coords="144,2,162,22" alt="Refresh" onclick="javascript:location.reload()"
+                        target="wince_view">
+                    <area shape="rect" coords="164,2,182,22" alt="Home" href="http://littleclie.dnbwg.com"
+                        target="wince_view">
+
+                </map>
+            </tr>
+
+        </table>
+    </div>
+    <div id="introduction" class="markdown-body">
+        <p>可怜网（clie.com.cn）是原Hi-PDA网友“番茄”（jimeinstein）搭建的适合于掌上电脑、PDA浏览的网站，clie意为“Chinese Lite Info
+            Express”（中文轻资讯快报），亦与索尼的PDA品牌Clié相仿。
+            <a href="https://www.hi-pda.com/forum/viewthread.php?tid=136711">Hi-PDA上关于可怜网的帖子</a> 发表于2003年10月22日。</p>
+        <p>网页里的电脑博物馆搭建的“小可怜网”（<a href="http://littleclie.dnbwg.com">littleclie.dnbwg.com</a>）模仿了可怜网的新闻订阅功能，它可以通过Pocket
+            IE（Pocket PC/Windows CE/Windows Mobile）、Xiino（Palm OS）等旧式移动浏览器访问，也支持通过HandStory、iSilo等离线移动阅读工具订阅。</p>
+        <p>此网页版模拟器使用iFrame模拟原始移动网页显示效果，并非精确还原，可以使用模拟器窗口中“后退”，“刷新”，“主页”三个按钮进行页面间导航。</p>
+    </div>
+
+</body>
+
+</html>

@@ -35,35 +35,40 @@
       <li>
         <a href="../../labs.html">实验室</a>
       </li>
+      <li>
+        <a href="../special.html">专题展览</a>
+      </li>
     </ul>
   </nav>
   <div id="javatari" style="text-align: center; margin: 20px auto 0; padding: 0 10px;">
-    <canvas id="myCanvas" width="640" height="480"> <p>Come back when you've got a HTML5 enabled browser, buddy!</p> </canvas>
+    <canvas id="myCanvas" width="640" height="480">
+      <p>Come back when you've got a HTML5 enabled browser, buddy!</p>
+    </canvas>
 
   </div>
   <div id="introduction" class="markdown-body">
     Ceefax是英国广播公司BBC开发的图文电视（Teletext）系统，这里运行的是网页版模拟器ceefax.js<br>
-    为方便中国读者，数据来自于中国日报（China Daily）的RSS新闻源<br/>
+    为方便中国读者，数据来自于中国日报（China Daily）的RSS新闻源<br />
     输入文章编号 100~150 可以快速跳转到不同新闻<br />
     Github: <a href="https://github.com/MattRyder/ceefax.js">https://github.com/MattRyder/ceefax.js</a>
   </div>
-<script>
- 
-  $.getJSON('http://andyzhk.azurewebsites.net/rss/index.php', function(data){
-    betasignal_clusters(data.items);
-  });
+  <script>
 
-
-  var betasignal_clusters = function( jsonData ) {
-    $.each(jsonData, function(i, article) {
-      Ceefax.Pages.push(new CeefaxPage(i+100, article.category, article.title, article.content_text));
+    $.getJSON('http://andyzhk.azurewebsites.net/rss/index.php', function (data) {
+      betasignal_clusters(data.items);
     });
-  }
 
- 
 
-  Ceefax.run("myCanvas", 1000/30, 100);
-</script>
+    var betasignal_clusters = function (jsonData) {
+      $.each(jsonData, function (i, article) {
+        Ceefax.Pages.push(new CeefaxPage(i + 100, article.category, article.title, article.content_text));
+      });
+    }
+
+
+
+    Ceefax.run("myCanvas", 1000 / 30, 100);
+  </script>
 </body>
 
 </html>

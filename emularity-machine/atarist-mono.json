@@ -4,7 +4,7 @@
         {
             "targetPath": "disks",
             "title": "Floppy Disk",
-            "source": "http://dnbwg.cdn.bcebos.com/atarist/atarist-mono-disks.zip"
+            "source": "https://dnbwg.cdn.bcebos.com/atarist/atarist-mono-disks.zip"
         }
     ],
     "startExe": null,

@@ -4,7 +4,7 @@
         {
             "targetPath": "disks",
             "title": "Hard Disks",
-            "source": "http://dnbwg2.cdn.bcebos.com/pce-macplus/macplus.zip"
+            "source": "https://dnbwg2.cdn.bcebos.com/pce-macplus/macplus.zip"
         }
     ],
     "startExe": null,

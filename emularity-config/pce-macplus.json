@@ -8,23 +8,23 @@
         {
             "targetPath": "pce-macplus.rom",
             "title": "BIOS",
-            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-macplus.rom"
+            "source": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-macplus.rom"
         },
         {
             "targetPath": "pce-macplus-pcex.rom",
             "title": "BIOS Extension",
-            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-macplus-pcex.rom"
+            "source": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-macplus-pcex.rom"
         },
         {
             "targetPath": "pce-macplus-pram.dat",
             "title": "PRAM",
-            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-macplus-pram.dat"
+            "source": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-macplus-pram.dat"
         },
         {
             "targetPath": "pce-macplus.cfg",
             "title": "Configuration",
-            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-macplus.cfg"
+            "source": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-macplus.cfg"
         }
     ],
-    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-macplus.js"
+    "emulatorJS": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-macplus.js"
 }

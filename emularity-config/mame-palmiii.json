@@ -1,6 +1,6 @@
 {
-    "emulatorWASM": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamepalm_wasm.wasm",
-    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamepalm_wasm.js",
+    "emulatorWASM": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamepalm_wasm.wasm",
+    "emulatorJS": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamepalm_wasm.js",
     "nativeResolution": {
         "height": 638,
         "width": 427
@@ -10,7 +10,7 @@
         {
             "targetPath": "palmiii",
             "title": "BIOS",
-            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/bios/palmiii.zip"
+            "source": "https://dnbwg.cdn.bcebos.com/emularity-common/bios/palmiii.zip"
         }
     ],
     "extraArgs": [

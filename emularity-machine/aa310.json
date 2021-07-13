@@ -4,7 +4,7 @@
         {
             "targetPath": "disks",
             "title": "Floppy Disk",
-            "source": "http://dnbwg2.cdn.bcebos.com/aa310/Speedball2.zip"
+            "source": "https://dnbwg2.cdn.bcebos.com/aa310/Speedball2.zip"
         }
     ],
     "startExe": null,

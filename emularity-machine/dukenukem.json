@@ -4,7 +4,7 @@
         {
             "targetPath": "c",
             "title": "Game",
-            "source": "http://dnbwg.cdn.bcebos.com/emdosbox/dukenukem.zip"
+            "source": "https://dnbwg.cdn.bcebos.com/emdosbox/dukenukem.zip"
         }
     ],
     "startExe": "dn1.exe",

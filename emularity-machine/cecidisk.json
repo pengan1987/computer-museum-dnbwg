@@ -3,7 +3,7 @@
         {
             "targetPath": "chinesegame.dsk",
             "title": "Floppy Disk",
-            "source": "http://dnbwg2.cdn.bcebos.com/mame-ceci/chinesegame.dsk"
+            "source": "https://dnbwg2.cdn.bcebos.com/mame-ceci/chinesegame.dsk"
         }
     ],
     "zips": [],

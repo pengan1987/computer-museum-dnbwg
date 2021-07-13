@@ -1,6 +1,6 @@
 {
-    "emulatorWASM": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mameapple2e_wasm.wasm",
-    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mameapple2e_wasm.js",
+    "emulatorWASM": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mameapple2e_wasm.wasm",
+    "emulatorJS": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mameapple2e_wasm.js",
     "nativeResolution": {
         "height": 384,
         "width": 560
@@ -10,7 +10,7 @@
         {
             "targetPath": "ceci.zip",
             "title": "BIOS",
-            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/bios/ceci.zip"
+            "source": "https://dnbwg.cdn.bcebos.com/emularity-common/bios/ceci.zip"
         }   
     ]
 }

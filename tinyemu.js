@@ -97,7 +97,7 @@ function load_file(files) {
   }
 }
 
-var emulator_server = "http://dnbwg.cdn.bcebos.com/tinyemu/"
+var emulator_server = "https://dnbwg.cdn.bcebos.com/tinyemu/"
 
 window.onload = function (event) {
   var machineTypes = { "cpc464": "cpc", "cpc6128": "cpc" }

@@ -4,7 +4,7 @@
         {
             "targetPath": "c",
             "title": "Game",
-            "source": "http://dnbwg.cdn.bcebos.com/emdosbox/zgcqsl.zip"
+            "source": "https://dnbwg.cdn.bcebos.com/emdosbox/zgcqsl.zip"
         }
     ],
     "startExe": "startzgc.bat"

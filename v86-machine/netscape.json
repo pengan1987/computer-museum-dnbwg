@@ -1,7 +1,7 @@
 {
-    "bios_url": "http://dnbwg.cdn.bcebos.com/v86/seabios.bin",
-    "vbios_url": "http://dnbwg.cdn.bcebos.com/v86/vgabios.bin",
-    "hdd_zip_url": "http://dnbwg.cdn.bcebos.com/v86/win95.zip",
+    "bios_url": "https://dnbwg.cdn.bcebos.com/v86/seabios.bin",
+    "vbios_url": "https://dnbwg.cdn.bcebos.com/v86/vgabios.bin",
+    "hdd_zip_url": "https://dnbwg.cdn.bcebos.com/v86/win95.zip",
     "img_filename": "win95.img",
     "ram": 64,
     "vram": 4,

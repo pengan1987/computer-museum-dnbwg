@@ -4,7 +4,7 @@
         {
             "targetPath": "disks",
             "title": "Floppy Disk",
-            "source": "http://dnbwg2.cdn.bcebos.com/apple2gs/GS_System_5_0_4.zip"
+            "source": "https://dnbwg2.cdn.bcebos.com/apple2gs/GS_System_5_0_4.zip"
         }
     ],
     "startExe": null,

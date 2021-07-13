@@ -8,10 +8,10 @@
         {
             "targetPath": "bios",
             "title": "BIOS",
-            "source": "http://dnbwg2.cdn.bcebos.com/amiga/aros-amiga-m68k.zip"
+            "source": "https://dnbwg2.cdn.bcebos.com/amiga/aros-amiga-m68k.zip"
         }
     ],
-    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/sae/sae-merge.js",
+    "emulatorJS": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/sae/sae-merge.js",
     "rom": [
         "bios/aros-amiga-m68k-rom.bin",
         "bios/aros-amiga-m68k-ext.bin"

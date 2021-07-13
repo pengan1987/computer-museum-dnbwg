@@ -4,7 +4,7 @@
         {
             "targetPath": "c",
             "title": "Disk Image",
-            "source": "http://dnbwg.cdn.bcebos.com/emdosbox/ucdos7.zip"
+            "source": "https://dnbwg.cdn.bcebos.com/emdosbox/ucdos7.zip"
         }
     ],
     "startExe": "startuc.bat"

@@ -4,7 +4,7 @@
         {
             "targetPath": "disks",
             "title": "Hard Disk",
-            "source": "http://dnbwg2.cdn.bcebos.com/sharp-x1/Gradius.zip"
+            "source": "https://dnbwg2.cdn.bcebos.com/sharp-x1/Gradius.zip"
         }
     ],
     "startExe": null,

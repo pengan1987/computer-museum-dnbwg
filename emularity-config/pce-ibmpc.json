@@ -8,8 +8,8 @@
         {
             "targetPath": "roms",
             "title": "BIOS",
-            "source": "http://dnbwg.cdn.bcebos.com/emularity-common/bios/pce-ibmpc-roms.zip"
+            "source": "https://dnbwg.cdn.bcebos.com/emularity-common/bios/pce-ibmpc-roms.zip"
         }
     ],
-    "emulatorJS": "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pcejs-ibmpc.js"
+    "emulatorJS": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pcejs-ibmpc.js"
 }

@@ -1,3 +1,5 @@
+注意：由于本站尚未启动WebSocket连接的SSL功能，请确认您从 [www.compumuseum.com](http://www.compumuseum.com/standalone/irata-online.html) 访问本页。
+
 [IRATA.ONLINE](https://www.irata.online/)是一个为复古电脑爱好者准备的在线社区，它源于1962年的大型分时系统PLATO（柏拉图系统）。PLATO是世界上第一个电脑辅助教学系统，也曾经是最为流行的向量图形终端系统之一。
 
 这款模拟器使用的DOS版本的PLATOTerm模拟器，使用WebSocket连接到IRATA.ONLINE，您可以使用guest/guest作为用户名和组名进行体验，或到[IRATA.ONLINE](https://www.irata.online/)官网注册一个属于自己的账户。

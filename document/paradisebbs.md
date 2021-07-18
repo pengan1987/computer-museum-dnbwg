@@ -1,3 +1,5 @@
+注意：由于本站尚未启动WebSocket连接的SSL功能，请确认您从 [www.compumuseum.com](http://www.compumuseum.com/emularity.html?emularity=dosbox-websocket&machineurl=emularity-machine/paradisebbs.json) 访问本页。
+
 Paradise BBS 天堂资讯站是由River Pan（潘德强）设立在北京的BBS站点，是最有影响力的CFido站点之一，网页里的电脑博物馆通过当年天堂站发行的建站光盘重建了该站点，网页版本的天堂站目前可以支持99人同时在线。
 
 您可以使用访客账户（Guest）参观，也可以自行新开设账户，用户资料中的地址、电话等可以随意填写，不设置验证条件，注册后会自动获得30级，即每天上线30分钟的权限。如果您想长期使用本站账户，请记住注册时填写的生日，有时系统会在登陆时验证注册账户的生日。

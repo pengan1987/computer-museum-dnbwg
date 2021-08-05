@@ -53,6 +53,7 @@
   <div id="introduction" class="markdown-body"></div>
   <script type="text/javascript">
     $(document).ready(function () {
+      window.serverUrl = "wss://irata.compumuseum.com/socket-irata";
       var showdownConv = new showdown.Converter();
       showdownConv.setOption('tables', true);
       var introUrl = "irata-online.md";

@@ -1,4 +1,6 @@
-注意：由于本站尚未启动WebSocket连接的SSL功能，请确认您从 [www.compumuseum.com](http://www.compumuseum.com/emularity.html?emularity=dosbox-websocket&machineurl=emularity-machine/paradisebbs.json) 访问本页。
+本站试验性的启用了针对EM-DOSBox的加密WebSocket支持，如果您使用HTTPS方式打开此页面，在进入Telix主界面后，系统会停留在“NO CARRIER”或“CONNECT 57600”提示。此时按Alt+D键进入拨号目录，并选择“Paradise SSL”即可连接到天堂资讯站。
+
+如果上述方式仍无法连接，请通过没有SSL加密的 [www.compumuseum.com](http://www.compumuseum.com/emularity.html?emularity=dosbox-websocket&machineurl=emularity-machine/paradisebbs.json) 访问本页。
 
 Paradise BBS 天堂资讯站是由River Pan（潘德强）设立在北京的BBS站点，是最有影响力的CFido站点之一，网页里的电脑博物馆通过当年天堂站发行的建站光盘重建了该站点，网页版本的天堂站目前可以支持99人同时在线。
 

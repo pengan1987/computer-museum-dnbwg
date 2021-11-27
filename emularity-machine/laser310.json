@@ -1,0 +1,12 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Laser310",
+            "source": "https://dnbwg.cdn.bcebos.com/emdosbox/laser310.zip"
+        }
+    ],
+    "startExe": "play.bat",
+    "introduction": "document/laser310.md"
+}

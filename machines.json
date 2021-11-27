@@ -1,5 +1,14 @@
 ﻿{
-	"machines": [
+	"machines": [	
+		{
+			"id": "laser310",
+			"name": "VTech Laser 310",
+			"appname": "",
+			"year": 1983,
+			"url": "emularity-machine/laser310.json",
+			"image": "images/laser310.jpg",
+			"emularity": "dosbox"
+		},
 		{
 			"id": "thedraw-ansi",
 			"name": "ANSI Art工具TheDraw",

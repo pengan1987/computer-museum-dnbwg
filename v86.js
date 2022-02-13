@@ -66,6 +66,7 @@ function prepareFs(zipData) {
 
 function loadv86(diskBuffer) {
     var emulator = window.emulator = new V86Starter({
+        wasm_path: 'https://dnbwg.cdn.bcebos.com/v86/v86.wasm',
         memory_size: config["ram"] * 1024 * 1024,
         vga_memory_size: config["vram"] * 1024 * 1024,
         screen_container: document.getElementById("screen_container"),

@@ -1,0 +1,12 @@
+{
+    "files": [],
+    "zips": [
+        {
+            "targetPath": "c",
+            "title": "Disk Image",
+            "source": "https://dnbwg.cdn.bcebos.com/emdosbox/win1dr5.zip"
+        }
+    ],
+    "startExe": "startwin.bat",
+    "introduction": "document/win1dr5.md"
+}

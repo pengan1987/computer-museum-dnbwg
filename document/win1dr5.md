@@ -1,0 +1,1 @@
+Windows 1.0 Development Release 5 是目前网上能够找到的最早的Windows 1.0预发布版本。这个模拟器模拟了该版本在安装有Hercules（HGC）显卡和MS-DOS 2.11的IBM PC兼容机上的状况。

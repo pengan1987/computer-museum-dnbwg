@@ -1,5 +1,14 @@
 ﻿{
-	"machines": [	
+	"machines": [
+		{
+			"id": "win1dr5",
+			"name": "Windows 1.0 DR5",
+			"appname": "",
+			"year": 1984,
+			"url": "emularity-machine/win1dr5.json",
+			"image": "images/win1dr5.png",
+			"emularity": "dosbox"
+		},
 		{
 			"id": "laser310",
 			"name": "VTech Laser 310",

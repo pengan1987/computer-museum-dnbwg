@@ -178,7 +178,8 @@ function runNP2() {
         NP2Loader.nativeResolution(emuConfig.nativeResolution.width, emuConfig.nativeResolution.height),
         NP2Loader.emulatorJS(emuConfig.emulatorJS),
         NP2Loader.emulatorWASM(emuConfig.emulatorWASM),
-        NP2Loader.fileSystemKey(machineId)
+        NP2Loader.fileSystemKey(machineId),
+
     ];
 
     var fileParams = buildFileLoadParameters(NP2Loader);
@@ -190,6 +191,11 @@ function runNP2() {
     }
     if (machineConfig.extraArgs) {
         extraArgs = extraArgs.concat(machineConfig.extraArgs);
+    }
+    if (machineConfig.autoLoad) {
+        emuArguments.push(NP2Loader.autoLoad(machineConfig.autoLoad));
+    } else {
+        emuArguments.push(NP2Loader.autoLoad(" "));
     }
     if (extraArgs.length > 0) {
         emuArguments.push(
@@ -359,7 +365,7 @@ function showIntroduction() {
         introUrl = machineConfig.introduction;
     }
     var showdownConv = new showdown.Converter();
-    showdownConv.setOption('tables',true);
+    showdownConv.setOption('tables', true);
     $.get(introUrl,
         function (data) {
             var htmlContent = showdownConv.makeHtml(data);

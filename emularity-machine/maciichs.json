@@ -7,8 +7,6 @@
         }
     ],
     "startExe": null,
-    "peripherals": [
-     
-    ],
-    "extraArgs": ["/emulator/disks/maciichs.dsk"]
+    "peripherals": [],
+    "autoLoad": "/emulator/disks/maciichs.dsk"
 }

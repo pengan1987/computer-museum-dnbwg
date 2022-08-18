@@ -9,7 +9,5 @@
     ],
     "startExe": null,
     "peripherals": [],
-    "extraArgs": [
-        "/emulator/disks/Gradius.2d"
-    ]
+    "autoLoad": "/emulator/disks/Gradius.2d"
 }

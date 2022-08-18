@@ -7,8 +7,6 @@
         }
     ],
     "startExe": null,
-    "peripherals": [
-     
-    ],
-    "extraArgs": ["/emulator/disks/macii.dsk"]
+    "peripherals": [],
+    "autoLoad": "/emulator/disks/macii.dsk"
 }

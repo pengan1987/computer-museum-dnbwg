@@ -1,6 +1,14 @@
 ﻿{
 	"machines": [
 		{
+			"id": "workpad",
+			"name": "IBM中文WorkPad",
+			"appname": "",
+			"year": 2000,
+			"directurl": "standalone/chinese_workpad.html",
+			"image": "images/chinese_workpad.jpg"
+		},
+		{
 			"id": "win1dr5",
 			"name": "Windows 1.0 DR5",
 			"appname": "",

@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <title>网页里的电脑博物馆</title>
+    <link rel="stylesheet" href="https://lib.baomitu.com/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css">
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="stylesheet" href="../emularity.css" />
+    <script src="https://lib.baomitu.com/showdown/1.8.7/showdown.min.js"></script>
+    <script src="https://lib.baomitu.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cloudpilot-emu-embedded@1.7.8/dist/cloudpilot-emu.min.js"></script>
+    <script src="../baidu-stat.js"></script>
+    <style>
+        .game {
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            width: 512px;
+            height: 512px;
+
+            display: block;
+
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+</head>
+
+<body>
+    <nav id="mainnav" style="position: relative; z-index: 2;">
+        <ul>
+            <li>
+                <a href="../index.html">目录</a>
+            </li>
+            <li>
+                <a href="http://www.famicn.com">游戏学习机</a>
+            </li>
+            <li>
+                <a href="https://zhuanlan.zhihu.com/retrocomputing">知乎专栏</a>
+            </li>
+            <li>
+                <a href="https://github.com/pengan1987/computer-museum-dnbwg">Github</a>
+            </li>
+            <li>
+                <a href="../labs.html">实验室</a>
+            </li>
+            <li>
+                <a href="../special.html">专题展览</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="javatari" style="text-align: center; margin: 20px auto 0; padding: 0 10px;">
+        <canvas class="game" id="canvas"></canvas>
+    </div>
+    <div id="introduction" class="markdown-body"></div>
+    <script>
+        (async function () {
+            const imageResponse = await fetch('https://dnbwg3.cdn.bcebos.com/cloudpilot/Chinese_WorkPad.bin');
+            if (!imageResponse.ok) {
+                throw new Error('could not download session image');
+            }
+
+            const image = await imageResponse.arrayBuffer();
+            const emulator = await cloudpilot.createEmulator();
+            const canvas = document.getElementsByTagName('canvas')[0];
+
+            emulator.
+                loadSession(new Uint8Array(image))
+                .setCanvas(canvas)
+                .bindInput(canvas)
+                .resume();
+        })().catch(e => console.error(e));
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var showdownConv = new showdown.Converter();
+            var introUrl = "chinese_workpad.md";
+            $.get(introUrl,
+                function (data) {
+                    var htmlContent = showdownConv.makeHtml(data);
+                    $("#introduction").html(htmlContent);
+                });
+        });
+    </script>
+</body>
+
+</html>

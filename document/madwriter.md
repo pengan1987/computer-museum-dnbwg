@@ -1,4 +1,4 @@
-如果无法连接，请通过没有SSL加密的 [www.compumuseum.com](http://www.compumuseum.com/emularity.html?emularity=dosbox-websocket&machineurl=emularity-machine/madwriter.json) 访问本页。
+本站已经适配SSL的WebSocket访问，当Telix通信程序加载后。按Alt+D键进入拨号目录，即可选择以SSL（HTTPS）或非加密（HTTP）方式访问此程序。
 
 “疯子写手”是一个文本生成机器人，它模仿了早期生成式写作所使用的规则拼贴算法，并以知乎专栏 [“古董电脑室”](https://zhuanlan.zhihu.com/retrocomputing) 的文本作为数据源。
 

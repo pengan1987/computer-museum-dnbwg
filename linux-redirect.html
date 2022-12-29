@@ -41,21 +41,14 @@
     <div class="container">
       <div class="row" id="machine-list">
         <div id="base-cell" class="col-sm-12 col-md-12">
-          <h2>千禧年的中文Linux - 重置服务</h2>
+          <h2>千禧年的中文Linux - 准备服务</h2>
           <p>
-            如果您发现我们展览中的虚拟机运行不正常，可以在这里尝试重置它们，所有的修改将会丢失，机器会被重置到馆长配置的初始状态。
+            虚拟机正在启动，请稍等1~10秒钟准备时间……
           </p>
-          <p>
-            红旗Linux 2.0 - 机器名“red”<br />
-            蓝点Linux 2.0 - 机器名“blue”<br />
-            幸福Linux 1.0 - 机器名“happy”<br />
-            Xteam Linux 1.0 - 机器名“xteam”<br />
-            Linux中文延伸套件（CLE） 0.9p1 - 机器名“cle”
-          </p>
-          <p>在这里输入您需要重置的机器名称，并点击重置按钮重置虚拟机</p>
-          <input type="text" id="vmname">
-          <button type="button" onclick="resetmachine()">重置</button>
+          <p id="error-notice" style="display:none">虚拟机启动失败，请稍刷新本页或后再试。</a></p>
 
+          <p id="ready-notice" style="display:none">您的虚拟机已经准备好，<a id="ready-link" target="_self" href="#">点击这里</a>启动远程桌面
+          </p>
         </div>
 
       </div>
@@ -65,12 +58,44 @@
     <img src="title.png">
   </div>
   <script>
-    function resetmachine() {
-      var machinename = $("#vmname").val();
-      $("#vmname").val('');
-      console.log(machinename);
-      window.open('https://qemu01.compumuseum.com:8443/manage/reset?vmname=' + machinename, '_blank');
+    function getParameterByName(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, '\\$&');
+      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
     }
+
+
+    var vmlinks = {
+      happylinux: 'happylinux-linux-fkwnbqqncr.cn-hangzhou.fcapp.run',
+      cle: 'cle-linux-wfxckrrpci.cn-hangzhou.fcapp.run',
+      bluepoint: 'bluepoint-linux-hmgtpswazh.cn-hangzhou.fcapp.run',
+      xteam: 'xteam-linux-zrgrflrccm.cn-hangzhou.fcapp.run',
+      redflag: 'redflag-linux-svfodavexv.cn-hangzhou.fcapp.run'
+    }
+    var vmname = getParameterByName('vm');
+    var vmlink = vmlinks[vmname];
+    if (vmlink) {
+      var vncLink = `/novnc/vnc.html?host=${vmlink}&encrypt=1&path=&port=443&autoconnect=1`;
+      var vncVerify = `//${vmlink}/ready.json`;
+
+      $.ajaxSetup({ cache: false });
+
+      var jqxhr = $.ajax(vncVerify)
+        .done(function () {
+          $("#ready-link").attr("href", vncLink);
+          $("#ready-notice").show();
+        })
+        .fail(function () {
+          $("#error-notice").show();
+        });
+    } else {
+      $("#error-notice").show();
+    }
+
   </script>
 </body>
 

@@ -1,9 +1,0 @@
-{
-    "emulatorWASM": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_2018.wasm",
-    "emulatorJS": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_2018.js",
-    "nativeResolution": {
-        "height": 480,
-        "width": 512
-    },
-    "driverName": "sb486"
-}

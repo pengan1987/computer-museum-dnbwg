@@ -1,0 +1,103 @@
+﻿<html>
+
+<head>
+  <title>网页里的电脑博物馆</title>
+  <meta name="description" content="云端的计算机博物馆，在网页模拟器中重现电脑发展史">
+  <meta name="keywords" content="电脑, 计算机, 博物馆, 网页, 浏览器, 模拟器, 游戏, 历史">
+  <link rel="stylesheet" href="https://lib.baomitu.com/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../base.css" />
+  <script src="https://lib.baomitu.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../baidu-stat.js"></script>
+  <meta charset="UTF-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+</head>
+
+<body>
+  <nav style="position: relative; z-index: 2; width:100%">
+    <ul>
+      <li>
+        <a href="../index.html">目录</a>
+      </li>
+      <li>
+        <a href="http://www.famicn.com">游戏机</a>
+      </li>
+      <li>
+        <a href="https://zhuanlan.zhihu.com/retrocomputing">知乎专栏</a>
+      </li>
+      <li>
+        <a href="https://github.com/pengan1987/computer-museum-dnbwg">Github</a>
+      </li>
+      <li>
+        <a href="../labs.html">实验室</a>
+      </li>
+      <li>
+        <a href="../special.html">专题展览</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="feature-wrapper pt-2 pb-5 mt-0 mt-lg-0">
+
+    <div class="container">
+      <div class="col-12" style="margin-bottom: 16px;">
+        <h2>外文卡带</h2>
+      </div>
+      <div class="row" id="foreign-list">
+        <div id="base-cell" class="col-sm-12 col-md-3" style="display:none">
+
+          <figure>
+            <a href="#">
+              <img class="figure-img img-fluid rounded" src="" alt="">
+            </a>
+            <figcaption class="machine-fig">Apple II</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-12" style="margin-bottom: 16px;">
+        <h2>中文卡带</h2>
+      </div>
+      <div class="row" id="chinese-list">
+
+      </div>
+    </div>
+  </div>
+  <div style="display: none;">
+    <img src="title.png">
+  </div>
+  <script>
+    function processJson(data) {
+      var machineList = data;
+      var base = $("#base-cell");
+      var chineseListContainer = $("#chinese-list");
+      var foreignListContainer = $("#foreign-list");
+      for (i = 0; i < machineList.length; i++) {
+        var machine = machineList[i];
+        var clone = base.clone();
+
+        var playerlink = "sb486.html?game=" + machine.id;
+
+        clone.show();
+        clone.attr("id", machine.id);
+        clone.find("a").attr("href", playerlink);
+        clone.find("figcaption").text(machine.name + " - " + machine.vendor)
+        var imagePathEdu = "https://famicn-1255835060.file.myqcloud.com/edu-cart-image";
+        imageLink = machine.image.replace("{{image-path-edu}}", imagePathEdu);
+
+        clone.find(".figure-img").attr("src", imageLink)
+        if (machine.chinese)
+          chineseListContainer.append(clone);
+        else
+          foreignListContainer.append(clone);
+      }
+    }
+
+    $(document).ready(function () {
+      $.ajaxSetup({ cache: false });
+      $.getJSON("sb486.json", processJson);
+    });
+
+  </script>
+</body>
+
+</html>

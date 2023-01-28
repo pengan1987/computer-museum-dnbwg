@@ -1,0 +1,242 @@
+[
+    {
+        "name": "新型计算机（西班牙语）",
+        "vendor": "Game Star",
+        "image": "{{image-path-edu}}/NuevoTipodeComputadora.gif",
+        "device": "sb486",
+        "id": "NuevoTipodeComputadora",
+        "chinese": false
+    },
+    {
+        "name": "Magistr Genie 2",
+        "vendor": "未知",
+        "image": "{{image-path-edu}}/MagistrGenie2.gif",
+        "device": "sb486",
+        "id": "MagistrGenie2",
+        "chinese": false
+    },
+    {
+        "name": "7合1俄语学习卡",
+        "vendor": "未知",
+        "image": "{{image-path-edu}}/russian7.gif",
+        "device": "sb486",
+        "id": "russian7",
+        "chinese": false
+    },
+    {
+        "name": "14合1俄语学习卡",
+        "vendor": "未知",
+        "image": "{{image-path-edu}}/russian14.gif",
+        "device": "sb486",
+        "id": "russian14",
+        "chinese": false
+    },
+    {
+        "name": "小霸王俄语学习卡",
+        "vendor": "小霸王",
+        "image": "{{image-path-edu}}/subor_russian.gif",
+        "device": "sb486",
+        "id": "subor_russian",
+        "chinese": false
+    },
+    {
+        "name": "Liko 3合1学习卡",
+        "vendor": "步步高",
+        "image": "{{image-path-edu}}/liko.gif",
+        "device": "sb486",
+        "id": "liko",
+        "chinese": false
+    },
+    {
+        "name": "32合1阿拉伯语学习卡",
+        "vendor": "未知",
+        "image": "{{image-path-edu}}/arabic32.gif",
+        "device": "sb486",
+        "id": "arabic32",
+        "chinese": false
+    },
+    {
+        "name": "阿拉伯语Asder PC-95",
+        "vendor": "未知",
+        "image": "{{image-path-edu}}/asder.gif",
+        "device": "sb486",
+        "id": "asder",
+        "chinese": false
+    },
+    {
+        "name": "奔力电脑学习机",
+        "vendor": "奔力",
+        "image": "{{image-path-edu}}/BenLi080.gif",
+        "device": "sb486",
+        "id": "BenLi080",
+        "chinese": true
+    },
+    {
+        "name": "认知码学习",
+        "vendor": "小霸王",
+        "image": "{{image-path-edu}}/RenZhiMaXueXi.gif",
+        "device": "sb486",
+        "id": "RenZhiMaXueXi",
+        "chinese": true
+    },
+    {
+        "name": "ABM学习机",
+        "vendor": "未知",
+        "image": "{{image-path-edu}}/abm.gif",
+        "device": "sb486",
+        "id": "abm",
+        "chinese": true
+    },
+    {
+        "name": "学习Windows 2000",
+        "vendor": "未知",
+        "image": "{{image-path-edu}}/Windows_2000.gif",
+        "device": "sb486",
+        "id": "Windows_2000",
+        "chinese": true
+    },
+    {
+        "name": "智力小状元",
+        "vendor": "数奇玉",
+        "image": "{{image-path-edu}}/ZhiLiXiaoZhuangYuan.gif",
+        "device": "sb486",
+        "id": "ZhiLiXiaoZhuangYuan",
+        "chinese": true
+    },
+    {
+        "name": "数学小状元",
+        "vendor": "数奇玉",
+        "image": "{{image-path-edu}}/ShuXueXiaoZhuangYuan.gif",
+        "device": "sb486",
+        "id": "ShuXueXiaoZhuangYuan",
+        "chinese": true
+    },
+    {
+        "name": "小博士",
+        "vendor": "鸿达",
+        "image": "{{image-path-edu}}/XiaoBoShi.gif",
+        "device": "sb486",
+        "id": "XiaoBoShi",
+        "chinese": true
+    },
+    {
+        "name": "英语声霸卡",
+        "vendor": "东生",
+        "image": "{{image-path-edu}}/YingYuShengBaKa.gif",
+        "device": "sb486",
+        "id": "YingYuShengBaKa",
+        "chinese": true
+    },
+    {
+        "name": "小百科学习机",
+        "vendor": "maxzhou88",
+        "image": "{{image-path-edu}}/XiaoBaiKeXueXiJi.gif",
+        "device": "sb486",
+        "id": "XiaoBaiKeXueXiJi",
+        "chinese": true
+    },
+    {
+        "name": "小霸王学习机V1.1",
+        "vendor": "小霸王",
+        "image": "{{image-path-edu}}/Subor_v1_1.gif",
+        "device": "sb486",
+        "id": "Subor_v1_1",
+        "chinese": true
+    },
+    {
+        "name": "小霸王学习机III",
+        "vendor": "小霸王",
+        "image": "{{image-path-edu}}/XiaoBaWangXueXiJi_V3.gif",
+        "device": "sb486",
+        "id": "XiaoBaWangXueXiJi_V3",
+        "chinese": true
+    },
+    {
+        "name": "小霸王学习机V4.0",
+        "vendor": "小霸王",
+        "image": "{{image-path-edu}}/XiaoBaWangXueXiJi_V4.gif",
+        "device": "sb486",
+        "id": "XiaoBaWangXueXiJi_V4",
+        "chinese": true
+    },
+    {
+        "name": "小霸王学习机VI",
+        "vendor": "小霸王",
+        "image": "{{image-path-edu}}/Subor_v6.gif",
+        "device": "sb486",
+        "id": "Subor_v6",
+        "chinese": true
+    },
+    {
+        "name": "小霸王学习机VI+",
+        "vendor": "小霸王",
+        "image": "{{image-path-edu}}/Subor_v6Plus.gif",
+        "device": "sb486",
+        "id": "Subor_v6Plus",
+        "chinese": true
+    },
+    {
+        "name": "小霸王学习机VIII",
+        "vendor": "小霸王",
+        "image": "{{image-path-edu}}/Subor_v8.gif",
+        "device": "sb486",
+        "id": "Subor_v8",
+        "chinese": true
+    },
+    {
+        "name": "小霸王视窗系统2000",
+        "vendor": "小霸王",
+        "image": "{{image-path-edu}}/Subor_win2000.gif",
+        "device": "sb486",
+        "id": "Subor_win2000",
+        "chinese": true
+    },
+    {
+        "name": "小霸王英语词霸卡",
+        "vendor": "小霸王",
+        "image": "{{image-path-edu}}/XiaoBaWangYingYuCiBaKa.gif",
+        "device": "sb486",
+        "id": "XiaoBaWangYingYuCiBaKa",
+        "chinese": true
+    },
+    {
+        "name": "马步迷阵 - 趣味成语屋",
+        "vendor": "小霸王",
+        "image": "{{image-path-edu}}/MaBuMiZhen_QuWeiChengYuWu.gif",
+        "device": "sb486",
+        "id": "MaBuMiZhen_QuWeiChengYuWu",
+        "chinese": true
+    },
+    {
+        "name": "图形推理 & 智力拼图",
+        "device": "sb486",
+        "vendor": "先锋卡通",
+        "image": "{{image-path-edu}}/TuXingTuiLi_ZhiLiPinTu.gif",
+        "id": "TuXingTuiLi_ZhiLiPinTu",
+        "chinese": true
+    },
+    {
+        "name": "王中霸学习卡",
+        "vendor": "荣丰",
+        "image": "{{image-path-edu}}/WangZhongBaXueXiKa.gif",
+        "device": "sb486",
+        "id": "WangZhongBaXueXiKa",
+        "chinese": true
+    },
+    {
+        "name": "荣丰学习卡",
+        "vendor": "荣丰",
+        "image": "{{image-path-edu}}/RongFengXueXiKa.gif",
+        "device": "sb486",
+        "id": "RongFengXueXiKa",
+        "chinese": true
+    },
+    {
+        "name": "MXMDHTWO学习卡",
+        "vendor": "TXC",
+        "image": "{{image-path-edu}}/MXMDHTWO_XueXiKa.gif",
+        "device": "sb486",
+        "id": "MXMDHTWO_XueXiKa",
+        "chinese": true
+    }
+]

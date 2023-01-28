@@ -1,0 +1,67 @@
+﻿<html>
+
+<head>
+  <title>网页里的电脑博物馆</title>
+  <link rel="stylesheet" href="https://lib.baomitu.com/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css">
+  <link rel="stylesheet" href="../base.css" />
+  <link rel="stylesheet" href="../emularity.css" />
+  <script src="https://lib.baomitu.com/showdown/1.8.7/showdown.min.js"></script>
+  <script src="https://lib.baomitu.com/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://lib.baomitu.com/es6-promise/2.1.0/es6-promise.js"></script>
+  <script type="text/javascript" src="https://lib.baomitu.com/BrowserFS/1.4.3/browserfs.min.js"></script>
+  <script src="https://dnbwg.cdn.bcebos.com/emularity-common/loader.js"></script>
+  <!-- <script src="experiment/loader.js"></script> -->
+  <script src="../baidu-stat.js"></script>
+  <script src="sb486.js"></script>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <style>
+    #canvas {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <nav id="mainnav" style="position: relative; z-index: 2;">
+    <ul>
+      <li>
+        <a href="../index.html">目录</a>
+      </li>
+      <li>
+        <a href="http://www.famicn.com">游戏机</a>
+      </li>
+      <li>
+        <a href="https://zhuanlan.zhihu.com/retrocomputing">知乎专栏</a>
+      </li>
+      <li>
+        <a href="https://github.com/pengan1987/computer-museum-dnbwg">Github</a>
+      </li>
+      <li>
+        <a href="../labs.html">实验室</a>
+      </li>
+      <li>
+        <a href="../special.html">专题展览</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="main-wrapper">
+    <input type="password" id="mobile-keyboard-helper">
+    <div id="emulator-container">
+      <div id="emularity-splash-screen"></div>
+      <canvas id="canvas"></canvas>
+    </div>
+  </div>
+  <div style="display: none;">
+    <img src="../title.png">
+  </div>
+  <div id="mobile-tools">
+    <button id="toggleKeyboard" onclick="toggleMobileKeyboard()">显示键盘</button>
+    <button id="toggleKeyboard" onclick="resizeCanvas()">调整屏幕</button>
+  </div>
+  <div id="introduction" class="markdown-body"></div>
+</body>
+
+</html>

@@ -1,4 +1,3 @@
-
 function getUrlVars() {
     var vars = {};
     var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
@@ -37,13 +36,13 @@ function postRun() {
 
 function resizeCanvas() {
     var bodyWidth = $("body").width();
-    var canvasWidth = $("#emularity-canvas").width();
-    var canvasHeight = $("#emularity-canvas").height();
+    var canvasWidth = $("#canvas").width();
+    var canvasHeight = $("#canvas").height();
     if (bodyWidth < canvasWidth) {
         //Resize canvas for mobile device
         var newHeight = Math.round(canvasHeight * bodyWidth / canvasWidth);
-        $("#emularity-canvas").width(bodyWidth);
-        $("#emularity-canvas").height(newHeight);
+        $("#canvas").width(bodyWidth);
+        $("#canvas").height(newHeight);
     }
 }
 
@@ -65,11 +64,9 @@ if (!String.prototype.includes) {
 }
 
 $(document).ready(function () {
-
     device = "sb486"
     gameBaseUrl = "https://dnbwg3.cdn.bcebos.com/roms-edu-zip/"
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
     runMAME(cart, device);
-
 });

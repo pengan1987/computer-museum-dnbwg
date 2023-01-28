@@ -297,15 +297,6 @@
 			"emularity": "sae-a500-kickstartv13"
 		},
 		{
-			"id": "subor486",
-			"name": "小霸王SB486",
-			"appname": "",
-			"year": 1993,
-			"url": "emularity-machine/sb486.json",
-			"image": "images/subor486.jpg",
-			"emularity": "mame-sb486"
-		},
-		{
 			"id": "touhou-fumaroku",
 			"name": "NEC PC-9821游戏：东方封魔录",
 			"appname": "",

@@ -64,6 +64,14 @@
         "chinese": false
     },
     {
+        "name": "Windows 98",
+        "vendor": "北同方",
+        "image": "{{image-path-edu}}/BeiTongFang_Win98.gif",
+        "device": "sb486",
+        "id": "BeiTongFang_Win98",
+        "chinese": true
+    },
+    {
         "name": "奔力电脑学习机",
         "vendor": "奔力",
         "image": "{{image-path-edu}}/BenLi080.gif",

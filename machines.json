@@ -1,6 +1,14 @@
 ﻿{
 	"machines": [
 		{
+			"id": "liucixin-cp",
+			"name": "计算机诗人 1.0",
+			"appname": "",
+			"year": 1999,
+			"image": "images/liucixin-cp.png",
+			"directurl": "v86.html?machine=liucixin-cp"
+		},
+		{
 			"id": "workpad",
 			"name": "IBM中文WorkPad",
 			"appname": "",

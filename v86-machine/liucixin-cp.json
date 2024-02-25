@@ -1,0 +1,9 @@
+{
+    "bios_url": "https://dnbwg.cdn.bcebos.com/v86/seabios.bin",
+    "vbios_url": "https://dnbwg.cdn.bcebos.com/v86/vgabios.bin",
+    "hdd_zip_url": "https://dnbwg.cdn.bcebos.com/v86/liucixin-cp.zip",
+    "img_filename": "100M.img",
+    "ram": 64,
+    "vram": 8,
+    "document": "document/liucixin-cp.md"
+}

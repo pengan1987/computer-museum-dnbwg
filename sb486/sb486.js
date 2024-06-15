@@ -1,3 +1,5 @@
+var emulator = null;
+
 function getUrlVars() {
     var vars = {};
     var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
@@ -12,7 +14,7 @@ function runMAME(cart, device) {
     var wasm_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.wasm"
     var js_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes.js"
 
-    var emulator = new Emulator(document.querySelector("#canvas"),
+    emulator = new Emulator(document.querySelector("#canvas"),
         postRun,
         new JSMESSLoader(JSMESSLoader.driver(device),
             JSMESSLoader.nativeResolution(640, 480),

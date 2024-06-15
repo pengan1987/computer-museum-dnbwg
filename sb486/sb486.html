@@ -58,8 +58,9 @@
     <img src="../title.png">
   </div>
   <div id="mobile-tools">
-    <button id="toggleKeyboard" onclick="toggleMobileKeyboard()">显示键盘</button>
-    <button id="toggleKeyboard" onclick="resizeCanvas()">调整屏幕</button>
+    <button id="toggleFullScreen" class="desktop-only" onclick="emulator.requestFullScreen()">全屏</button>
+    <button id="toggleKeyboard" class="mobile-only" onclick="toggleMobileKeyboard()">显示键盘</button>
+    <button id="resizeCanvas" class="mobile-only" onclick="resizeCanvas()">调整屏幕</button>
   </div>
   <div id="introduction" class="markdown-body">
     请使用键盘左侧Ctrl，Alt和Shift键操作，右侧对应按键在模拟器中不起作用<br>

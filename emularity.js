@@ -2,6 +2,7 @@ var emuRunner = null;
 var emuConfig = null;
 var machineConfig = null;
 var machineId = "emularity";
+var emulator  = null;
 
 function getUrlVars() {
     var vars = {};
@@ -42,7 +43,7 @@ function runDoxbox() {
     var fileParams = buildFileLoadParameters(DosBoxLoader);
     emuArguments = emuArguments.concat(fileParams);
 
-    var emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, DosBoxLoader.apply(this, emuArguments));
+    emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, DosBoxLoader.apply(this, emuArguments));
     emulator.start({ waitAfterDownloading: true });
 }
 
@@ -60,7 +61,7 @@ function runPC98Dosbox() {
     var fileParams = buildFileLoadParameters(PC98DosBoxLoader);
     emuArguments = emuArguments.concat(fileParams);
 
-    var emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, PC98DosBoxLoader.apply(this, emuArguments));
+    emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, PC98DosBoxLoader.apply(this, emuArguments));
     emulator.start({ waitAfterDownloading: true });
 }
 
@@ -83,7 +84,7 @@ function runSAE() {
         );
     }
 
-    var emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, SAELoader.apply(this, emuArguments));
+    emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, SAELoader.apply(this, emuArguments));
 
     emulator.start({ waitAfterDownloading: true });
 }
@@ -128,7 +129,7 @@ function runMAME() {
         canvas.requestPointerLock();
     }
 
-    var emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, JSMESSLoader.apply(this, emuArguments));
+    emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, JSMESSLoader.apply(this, emuArguments));
     emulator.start({ waitAfterDownloading: true });
 }
 
@@ -168,7 +169,7 @@ function runPCE() {
         canvas.requestPointerLock();
     }
 
-    var emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, PCELoader.apply(this, emuArguments));
+    emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, PCELoader.apply(this, emuArguments));
     emulator.start({ waitAfterDownloading: true });
 }
 
@@ -203,7 +204,7 @@ function runNP2() {
         );
     }
 
-    var emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, NP2Loader.apply(this, emuArguments));
+    emulator = new Emulator(document.querySelector("#emularity-canvas"), postRun, NP2Loader.apply(this, emuArguments));
     emulator.start({ waitAfterDownloading: true });
 }
 
@@ -336,7 +337,6 @@ function postRun() {
     console.log("Emulator started");
     var bodyWidth = $("body").width();
     if (bodyWidth < 600) {
-        $("#mobile-tools").show();
         resizeCanvas();
     }
 }

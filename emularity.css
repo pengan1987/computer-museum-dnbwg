@@ -26,6 +26,16 @@ body {
     #emularity-splash-screen {
         width: 100%;
     }
+
+    #mobile-tools .desktop-only {
+        display: none;
+    }
+}
+
+@media (min-width:601px) {
+    #mobile-tools .mobile-only {
+        display: none;
+    }
 }
 
 #emularity-canvas {
@@ -35,8 +45,10 @@ body {
 }
 
 #mobile-tools {
-    display: none;
+    max-width: 960px;
     margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #mobile-tools button {

@@ -1,14 +1,14 @@
 # 电脑博物馆
 Online computer museum for Chinese readers and open source community
 
-DNBWG.com (compumuseum.com) 网站是配合知乎专栏 [古董电脑室](https://zhuanlan.zhihu.com/retrocomputing) 建设的在线电脑模拟器网站，希望能够以一种更直观的方式展示历史上著名的电脑平台的特性。针对中文读者还加入了许多中国市场上独有的硬件和软件平台，包括UCDOS、文曲星电子词典、小霸王学习机、中华学习机等。
+DNBWG.com (compumuseum.com) 网站是配合专栏 [古董电脑室](https://pengan1987.github.io/) 建设的在线电脑模拟器网站，希望能够以一种更直观的方式展示历史上著名的电脑平台的特性。针对中文读者还加入了许多中国市场上独有的硬件和软件平台，包括UCDOS、文曲星电子词典、小霸王学习机、中华学习机等。
 
 ## The Story
 I was live in Canada between 2009~2019 and I've visited several retro-computing and retro-game related events, for example Vintage Computer Fest Northwest in Seattle. But the same time I found (until 2016) there are almost no discussion about retro-computing in Chinese community, there are only (investor) collectors, but no makers, no researchers. There are a small group of retro-gamers, but they only have Famiclones.
 
 I believe Chinese community has its own heritage in digital age. Apple II clones and Vtech Laser 310 was somewhat popular in 80s, the electronic dictionary was a popular mobile gaming platform (check the [jgvm](https://github.com/zj13924/jgvm) and [bbk.emu](https://github.com/cyanzhong/bbk.emu)). I want to gathering Chinese retro-computing community and inspiring them to find their own digital heritage.
 
-First, I started the [column](https://zhuanlan.zhihu.com/retrocomputing) in Zhihu a Chinese Q&A website like Quora, this column is not focused on technical details but culture, I want to show the richness of retro-computing, demoscene and chip music communities in the (western) world. These communities are (still) not existing in China.
+First, I started the [column](https://pengan1987.github.io/) in Zhihu a Chinese Q&A website like Quora, this column is not focused on technical details but culture, I want to show the richness of retro-computing, demoscene and chip music communities in the (western) world. These communities are (still) not existing in China.
 
 However, when I’m trying to discuss about some most popular 8-bit computer models, for example Commodore 64 and ZX Spectrum, few Chinese had used them and know their features. The strangeness of the most important computer platforms makes Chinese media scholars (even many of them are working in universities) can’t understanding many digital media phenomena.
 

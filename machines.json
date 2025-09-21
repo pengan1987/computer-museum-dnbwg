@@ -144,7 +144,7 @@
 			"name": "Sinclair ZX81",
 			"appname": "",
 			"year": 1981,
-			"url": "https://dnbwg2.cdn.bcebos.com/zx81/jtyone.html",
+			"url": "https://dnbwg.cdn.bcebos.com/zx81/jtyone.html",
 			"image": "images/zx81.jpg"
 		},
 		{
@@ -161,7 +161,7 @@
 			"name": "Digital PDP-11/70",
 			"appname": "",
 			"year": 1975,
-			"url": "https://dnbwg2.cdn.bcebos.com/pdp-11/index.html",
+			"url": "https://dnbwg.cdn.bcebos.com/pdp-11/index.html",
 			"image": "images/pdp11.jpg",
 			"introduction": "document/pdp11.md"
 		},

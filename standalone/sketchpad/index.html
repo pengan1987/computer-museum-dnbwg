@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sketchpad</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #999;
+
+        font-family: system-ui, "Helvetica Neue";
+      }
+      menu {
+        display: flex;
+        justify-content: left;
+        gap: 6px;
+      }
+      #fps {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        padding: 5px;
+        background: #ccc;
+        font: 12px "Fira Mono", mono;
+        white-space: pre;
+      }
+      .panel {
+        padding: 20px;
+      }
+      canvas {
+        border-radius: 2px;
+      }
+      .display-module {
+        position: relative;
+        background: black;
+        padding: 43px;
+        border: 3px outset #999;
+      }
+      .screw {
+        display: block;
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        border-radius: 4px;
+        background-color: #666;
+        border: 1px inset #ccc;
+      }
+      .screw.top {
+        top: 10px;
+      }
+      .screw.mid {
+        top: 360px;
+      }
+      .screw.bottom {
+        bottom: 10px;
+      }
+      .screw.left {
+        left: 10px;
+      }
+      .screw.right {
+        right: 10px;
+      }
+      .screw.center {
+        left: 360px;
+      }
+
+      footer {
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+      nav.buttons {
+        background-color: rgb(255 255 255 / 0.5);
+        text-align: center;
+        border: 1px solid black;
+        padding: 5px;
+      }
+      nav.buttons button {
+        height: 40px;
+        width: 40px;
+        border: 1px inset black;
+        font-family: monospace;
+        color: rgb(0 0 0 / 0.8);
+      }
+      .indicators {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding: 10px 20px;
+        background: #111;
+        border-radius: 2px;
+      }
+
+      #controller {
+        position: absolute;
+        left: 650px;
+        width: 300px;
+        top: 0;
+        padding-top: 50px;
+      }
+
+      #controller select {
+        display: block;
+      }
+      #controller label {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="controller">
+      <label for="current-picture"
+        >Current picture
+        <select id="current-picture"></select
+      ></label>
+      <br />
+
+      <label>Mode</label>
+      <label><input type="radio" name="mode" value="move" /> Move</label>
+      <label><input type="radio" name="mode" value="line" /> Line</label>
+      <label><input type="radio" name="mode" value="arc" /> Arc</label>
+      <label><input type="radio" name="mode" value="delete" /> Delete</label>
+
+      <label>Options</label>
+      <label><input type="checkbox" name="twinkle" checked /> Twinkle</label>
+    </div>
+    <div class="panel">
+      <div class="display-module">
+        <span class="screw top left"></span>
+        <span class="screw top center"></span>
+        <span class="screw top right"></span>
+        <span class="screw mid left"></span>
+        <span class="screw mid right"></span>
+        <span class="screw bottom left"></span>
+        <span class="screw bottom center"></span>
+        <span class="screw bottom right"></span
+        ><canvas height="512" width="512" id="sketchpad-canvas"></canvas>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

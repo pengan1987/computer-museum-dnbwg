@@ -44,7 +44,7 @@ function showMachines(machines) {
 
         var imageLink = "logo.gif";
         if (machine.valid_imgs_image) {
-            imageLink = "//famicn-1255835060.file.myqcloud.com/shanzhaiji/thumbs/" + machine.valid_imgs_image;
+            imageLink = "thumbs/" + machine.valid_imgs_image;
             //imageLink = imageLink.replace("{{image-path-new}}", imagePathNew);
         }
 

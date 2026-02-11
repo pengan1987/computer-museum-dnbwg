@@ -22,7 +22,7 @@ function processMachineJson(data) {
 
 function processMachineConfig(machine) {
     if (machine.valid_imgs_image) {
-        $("#valid_imgs_image").attr('src', '//famicn-1255835060.file.myqcloud.com/shanzhaiji/images/'+machine.valid_imgs_image);
+        $("#valid_imgs_image").attr('src', 'images/'+machine.valid_imgs_image);
         $("#valid_imgs_image").show();
     }
 

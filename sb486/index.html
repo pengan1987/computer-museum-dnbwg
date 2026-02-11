@@ -81,7 +81,7 @@
         clone.attr("id", machine.id);
         clone.find("a").attr("href", playerlink);
         clone.find("figcaption").text(machine.name + " - " + machine.vendor)
-        var imagePathEdu = "https://famicn-1255835060.file.myqcloud.com/edu-cart-image";
+        var imagePathEdu = "images";
         imageLink = machine.image.replace("{{image-path-edu}}", imagePathEdu);
 
         clone.find(".figure-img").attr("src", imageLink)

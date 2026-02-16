@@ -10,9 +10,9 @@ function getUrlVars() {
 
 function runMAME(cart, device) {
     var wantsWASM = 'WebAssembly' in window;
-    var wasmjs_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.js";
-    var wasm_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.wasm"
-    var js_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes.js"
+    var wasmjs_filename = "../emulators/emularity/emulators/jsmess/mamenes_wasm.js";
+    var wasm_filename = "../emulators/emularity/emulators/jsmess/mamenes_wasm.wasm"
+    var js_filename = "../emulators/emularity/emulators/jsmess/mamenes.js"
 
     emulator = new Emulator(document.querySelector("#canvas"),
         postRun,
@@ -67,7 +67,7 @@ if (!String.prototype.includes) {
 
 $(document).ready(function () {
     device = "sb486"
-    gameBaseUrl = "https://dnbwg3.cdn.bcebos.com/roms-edu-zip/"
+    gameBaseUrl = "../rom-and-disk/subor/"
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
     runMAME(cart, device);

@@ -4,7 +4,7 @@
         {
             "targetPath": "c",
             "title": "Disk",
-            "source": "https://dnbwg.cdn.bcebos.com/emdosbox/jingwei-vlist.zip"
+            "source": "rom-and-disk/emdosbox/jingwei-vlist.zip"
         }
     ],
     "startExe": "vlist.exe"

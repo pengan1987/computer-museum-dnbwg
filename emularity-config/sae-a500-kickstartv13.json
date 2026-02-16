@@ -8,10 +8,10 @@
         {
             "targetPath": "bios",
             "title": "BIOS",
-            "source": "https://dnbwg2.cdn.bcebos.com/amiga/kickstart13.zip"
+            "source": "rom-and-disk/amiga/kickstart13.zip"
         }
     ],
-    "emulatorJS": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/sae/sae-merge.js",
+    "emulatorJS": "emulators/emularity/emulators/sae/sae-merge.js",
     "rom": [
         "bios/Kickstart v1.3.rom"
     ]

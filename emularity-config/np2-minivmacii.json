@@ -1,6 +1,6 @@
 {
-    "emulatorWASM": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/minivmac/minivmacII.wasm",
-    "emulatorJS": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/minivmac/minivmacII.js",
+    "emulatorWASM": "emulators/emularity/emulators/minivmac/minivmacII.wasm",
+    "emulatorJS": "emulators/emularity/emulators/minivmac/minivmacII.js",
     "nativeResolution": {
         "width": 640,
         "height": 480
@@ -9,7 +9,7 @@
         {
             "targetPath": "minivmac",
             "title": "BIOS",
-            "source": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/minivmac/macii.zip"
+            "source": "emulators/emularity/emulators/minivmac/macii.zip"
         }
     ]
 }

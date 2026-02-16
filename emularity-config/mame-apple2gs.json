@@ -1,6 +1,6 @@
 {
-    "emulatorWASM": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mameapple2gs_wasm.wasm",
-    "emulatorJS": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mameapple2gs_wasm.js",
+    "emulatorWASM": "emulators/emularity/emulators/jsmess/mameapple2gs_wasm.wasm",
+    "emulatorJS": "emulators/emularity/emulators/jsmess/mameapple2gs_wasm.js",
     "nativeResolution": {
         "width": 704,
         "height": 462
@@ -10,7 +10,7 @@
         {
             "targetPath": "apple2gs.zip",
             "title": "BIOS",
-            "source": "https://dnbwg.cdn.bcebos.com/emularity-common/bios/apple2gs.zip"
+            "source": "emulators/emularity/bios/apple2gs.zip"
         }
     ]
 }

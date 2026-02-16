@@ -4,7 +4,7 @@
         {
             "targetPath": "disks",
             "title": "Floppy Disk",
-            "source": "https://dnbwg.cdn.bcebos.com/atarist/atarist-emutos-disks.zip"
+            "source": "rom-and-disk/atarist/atarist-emutos-disks.zip"
         }
     ],
     "startExe": null,

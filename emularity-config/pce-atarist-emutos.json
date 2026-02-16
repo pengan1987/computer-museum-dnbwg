@@ -8,13 +8,13 @@
         {
             "targetPath": "tos-1.04-us.rom",
             "title": "BIOS",
-            "source": "https://dnbwg.cdn.bcebos.com/atarist/etos192us.img"
+            "source": "rom-and-disk/atarist/etos192us.img"
         },
         {
             "targetPath": "pce-atarist.cfg",
             "title": "Configuration",
-            "source": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pce-atarist.cfg"
+            "source": "emulators/emularity/emulators/pce/pce-atarist.cfg"
         }
     ],
-    "emulatorJS": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/pce/pcejs-atarist.js"
+    "emulatorJS": "emulators/emularity/emulators/pce/pcejs-atarist.js"
 }

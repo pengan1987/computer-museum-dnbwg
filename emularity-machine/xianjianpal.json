@@ -4,7 +4,7 @@
         {
             "targetPath": "c",
             "title": "Game",
-            "source": "https://dnbwg.cdn.bcebos.com/emdosbox/pal.zip"
+            "source": "rom-and-disk/emdosbox/pal.zip"
         }
     ],
     "startExe": "pal.exe"

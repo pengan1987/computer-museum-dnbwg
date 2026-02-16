@@ -1,6 +1,6 @@
 {
-    "emulatorWASM": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mameaa310_wasm.wasm",
-    "emulatorJS": "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mameaa310_wasm.js",
+    "emulatorWASM": "emulators/emularity/emulators/jsmess/mameaa310_wasm.wasm",
+    "emulatorJS": "emulators/emularity/emulators/jsmess/mameaa310_wasm.js",
     "nativeResolution": {
         "width": 816,
         "height": 582
@@ -10,7 +10,7 @@
         {
             "targetPath": "aa310.zip",
             "title": "BIOS",
-            "source": "https://dnbwg.cdn.bcebos.com/emularity-common/bios/aa310.zip"
+            "source": "emulators/emularity/bios/aa310.zip"
         }
     ]
 }

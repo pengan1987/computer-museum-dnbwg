@@ -3,7 +3,7 @@
         {
             "targetPath": "disks",
             "title": "HardDisk",
-            "source": "https://dnbwg2.cdn.bcebos.com/minivmacii/maciichs.zip"
+            "source": "rom-and-disk/minivmacii/maciichs.zip"
         }
     ],
     "startExe": null,

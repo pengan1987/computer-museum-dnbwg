@@ -4,7 +4,7 @@
         {
             "targetPath": "disks",
             "title": "Floppy Disk",
-            "source": "https://dnbwg.cdn.bcebos.com/atarist/atarist-color-disks.zip"
+            "source": "rom-and-disk/atarist/atarist-color-disks.zip"
         }
     ],
     "startExe": null,

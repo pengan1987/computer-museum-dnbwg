@@ -4,7 +4,7 @@
         {
             "targetPath": "game",
             "title": "Floppy Disk 1",
-            "source": "https://dnbwg2.cdn.bcebos.com/amiga/CrazySue.zip"
+            "source": "rom-and-disk/amiga/CrazySue.zip"
         }
     ],
     "startExe": null,

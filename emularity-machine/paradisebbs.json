@@ -4,7 +4,7 @@
         {
             "targetPath": "c",
             "title": "Disk Image",
-            "source": "https://dnbwg.cdn.bcebos.com/emdosbox/paradisebbs.zip"
+            "source": "rom-and-disk/emdosbox/paradisebbs.zip"
         }
     ],
     "startExe": "mount10m.bat",

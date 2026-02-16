@@ -3,14 +3,14 @@
         {
             "targetPath": "np2.cfg",
             "title": "Configuration",
-            "source": "https://dnbwg2.cdn.bcebos.com/pc9821vx/np2.cfg"
+            "source": "rom-and-disk/pc9821vx/np2.cfg"
         }
     ],
     "zips": [
         {
             "targetPath": "disks",
             "title": "Hard Disk",
-            "source": "https://dnbwg2.cdn.bcebos.com/pc9821vx/inchitaro5.zip"
+            "source": "rom-and-disk/pc9821vx/inchitaro5.zip"
         }
     ],
     "startExe": null,

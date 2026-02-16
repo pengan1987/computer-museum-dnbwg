@@ -4,7 +4,7 @@
         {
             "targetPath": "c",
             "title": "Game",
-            "source": "https://dnbwg.cdn.bcebos.com/emdosbox/psion3a.zip"
+            "source": "rom-and-disk/emdosbox/psion3a.zip"
         }
     ],
     "startExe": "starts3a.bat"

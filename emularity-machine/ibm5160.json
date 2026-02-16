@@ -3,14 +3,14 @@
         {
             "targetPath": "pce-ibmpc.cfg",
             "title": "Configuration",
-            "source": "https://dnbwg2.cdn.bcebos.com/ibm-xt-5160/pce-ibm5160.cfg"
+            "source": "rom-and-disk/ibm-xt-5160/pce-ibm5160.cfg"
         }
     ],
     "zips": [
         {
             "targetPath": "disks",
             "title": "Hard Disk ",
-            "source": "https://dnbwg2.cdn.bcebos.com/ibm-xt-5160/xenix-hd0.zip"
+            "source": "rom-and-disk/ibm-xt-5160/xenix-hd0.zip"
         }
     ],
     "startExe": null,

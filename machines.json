@@ -144,7 +144,7 @@
 			"name": "Sinclair ZX81",
 			"appname": "",
 			"year": 1981,
-			"url": "https://dnbwg.cdn.bcebos.com/zx81/jtyone.html",
+			"url": "rom-and-disk/zx81/jtyone.html",
 			"image": "images/zx81.jpg"
 		},
 		{
@@ -161,7 +161,7 @@
 			"name": "Digital PDP-11/70",
 			"appname": "",
 			"year": 1975,
-			"url": "https://dnbwg.cdn.bcebos.com/pdp-11/index.html",
+			"url": "rom-and-disk/pdp-11/index.html",
 			"image": "images/pdp11.jpg",
 			"introduction": "document/pdp11.md"
 		},
@@ -240,7 +240,7 @@
 			"name": "Xerox Alto",
 			"appname": "",
 			"year": 1973,
-			"url": "https://dnbwg.cdn.bcebos.com/salto/index.html",
+			"url": "rom-and-disk/salto/index.html",
 			"image": "images/salto.jpg"
 		},
 		{
@@ -292,7 +292,7 @@
 			"name": "德州仪器TI-99/4A",
 			"appname": "",
 			"year": 1981,
-			"url": "https://dnbwg.cdn.bcebos.com/js99er/index.html",
+			"url": "rom-and-disk/js99er/index.html",
 			"image": "images/ti99-4a.jpg"
 		},
 		{
@@ -318,7 +318,7 @@
 			"name": "文曲星NC1020",
 			"appname": "",
 			"year": 2002,
-			"url": "https://dnbwg.cdn.bcebos.com/jswqx/index.html",
+			"url": "rom-and-disk/jswqx/index.html",
 			"image": "images/ggvnc1020.jpg"
 		},
 		{
@@ -326,7 +326,7 @@
 			"name": "Atari 800XL",
 			"appname": "",
 			"year": 1982,
-			"url": "https://dnbwg.cdn.bcebos.com/jsa8e/index.html",
+			"url": "rom-and-disk/jsa8e/index.html",
 			"image": "images/atari800xl.jpg"
 		},
 		{
@@ -334,7 +334,7 @@
 			"name": "Commodore 64",
 			"appname": "",
 			"year": 1982,
-			"url": "https://dnbwg.cdn.bcebos.com/vicejs/index.html",
+			"url": "rom-and-disk/vicejs/index.html",
 			"image": "images/commodore64.jpg"
 		},
 		{
@@ -342,7 +342,7 @@
 			"name": "TRS-80 Model III",
 			"appname": "",
 			"year": 1980,
-			"url": "https://dnbwg.cdn.bcebos.com/trs80/index.html",
+			"url": "rom-and-disk/trs80/index.html",
 			"image": "images/trs80model3.jpg"
 		},
 		{
@@ -350,7 +350,7 @@
 			"name": "Apple II",
 			"appname": "",
 			"year": 1977,
-			"url": "https://dnbwg.cdn.bcebos.com/apple2js/apple2js.html",
+			"url": "rom-and-disk/apple2js/apple2js.html",
 			"image": "images/apple2.jpg"
 		},
 		{
@@ -358,7 +358,7 @@
 			"name": "Apple IIe",
 			"appname": "",
 			"year": 1983,
-			"url": "https://dnbwg.cdn.bcebos.com/apple2js/apple2jse.html",
+			"url": "rom-and-disk/apple2js/apple2jse.html",
 			"image": "images/apple2e.jpg"
 		},
 		{
@@ -366,7 +366,7 @@
 			"name": "BBC Micro",
 			"appname": "",
 			"year": 1981,
-			"url": "https://dnbwg.cdn.bcebos.com/jsbeeb/index.html",
+			"url": "rom-and-disk/jsbeeb/index.html",
 			"image": "images/bbcmicro.jpg"
 		},
 		{
@@ -374,7 +374,7 @@
 			"name": "Acorn Electron",
 			"appname": "",
 			"year": 1983,
-			"url": "https://dnbwg.cdn.bcebos.com/elkjs/index.html",
+			"url": "rom-and-disk/elkjs/index.html",
 			"image": "images/acornelectron.jpg"
 		},
 		{
@@ -382,7 +382,7 @@
 			"name": "ZX Spectrum",
 			"appname": "",
 			"year": 1982,
-			"url": "https://dnbwg.cdn.bcebos.com/jsspeccy/index.html",
+			"url": "rom-and-disk/jsspeccy/index.html",
 			"image": "images/zxspectrum.jpg"
 		},
 		{
@@ -390,7 +390,7 @@
 			"name": "IBM PC 5150 (MDA单显)",
 			"appname": "",
 			"year": 1981,
-			"url": "https://dnbwg.cdn.bcebos.com/pcjs/example3a.html",
+			"url": "rom-and-disk/pcjs/example3a.html",
 			"image": "images/pc5150mda.jpg"
 		},
 		{
@@ -398,7 +398,7 @@
 			"name": "IBM PC 5150 (CGA彩显)",
 			"appname": "",
 			"year": 1981,
-			"url": "https://dnbwg.cdn.bcebos.com/pcjs/example4.html",
+			"url": "rom-and-disk/pcjs/example4.html",
 			"image": "images/pc5150cga.png"
 		},
 		{
@@ -460,7 +460,7 @@
 			"name": "红白机和独立游戏",
 			"appname": "",
 			"year": 1983,
-			"url": "https://dnbwg.cdn.bcebos.com/em-fceux/index.html",
+			"url": "rom-and-disk/em-fceux/index.html",
 			"image": "images/nesjs.jpg"
 		},
 		{

@@ -3,7 +3,7 @@
         {
             "targetPath": "disks",
             "title": "HardDisk",
-            "source": "https://dnbwg2.cdn.bcebos.com/minivmacii/macii.zip"
+            "source": "rom-and-disk/minivmacii/macii.zip"
         }
     ],
     "startExe": null,

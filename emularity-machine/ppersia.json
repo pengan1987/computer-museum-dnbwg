@@ -4,7 +4,7 @@
         {
             "targetPath": "c",
             "title": "Game",
-            "source": "https://dnbwg.cdn.bcebos.com/emdosbox/ppersia.zip"
+            "source": "rom-and-disk/emdosbox/ppersia.zip"
         }
     ],
     "startExe": "play.bat"
